@@ -1,0 +1,65 @@
+# start
+
+## login
+
+```powershell
+control userpasswords2
+netplwiz
+```
+
+## locking
+
+```powershell
+%windir%\system32\rundll32.exe user32.dll,LockWorkStation
+```
+
+## shell:startup
+
+```vbscript
+set ws=WScript.CreateObject("WScript.Shell")
+ws.Run "c:\frp\frpc.exe -c c:\frp\frpc.ini",0
+```
+
+## taskschd.msc
+
+1. 在任务计划里面新建任务。
+
+2. 名字随便填，下面注意勾 [不管是否登录都运行]，最高权限看勾不勾。
+
+3. 触发器，新建，选 [启动时]。
+
+4. 操作，新建一个，然后选择要运行的程序，下面填命令参数（或者选择一个 bat，在 bat 里面写要运行的东西）。
+
+5. 条件，可以把 [只交流电源] 去掉。
+
+6. 设置，把运行超过3天去掉。就可以开机启动了，特别是远程内网也不怕重启了。
+
+## winsm
+
+[WinSW](https://github.com/winsw/winsw/releases/download/v2.1.2/WinSW.NET4.exe)
+
+1. 改文件名为 frpcservice.exe
+2. 新建 frpcservice.xml
+3. frpcservice.exe install
+
+```xml
+<service>
+    <id>frpc</id>
+    <name>frpc</name>
+    <description>frp client</description>
+    <executable>frpc</executable>
+    <arguments>-c frpc.ini</arguments>
+    <onfailure action="restart" delay="60 sec"/>
+    <logmode>reset</logmode>
+</service>
+```
+
+## 双开软件
+
+```vbscript
+@echo off
+start "" "D:\Program Files (x86)\Tencent\WeChat\WeChat.exe"
+start "" "D:\Program Files (x86)\Tencent\WeChat\WeChat.exe"
+exit
+```
+
