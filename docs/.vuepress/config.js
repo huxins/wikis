@@ -31,7 +31,7 @@ module.exports = {
             items: [
               {
                 text: 'Nginx',
-                link: '/Application/Network/Nginx/'
+                link: '/Software/Nginx/'
               }
             ]
           },

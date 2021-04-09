@@ -2,13 +2,13 @@
 
 - [Module ngx_http_log_module](https://nginx.org/en/docs/http/ngx_http_log_module.html)
 
-## access_log
+## access log
 
 ```nginx
 access_log /var/log/nginx/access.log combined buffer=32k gzip flush=1m;
 ```
 
-## log_format
+## log format
 
 ```nginx
 log_format combined '$remote_addr - $remote_user [$time_local] '
