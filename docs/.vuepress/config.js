@@ -110,7 +110,7 @@ module.exports = {
           children: application.download
         }
       ],
-      '/Application/Network/Nginx/': [
+      '/Software/Nginx/': [
         'Install',
         'ngx_http_log_module'
       ],
