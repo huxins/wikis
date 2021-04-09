@@ -26,6 +26,15 @@ module.exports = {
     lastUpdated: 'Last Updated',
     nav:[
           { text: 'Application', link: '/Application/' },
+          {
+            text: 'Software',
+            items: [
+              {
+                text: 'Nginx',
+                link: '/Application/Network/Nginx/'
+              }
+            ]
+          },
           { text: 'Linux', link: '/Linux/' },
           { text: 'Windows', link: '/Windows/' },
           { text: 'Database', link: '/Database/' },
@@ -100,6 +109,10 @@ module.exports = {
           title: 'Download',
           children: application.download
         }
+      ],
+      '/Application/Network/Nginx/': [
+        'Install',
+        'ngx_http_log_module'
       ],
       '/Linux/': [
         {

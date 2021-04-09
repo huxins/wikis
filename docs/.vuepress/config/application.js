@@ -1,5 +1,4 @@
 const app = [
-    '/Application/应用/NGINX',
     '/Application/应用/OneDrive',
     '/Application/应用/Pixiv',
     '/Application/应用/Typecho',

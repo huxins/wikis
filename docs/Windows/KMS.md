@@ -32,6 +32,11 @@ $ slmgr.vbs /dli
 
 - [office2019](https://docs.microsoft.com/zh-cn/DeployOffice/vlactivation/gvlks)
 - [office2010](https://docs.microsoft.com/zh-cn/previous-versions/office/office-2010/ee624355(v=office.14))
+- [Microsoft 365 Professional Plus](https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-cn/O365ProPlusRetail.img)
+- [Office 2019 Professional Plus](https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-cn/ProPlus2019Retail.img)
+- [Office 2016 Professional Plus](https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-cn/ProPlusRetail.img)
+- [Channel](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-manage-office-365-proplus-channels-for-it-pros/ba-p/795813)
+- [批量激活工具](https://docs.microsoft.com/zh-cn/deployoffice/vlactivation/tools-to-manage-volume-activation-of-office)
 
 前提条件：Office 必须为 GVLK 版本，否则无法激活。
 
