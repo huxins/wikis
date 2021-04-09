@@ -112,7 +112,12 @@ module.exports = {
       ],
       '/Software/Nginx/': [
         'Install',
-        'ngx_http_log_module'
+        'Modules',
+        'ngx_http_autoindex_module',
+        'ngx_http_limit_conn_module',
+        'ngx_http_limit_req_module',
+        'ngx_http_log_module',
+        'ngx_http_ssl_module'
       ],
       '/Linux/': [
         {

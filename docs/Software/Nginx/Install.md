@@ -95,7 +95,7 @@ $ make && make install
     <id>nginx</id>
     <name>nginx</name>
     <description>nginx</description>
-    <logpath>D:\nginx-1.9.6\logs</logpath>
+    <logpath>logs</logpath>
     <logmode>roll</logmode>
     <depend/>
     <executable>nginx.exe</executable>
