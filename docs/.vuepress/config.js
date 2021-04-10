@@ -114,10 +114,14 @@ module.exports = {
         'Install',
         'Modules',
         'ngx_http_autoindex_module',
+        'ngx_http_auth_basic_module',
         'ngx_http_limit_conn_module',
         'ngx_http_limit_req_module',
         'ngx_http_log_module',
-        'ngx_http_ssl_module'
+        'ngx_http_ssl_module',
+        'headers-more-nginx-module',
+        'nginx-dav-ext-module',
+        'ngx-fancyindex'
       ],
       '/Linux/': [
         {
