@@ -1,4 +1,26 @@
-# location
+# ngx_http_core_module
+
+## server_name
+
+1. 确切的 server_name 匹配
+
+2. 以 * 通配符开始的最长字符串
+
+3. 以 * 通配符结束的最长字符串
+
+   注意：通配符名字只可以在名字的起始处或结尾处包含一个星号，并且星号与其他字符之间用点分隔。所以，`www.*.example.org` 和 `w*.example.org` 都是非法的。
+
+   有一种形如 ".example.org" 的特殊通配符，它可以既匹配确切的名字 "example.org"，又可以匹配一般的通配符名字 "*.example.org"。
+
+4. 匹配正则表达式
+
+   为了使用正则表达式，虚拟主机名必须以 `波浪线“~”` 起始否则该名字会被认为是个确切的名字。
+   
+   `~^([^.]+)\.example\.com`
+   
+   `*.example.com`
+
+## location
 
 - 匹配 URI 类型，有四种参数可选，当然也可以不带参数。
 - 命名 location，用 @ 来标识，类似于定义 goto 语句块。
