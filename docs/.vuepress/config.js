@@ -113,12 +113,15 @@ module.exports = {
       '/Software/Nginx/': [
         'Install',
         'Modules',
+        'server_name',
+        'location',
         'ngx_http_autoindex_module',
         'ngx_http_auth_basic_module',
         'ngx_http_limit_conn_module',
         'ngx_http_limit_req_module',
         'ngx_http_log_module',
         'ngx_http_ssl_module',
+        'ngx_http_rewrite_module',
         'headers-more-nginx-module',
         'nginx-dav-ext-module',
         'ngx-fancyindex'
