@@ -39,3 +39,16 @@ rewrite ^/users/(.*)$ /show?user=$1? last;
 - 使用 `-e` ，`!-e ` 检查一个文件、目录、符号链接是否存在
 - 使用 `-x` ，` !-x` 检查一个文件是否可执行
 
+```nginx
+set $is_download_file 0;
+if ($request_uri ~* "\.(zip|war|html)$") {
+    set $is_download_file 1;
+}
+if ($request_uri !~ "(/)$") {
+    set $is_download_file 0$is_download_file;
+}
+if ( $is_download_file = 00 ){
+    rewrite ^ http://$server_name$request_uri/ last;
+}
+```
+
