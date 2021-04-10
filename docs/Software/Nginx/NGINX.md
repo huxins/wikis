@@ -134,21 +134,3 @@ server {
 }
 ```
 
-### Rewrite Return
-
-#### Snippet
-
-```nginx
-rewrite ^(.*)$ https://$host$1;
-rewrite ^ https://$host$request_uri? permanent;
-return 301 $scheme://$host$request_uri;
-
-# 防盗链
-location ~* \.(gif|jpg|swf)$ {
-  valid_referers none blocked start.igrow.cn sta.igrow.cn;
-  if ($invalid_referer) {
-    #防盗链
-    rewrite ^/ http://$host/logo.png;
-}
-```
-

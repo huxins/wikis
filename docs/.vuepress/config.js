@@ -121,6 +121,7 @@ module.exports = {
         'ngx_http_log_module',
         'ngx_http_ssl_module',
         'ngx_http_rewrite_module',
+        'ngx_http_referer_module',
         'ngx_http_proxy_module',
         'headers-more-nginx-module',
         'nginx-dav-ext-module',
