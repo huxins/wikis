@@ -282,7 +282,9 @@ module.exports = {
       ],
       '/Language/CSS/': [
         '盒模型',
-        'Float'
+        'Float',
+        'Fonts',
+        'Text'
       ],
       '/Framework/Bootstrap/': [
         {
