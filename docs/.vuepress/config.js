@@ -9,7 +9,6 @@ const go = require('./config/Language/go')
 const python = require('./config/Language/python')
 const node = require('./config/Language/node')
 const javascript = require('./config/Language/javascript')
-const css = require('./config/Language/css')
 
 module.exports = {
   title: '偷影子的人',
@@ -271,10 +270,7 @@ module.exports = {
         '表单'
       ],
       '/Language/CSS/': [
-        {
-          title: 'Bootstrap',
-          children: css.bootstrap
-        }
+        '盒模型'
       ],
       '/Life/': [
         '怎样成为更好的人'

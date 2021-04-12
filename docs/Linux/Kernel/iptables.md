@@ -1,5 +1,7 @@
 # iptables
 
+https://www.frozentux.net/iptables-tutorial/cn/iptables-tutorial-cn-1.1.19.html
+
 ## 安装
 
 - CentOS 7系统，需要关闭firewalld装回iptables.
