@@ -278,7 +278,8 @@ module.exports = {
         },
       ],
       '/Language/HTML/': [
-        '表单'
+        '表单',
+        '表格'
       ],
       '/Language/CSS/': [
         '盒模型',
