@@ -32,6 +32,10 @@ module.exports = {
               {
                 text: 'Nginx',
                 link: '/Software/Nginx/'
+              },
+              {
+                text: 'Traffic Server',
+                link: '/Software/Traffic Server/'
               }
             ]
           },
@@ -127,6 +131,10 @@ module.exports = {
         'nginx-dav-ext-module',
         'ngx-fancyindex',
         'ngx_stream_core_module'
+      ],
+      '/Software/Traffic Server/': [
+        'Install',
+        'Configure'
       ],
       '/Linux/': [
         {
