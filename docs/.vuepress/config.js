@@ -10,6 +10,8 @@ const python = require('./config/Language/python')
 const node = require('./config/Language/node')
 const javascript = require('./config/Language/javascript')
 
+const bootstrap = require('./config/Framework/bootstrap')
+
 module.exports = {
   title: '偷影子的人',
   description: '你在，春华秋实夏蝉冬雪。',
@@ -76,6 +78,15 @@ module.exports = {
               {
                 text: 'HTML',
                 link: '/Language/HTML/'
+              }
+            ]
+          },
+          {
+            text: 'Framework',
+            items: [
+              {
+                text: 'Bootstrap',
+                link: '/Framework/Bootstrap/'
               }
             ]
           },
@@ -271,6 +282,16 @@ module.exports = {
       ],
       '/Language/CSS/': [
         '盒模型'
+      ],
+      '/Framework/Bootstrap/': [
+        {
+          title: '组件',
+          children: bootstrap.components
+        },
+        {
+          title: 'JavaScript 插件',
+          children: bootstrap.javascript
+        }
       ],
       '/Life/': [
         '怎样成为更好的人'
