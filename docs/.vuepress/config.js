@@ -281,7 +281,8 @@ module.exports = {
         '表单'
       ],
       '/Language/CSS/': [
-        '盒模型'
+        '盒模型',
+        'Float'
       ],
       '/Framework/Bootstrap/': [
         {
