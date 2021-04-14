@@ -160,8 +160,7 @@ module.exports = {
         '仓库',
         '远程仓库',
         '分支',
-        '标签',
-        'Git'
+        '标签'
       ],
       '/Software/Subversion/': [
         'Install',
@@ -170,7 +169,8 @@ module.exports = {
         '访问权限',
         'Apache',
         'Hooks',
-        '数据备份'
+        '数据备份',
+        'Git'
       ],
       '/Linux/': [
         {
