@@ -160,7 +160,8 @@ module.exports = {
         '仓库',
         '远程仓库',
         '分支',
-        '标签'
+        '标签',
+        'Git'
       ],
       '/Software/Subversion/': [
         'Install',
