@@ -146,6 +146,14 @@ module.exports = {
         'Install',
         'Configure'
       ],
+      '/Software/Git/': [
+        'Install',
+        '配置',
+        '仓库',
+        '远程仓库',
+        '分支',
+        '标签'
+      ],
       '/Linux/': [
         {
           title: 'Shell',
