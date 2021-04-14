@@ -37,6 +37,14 @@ module.exports = {
               {
                 text: 'Traffic Server',
                 link: '/Software/Traffic Server/'
+              },
+              {
+                text: 'Git',
+                link: '/Software/Git/'
+              },
+              {
+                text: 'Subversion',
+                link: '/Software/Subversion/'
               }
             ]
           },
@@ -153,6 +161,15 @@ module.exports = {
         '远程仓库',
         '分支',
         '标签'
+      ],
+      '/Software/Subversion/': [
+        'Install',
+        '版本库',
+        '项目配置',
+        '访问权限',
+        'Apache',
+        'Hooks',
+        '数据备份'
       ],
       '/Linux/': [
         {

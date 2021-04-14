@@ -50,7 +50,6 @@ const dev = [
 ]
 
 const cicd = [
-    '/Application/CICD/subversion',
     '/Application/CICD/Jenkins'
 ]
 
