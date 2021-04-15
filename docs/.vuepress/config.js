@@ -45,6 +45,10 @@ module.exports = {
               {
                 text: 'Subversion',
                 link: '/Software/Subversion/'
+              },
+              {
+                text: 'Push',
+                link: '/Software/Push/'
               }
             ]
           },
@@ -171,6 +175,9 @@ module.exports = {
         'Hooks',
         '数据备份',
         'Git'
+      ],
+      '/Software/Push/': [
+        'Bark'
       ],
       '/Linux/': [
         {
