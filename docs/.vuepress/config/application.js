@@ -49,10 +49,6 @@ const dev = [
     '/Application/Device/佳软'
 ]
 
-const cicd = [
-    '/Application/CICD/Jenkins'
-]
-
 const editor = [
     '/Application/Editor/lepton',
     '/Application/Editor/vscode',
@@ -71,7 +67,6 @@ module.exports = {
     system,
     network,
     dev,
-    cicd,
     editor,
     download
 }

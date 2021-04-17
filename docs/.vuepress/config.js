@@ -47,6 +47,10 @@ module.exports = {
                 link: '/Software/Subversion/'
               },
               {
+                text: 'Jenkins',
+                link: '/Software/Jenkins/'
+              },
+              {
                 text: 'Push',
                 link: '/Software/Push/'
               }
@@ -124,10 +128,6 @@ module.exports = {
           children: application.dev
         },
         {
-          title: 'CICD',
-          children: application.cicd
-        },
-        {
           title: 'Editor',
           children: application.editor
         },
@@ -175,6 +175,12 @@ module.exports = {
         'Hooks',
         '数据备份',
         'Git'
+      ],
+      '/Software/Jenkins/': [
+        'Install',
+        'Plugins',
+        'Theme',
+        'Pipeline'
       ],
       '/Software/Push/': [
         'Bark'
