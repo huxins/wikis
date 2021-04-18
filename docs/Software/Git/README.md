@@ -3,6 +3,9 @@
 ## 工具
 
 - [GitCracken](https://github.com/5cr1pt/GitCracken)
+- [DownGit](https://minhaskamal.github.io/DownGit/#/home)
+- [GitZip](http://kinolien.github.io/gitzip/)
+- [Git History](https://githistory.xyz/)
 
 ## 教程
 
