@@ -19,7 +19,6 @@ const app = [
 
 const system = [
     '/Application/System/esxi',
-    '/Application/System/pve',
     '/Application/System/unraid',
     '/Application/System/dsm',
     '/Application/System/openwrt'

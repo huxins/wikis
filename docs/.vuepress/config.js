@@ -56,6 +56,18 @@ module.exports = {
               }
             ]
           },
+          {
+            text: 'System',
+            items: [
+              {
+                text: 'Proxmox VE',
+                link: '/System/Proxmox VE/'
+              },
+              {
+                text: 'OpenWrt',
+                link: '/System/OpenWrt/'
+              }
+          },
           { text: 'Linux', link: '/Linux/' },
           { text: 'Windows', link: '/Windows/' },
           { text: 'Database', link: '/Database/' },
@@ -184,6 +196,13 @@ module.exports = {
       ],
       '/Software/Push/': [
         'Bark'
+      ],
+      '/System/Proxmox VE/': [
+        'Install',
+        '镜像转换'
+      ],
+      '/System/OpenWrt/': [
+        'eSir'
       ],
       '/Linux/': [
         {
