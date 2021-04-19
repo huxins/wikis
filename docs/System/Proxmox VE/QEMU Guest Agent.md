@@ -10,3 +10,10 @@ $ opkg update
 $ opkg install qemu-ga
 ```
 
+## CentOS
+
+```bash
+$ yum install qemu-guest-agent
+$ systemctl enable qemu-guest-agent
+```
+
