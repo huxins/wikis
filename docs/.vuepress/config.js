@@ -200,7 +200,8 @@ module.exports = {
       ],
       '/System/Proxmox VE/': [
         'Install',
-        '镜像转换',
+        '镜像格式',
+        '磁盘',
         'QEMU Guest Agent'
       ],
       '/System/OpenWrt/': [

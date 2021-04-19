@@ -20,8 +20,7 @@ const app = [
 const system = [
     '/Application/System/esxi',
     '/Application/System/unraid',
-    '/Application/System/dsm',
-    '/Application/System/openwrt'
+    '/Application/System/dsm'
 ]
 
 const network = [
