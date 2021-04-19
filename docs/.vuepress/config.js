@@ -67,6 +67,7 @@ module.exports = {
                 text: 'OpenWrt',
                 link: '/System/OpenWrt/'
               }
+            ]
           },
           { text: 'Linux', link: '/Linux/' },
           { text: 'Windows', link: '/Windows/' },
