@@ -44,7 +44,9 @@ const dev = [
     '/Application/Device/Newifi',
     '/Application/Device/小娱',
     '/Application/Device/装机',
-    '/Application/Device/佳软'
+    '/Application/Device/佳软',
+    '/Application/Device/hddtemp',
+    '/Application/Device/lm-sensors'
 ]
 
 const editor = [

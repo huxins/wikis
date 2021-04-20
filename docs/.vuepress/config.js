@@ -66,6 +66,10 @@ module.exports = {
               {
                 text: 'OpenWrt',
                 link: '/System/OpenWrt/'
+              },
+              {
+                text: 'Debian',
+                link: '/System/Debian/'
               }
             ]
           },
@@ -206,6 +210,8 @@ module.exports = {
       ],
       '/System/OpenWrt/': [
         'eSir'
+      ],
+      '/System/Debian/': [
       ],
       '/Linux/': [
         {

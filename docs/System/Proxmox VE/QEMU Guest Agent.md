@@ -17,3 +17,7 @@ $ yum install qemu-guest-agent
 $ systemctl enable qemu-guest-agent
 ```
 
+## DSM
+
+- [物理关机](https://xpenology.com/forum/topic/7195-power-button-package/)
+
