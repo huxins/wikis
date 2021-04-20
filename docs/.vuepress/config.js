@@ -196,8 +196,11 @@ module.exports = {
       '/Software/Jenkins/': [
         'Install',
         'Plugins',
+        'Pipeline',
+        'Slave',
+        'SCM',
         'Theme',
-        'Pipeline'
+        'Coding'
       ],
       '/Software/Push/': [
         'Bark'
