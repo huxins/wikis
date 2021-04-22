@@ -70,11 +70,14 @@ module.exports = {
               {
                 text: 'Debian',
                 link: '/System/Debian/'
+              },
+              {
+                text: 'Windows',
+                link: '/System/Windows/'
               }
             ]
           },
           { text: 'Linux', link: '/Linux/' },
-          { text: 'Windows', link: '/Windows/' },
           { text: 'Database', link: '/Database/' },
           { text: 'DevOps', link: '/DevOps/' },
           {
@@ -216,6 +219,12 @@ module.exports = {
       ],
       '/System/Debian/': [
       ],
+      '/System/Windows/': [
+        '启动方式',
+        '进程',
+        '网络',
+        'KMS'
+      ],
       '/Linux/': [
         {
           title: 'Shell',
@@ -245,11 +254,6 @@ module.exports = {
           title: 'Tool',
           children: linux.tool
         }
-      ],
-      '/Windows/': [
-        'start',
-        'network',
-        'KMS'
       ],
       '/Database/': [
         {
