@@ -10,7 +10,7 @@ const python = require('./config/Language/python')
 const node = require('./config/Language/node')
 const javascript = require('./config/Language/javascript')
 
-const bootstrap = require('./config/Framework/bootstrap')
+const framework = require('./config/framework')
 
 module.exports = {
   title: '偷影子的人',
@@ -136,6 +136,10 @@ module.exports = {
               {
                 text: 'Bootstrap',
                 link: '/Framework/Bootstrap/'
+              },
+              {
+                text: 'jQuery',
+                link: '/Framework/jQuery/'
               }
             ]
           },
@@ -357,19 +361,7 @@ module.exports = {
         {
           title: 'BOM',
           children: javascript.bom
-        },
-        {
-          title: 'jQuery',
-          children: javascript.jquery
-        },
-        {
-          title: 'DataTables',
-          children: javascript.datatables
-        },
-        {
-          title: 'Select2',
-          children: javascript.select2
-        },
+        }
       ],
       '/Language/HTML/': [
         '表单',
@@ -381,16 +373,8 @@ module.exports = {
         'Fonts',
         'Text'
       ],
-      '/Framework/Bootstrap/': [
-        {
-          title: '组件',
-          children: bootstrap.components
-        },
-        {
-          title: 'JavaScript 插件',
-          children: bootstrap.javascript
-        }
-      ],
+      '/Framework/Bootstrap/': framework.Bootstrap,
+      '/Framework/jQuery/': framework.jQuery,
       '/Life/': [
         '怎样成为更好的人'
       ]

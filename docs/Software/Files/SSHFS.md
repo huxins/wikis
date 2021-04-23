@@ -2,6 +2,8 @@
 
 - [WinFSP](https://github.com/billziss-gh/winfsp)
 - [SSHFS-Win](https://github.com/billziss-gh/sshfs-win)
+- [Dokany](https://github.com/dokan-dev/dokany)
+- [WinSshFS](https://github.com/feo-cz/win-sshfs)
 
 映射网络驱动器
 
