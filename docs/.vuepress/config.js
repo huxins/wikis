@@ -53,6 +53,19 @@ module.exports = {
               {
                 text: 'Push',
                 link: '/Software/Push/'
+              },
+              {
+                text: 'Files',
+                link: '/Software/Files/'
+              }
+            ]
+          },
+          {
+            text: 'Editor',
+            items: [
+              {
+                text: 'IntelliJ IDEA',
+                link: '/Editor/IntelliJ IDEA/'
               }
             ]
           },
@@ -207,6 +220,13 @@ module.exports = {
       ],
       '/Software/Push/': [
         'Bark'
+      ],
+      '/Software/Files/': [
+        'SSHFS'
+      ],
+      '/Editor/IntelliJ IDEA/': [
+        'Debug',
+        '插件'
       ],
       '/System/Proxmox VE/': [
         'Install',
