@@ -21,8 +21,8 @@ const Bootstrap = [
 
 const jQuery = [
     '/Framework/jQuery/AJAX',
-    '/Framework/Bootstrap/事件',
-    '/Framework/Bootstrap/属性'
+    '/Framework/jQuery/事件',
+    '/Framework/jQuery/属性'
 ]
 
 
