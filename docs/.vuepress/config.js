@@ -140,6 +140,10 @@ module.exports = {
               {
                 text: 'jQuery',
                 link: '/Framework/jQuery/'
+              },
+              {
+                text: 'Select2',
+                link: '/Framework/Select2/'
               }
             ]
           },
@@ -375,6 +379,7 @@ module.exports = {
       ],
       '/Framework/Bootstrap/': framework.Bootstrap,
       '/Framework/jQuery/': framework.jQuery,
+      '/Framework/Select2/': framework.Select2,
       '/Life/': [
         '怎样成为更好的人'
       ]
