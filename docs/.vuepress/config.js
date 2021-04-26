@@ -8,8 +8,8 @@ const java = require('./config/Language/java')
 const go = require('./config/Language/go')
 const python = require('./config/Language/python')
 const node = require('./config/Language/node')
-const javascript = require('./config/Language/javascript')
 
+const language = require('./config/language')
 const framework = require('./config/framework')
 
 module.exports = {
@@ -357,19 +357,11 @@ module.exports = {
           children: node.base
         }
       ],
-      '/Language/JavaScript/': [
-        {
-          title: 'Base',
-          children: javascript.base
-        },
-        {
-          title: 'BOM',
-          children: javascript.bom
-        }
-      ],
+      '/Language/JavaScript/': language.JavaScript,
       '/Language/HTML/': [
         '表单',
-        '表格'
+        '表格',
+        'Script'
       ],
       '/Language/CSS/': [
         '盒模型',
