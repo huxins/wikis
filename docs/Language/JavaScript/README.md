@@ -11,7 +11,9 @@
 
 ## 参考
 
-- [JavaScript 参考](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference)
+- [JavaScript reference](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference)
+- [术语表](https://developer.mozilla.org/zh-CN/docs/Glossary)
+- [You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS/tree/1ed-zh-CN)
 - [现代 JavaScript 教程](https://zh.javascript.info/)
 - [网道](https://wangdoc.com/)
 
