@@ -9,6 +9,7 @@ const javaScript_基础知识 = [
 
 const javaScript_函数 = [
     '/Language/JavaScript/函数/递归',
+    '/Language/JavaScript/函数/调度',
     '/Language/JavaScript/函数/箭头函数'
 ]
 
