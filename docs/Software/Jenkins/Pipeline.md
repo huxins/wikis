@@ -1,6 +1,7 @@
 # Pipeline
 
 - [Jenkins Pipeline 介绍](https://xuanwo.io/2019/08/30/jenkins-pipeline-intro/)
+- [Jenkins Pipeline Environment Variables](https://e.printstacktrace.blog/jenkins-pipeline-environment-variables-the-definitive-guide/)
 
 ## 声明式
 
