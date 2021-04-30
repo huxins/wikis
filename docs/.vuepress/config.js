@@ -9,6 +9,7 @@ const go = require('./config/Language/go')
 const python = require('./config/Language/python')
 const node = require('./config/Language/node')
 
+const software = require('./config/software')
 const language = require('./config/language')
 const framework = require('./config/framework')
 
@@ -177,61 +178,13 @@ module.exports = {
           children: application.download
         }
       ],
-      '/Software/Nginx/': [
-        'Install',
-        'Modules',
-        'ngx_http_core_module',
-        'ngx_http_autoindex_module',
-        'ngx_http_auth_basic_module',
-        'ngx_http_limit_conn_module',
-        'ngx_http_limit_req_module',
-        'ngx_http_log_module',
-        'ngx_http_ssl_module',
-        'ngx_http_rewrite_module',
-        'ngx_http_referer_module',
-        'ngx_http_proxy_module',
-        'headers-more-nginx-module',
-        'nginx-dav-ext-module',
-        'ngx-fancyindex',
-        'ngx_stream_core_module'
-      ],
-      '/Software/Traffic Server/': [
-        'Install',
-        'Configure'
-      ],
-      '/Software/Git/': [
-        'Install',
-        '配置',
-        '仓库',
-        '远程仓库',
-        '分支',
-        '标签'
-      ],
-      '/Software/Subversion/': [
-        'Install',
-        '版本库',
-        '项目配置',
-        '访问权限',
-        'Apache',
-        'Hooks',
-        '数据备份',
-        'Git'
-      ],
-      '/Software/Jenkins/': [
-        'Install',
-        'Plugins',
-        'Pipeline',
-        'Slave',
-        'SCM',
-        'Theme',
-        'Coding'
-      ],
-      '/Software/Push/': [
-        'Bark'
-      ],
-      '/Software/Files/': [
-        'SSHFS'
-      ],
+      '/Software/Nginx/': software.Nginx,
+      '/Software/Traffic Server/': software.Traffic_Server,
+      '/Software/Git/': software.Git,
+      '/Software/Subversion/': software.Subversion,
+      '/Software/Jenkins/': software.Jenkins,
+      '/Software/Push/': software.Push,
+      '/Software/Files/': software.Files,
       '/Editor/IntelliJ IDEA/': [
         'Debug',
         '插件'
