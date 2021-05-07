@@ -3,6 +3,7 @@ const JavaScript_基础知识 = [
     '/Language/JavaScript/基础知识/类型转换',
     '/Language/JavaScript/基础知识/深拷贝',
     '/Language/JavaScript/基础知识/对象方法',
+    '/Language/JavaScript/基础知识/对象属性',
     '/Language/JavaScript/基础知识/Math',
     '/Language/JavaScript/基础知识/Date'
 ]
@@ -18,6 +19,11 @@ const JavaScript_网络请求 = [
     '/Language/JavaScript/网络请求/XMLHttpRequest'
 ]
 
+const JavaScript_浏览器 = [
+    '/Language/JavaScript/浏览器/元素节点',
+    '/Language/JavaScript/浏览器/元素修改'
+]
+
 const JavaScript = [
     {
       title: '基础知识',
@@ -30,6 +36,10 @@ const JavaScript = [
     {
       title: '网络请求',
       children: JavaScript_网络请求
+    },
+    {
+      title: '浏览器',
+      children: JavaScript_浏览器
     }
 ]
 
