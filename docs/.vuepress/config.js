@@ -29,7 +29,7 @@ module.exports = {
   themeConfig: {
     sidebarDepth: 2,
     lastUpdated: 'Last Updated',
-    nav: nav,
+    nav: nav.nav,
     sidebar:{
       '/Application/': [
         {

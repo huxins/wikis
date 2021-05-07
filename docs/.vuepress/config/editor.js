@@ -3,8 +3,6 @@ const IntelliJ_IDEA = [
   '插件'
 ]
 
-
-
 module.exports = {
     IntelliJ_IDEA
 }
