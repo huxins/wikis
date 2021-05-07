@@ -1,63 +1,63 @@
 const Nginx = [
-  'Install',
-  'Modules',
-  'ngx_http_core_module',
-  'ngx_http_autoindex_module',
-  'ngx_http_auth_basic_module',
-  'ngx_http_limit_conn_module',
-  'ngx_http_limit_req_module',
-  'ngx_http_log_module',
-  'ngx_http_ssl_module',
-  'ngx_http_rewrite_module',
-  'ngx_http_referer_module',
-  'ngx_http_proxy_module',
-  'headers-more-nginx-module',
-  'nginx-dav-ext-module',
-  'ngx-fancyindex',
-  'ngx_stream_core_module'
+  '/Software/Nginx/Install',
+  '/Software/Nginx/Modules',
+  '/Software/Nginx/ngx_http_core_module',
+  '/Software/Nginx/ngx_http_autoindex_module',
+  '/Software/Nginx/ngx_http_auth_basic_module',
+  '/Software/Nginx/ngx_http_limit_conn_module',
+  '/Software/Nginx/ngx_http_limit_req_module',
+  '/Software/Nginx/ngx_http_log_module',
+  '/Software/Nginx/ngx_http_ssl_module',
+  '/Software/Nginx/ngx_http_rewrite_module',
+  '/Software/Nginx/ngx_http_referer_module',
+  '/Software/Nginx/ngx_http_proxy_module',
+  '/Software/Nginx/headers-more-nginx-module',
+  '/Software/Nginx/nginx-dav-ext-module',
+  '/Software/Nginx/ngx-fancyindex',
+  '/Software/Nginx/ngx_stream_core_module'
 ]
 
 const Traffic_Server = [
-  'Install',
-  'Configure'
+  '/Software/Traffic Server/Install',
+  '/Software/Traffic Server/Configure'
 ]
 
 const Git = [
-  'Install',
-  '配置',
-  '仓库',
-  '远程仓库',
-  '分支',
-  '标签'
+  '/Software/Git/Install',
+  '/Software/Git/配置',
+  '/Software/Git/仓库',
+  '/Software/Git/远程仓库',
+  '/Software/Git/分支',
+  '/Software/Git/标签'
 ]
 
 const Subversion = [
-  'Install',
-  '版本库',
-  '项目配置',
-  '访问权限',
-  'Apache',
-  'Hooks',
-  '数据备份',
-  'Git'
+  '/Software/Subversion/Install',
+  '/Software/Subversion/版本库',
+  '/Software/Subversion/项目配置',
+  '/Software/Subversion/访问权限',
+  '/Software/Subversion/Apache',
+  '/Software/Subversion/Hooks',
+  '/Software/Subversion/数据备份',
+  '/Software/Subversion/Git'
 ]
 
 const Jenkins = [
-  'Install',
-  'Plugins',
-  'Pipeline',
-  'Slave',
-  'SCM',
-  'Theme',
-  'Coding'
+  '/Software/Jenkins/Install',
+  '/Software/Jenkins/Plugins',
+  '/Software/Jenkins/Pipeline',
+  '/Software/Jenkins/Slave',
+  '/Software/Jenkins/SCM',
+  '/Software/Jenkins/Theme',
+  '/Software/Jenkins/Coding'
 ]
 
 const Push = [
-  'Bark'
+  '/Software/Push/Bark'
 ]
 
 const Files = [
-  'SSHFS'
+  '/Software/Files/SSHFS'
 ]
 
 module.exports = {
