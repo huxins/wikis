@@ -43,6 +43,34 @@ const JavaScript = [
     }
 ]
 
+const Python_基础知识 = [
+    '/Language/Python/基础知识/Install',
+    '/Language/Python/基础知识/String'
+]
+
+const Python_模块 = [
+    '/Language/Python/模块/BeautifulSoup',
+    '/Language/Python/模块/Excel',
+    '/Language/Python/模块/openpyxl',
+    '/Language/Python/模块/xlwt-xlrd',
+    '/Language/Python/模块/xlutils',
+    '/Language/Python/模块/xlsxwriter',
+    '/Language/Python/模块/pip'
+
+]
+
+const Python = [
+    {
+      title: '基础知识',
+      children: Python_基础知识
+    },
+    {
+      title: '模块',
+      children: Python_模块
+    }
+]
+
 module.exports = {
-    JavaScript
+    JavaScript,
+    Python
 }

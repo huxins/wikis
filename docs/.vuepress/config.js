@@ -8,7 +8,6 @@ const devops = require('./config/devops')
 
 const java = require('./config/Language/java')
 const go = require('./config/Language/go')
-const python = require('./config/Language/python')
 const node = require('./config/Language/node')
 
 const software = require('./config/software')
@@ -170,16 +169,7 @@ module.exports = {
           children: go.go
         }
       ],
-      '/Language/Python/': [
-        {
-          title: 'Modules',
-          children: python.modules
-        },
-        {
-          title: 'Base',
-          children: python.base
-        }
-      ],
+      '/Language/Python/': language.Python,
       '/Language/Node/': [
         {
           title: 'Base',
