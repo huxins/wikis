@@ -4,6 +4,10 @@ const nav = [
     text: 'Software',
     items: [
       {
+        text: 'Chrome',
+        link: '/Software/Chrome/'
+      },
+      {
         text: 'Nginx',
         link: '/Software/Nginx/'
       },

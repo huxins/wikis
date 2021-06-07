@@ -56,6 +56,7 @@ module.exports = {
           children: application.download
         }
       ],
+      '/Software/Chrome/': software.Chrome,
       '/Software/Nginx/': software.Nginx,
       '/Software/Traffic Server/': software.Traffic_Server,
       '/Software/Git/': software.Git,

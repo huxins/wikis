@@ -1,3 +1,7 @@
+const Chrome = [
+  '/Software/Chrome/Port'
+]
+
 const Nginx = [
   '/Software/Nginx/Install',
   '/Software/Nginx/Modules',
@@ -61,6 +65,7 @@ const Files = [
 ]
 
 module.exports = {
+    Chrome,
     Nginx,
     Traffic_Server,
     Git,
