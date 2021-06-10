@@ -1,18 +1,17 @@
 # Install
 
-- [injdk](https://www.injdk.cn/)
+- [镜像分发](https://www.injdk.cn/)
 - [Amazon Corretto](https://aws.amazon.com/cn/corretto/)
 - [AdoptOpenJDK](https://adoptopenjdk.net/)
-- [Zulu](https://cn.azul.com/downloads/zulu-community/?architecture=x86-64-bit&package=jdk)
+- [Zulu](https://www.azul.com/downloads/)
 - [RedHat](https://developers.redhat.com/products/openjdk/download)
 - [Microsoft](https://www.microsoft.com/openjdk)
-- [ojdkbuild](https://github.com/ojdkbuild/ojdkbuild)
 - [阿里云镜像](https://www.kagura.me/dev/20200424112618.html)
 - [华为云镜像](https://repo.huaweicloud.com/java/jdk/)
 
-## windows
+## Windows
 
-- 提取 src.zip
+- 提取 *src.zip*
 
   [Extract src.zip from JDK Installer](https://bgasparotto.com/extract-src-zip-jdk-installer)
 
@@ -57,23 +56,23 @@
   - JAVA_CAB9 src.zip
   - JAVA_CAB10 tools.zip
 
-## linux
+## Linux
 
-安装 Open JDK
+OpenJDK
 
 ```bash
-yum install -y java-1.8.0-openjdk
+$ yum install java-1.8.0-openjdk
 ```
 
-安装 Oracle JDK
+Oracle
 
 ```bash
 # vi /etc/profile
-export JAVA_HOME=/usr/java/jdk1.8.0_211
-export JRE_HOME=${JAVA_HOME}/jre
-export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib:$CLASSPATH
-export JAVA_PATH=${JAVA_HOME}/bin:${JRE_HOME}/bin
-export PATH=$PATH:${JAVA_PATH}
+$ export JAVA_HOME=/usr/java/jdk1.8.0_211
+$ export JRE_HOME=${JAVA_HOME}/jre
+$ export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib:$CLASSPATH
+$ export JAVA_PATH=${JAVA_HOME}/bin:${JRE_HOME}/bin
+$ export PATH=$PATH:${JAVA_PATH}
 ```
 
 

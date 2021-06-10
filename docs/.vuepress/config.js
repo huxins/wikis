@@ -6,7 +6,6 @@ const linux = require('./config/linux')
 const database = require('./config/database')
 const devops = require('./config/devops')
 
-const java = require('./config/Language/java')
 const go = require('./config/Language/go')
 const node = require('./config/Language/node')
 
@@ -134,32 +133,7 @@ module.exports = {
       ],
       '/Language/Android/': [
       ],
-      '/Language/Java/': [
-        {
-          title: 'JDK',
-          children: java.jdk
-        },
-        {
-          title: 'JVM',
-          children: java.jvm
-        },
-        {
-          title: 'Web',
-          children: java.web
-        },
-        {
-          title: 'Spring',
-          children: java.spring
-        },
-        {
-          title: 'Log',
-          children: java.log
-        },
-        {
-          title: 'Tool',
-          children: java.tool
-        }
-      ],
+      '/Language/Java/': language.Java,
       '/Language/Go/': [
         {
           title: 'Modules',

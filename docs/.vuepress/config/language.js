@@ -56,7 +56,6 @@ const Python_模块 = [
     '/Language/Python/模块/xlutils',
     '/Language/Python/模块/xlsxwriter',
     '/Language/Python/模块/pip'
-
 ]
 
 const Python = [
@@ -70,7 +69,86 @@ const Python = [
     }
 ]
 
+const Java_安装 = [
+    '/Language/Java/安装/Install'
+]
+
+const Java_JDK = [
+    '/Language/Java/JDK/ClassLoader',
+    '/Language/Java/JDK/IO',
+    '/Language/Java/JDK/Collection',
+    '/Language/Java/JDK/Lambda',
+    '/Language/Java/JDK/Stream',
+    '/Language/Java/JDK/ScheduledThreadPoolExecutor'
+]
+
+const Java_JVM = [
+    '/Language/Java/JVM/JVM介绍',
+    '/Language/Java/JVM/Java内存区域与内存溢出'
+]
+
+const Java_WEB = [
+    '/Language/Java/Web/web.xml',
+    '/Language/Java/Web/Jetty',
+    '/Language/Java/Web/WebService'
+]
+
+const Java_Spring = [
+    '/Language/Java/Spring/Bean',
+    '/Language/Java/Spring/ContextLoader',
+    '/Language/Java/Spring/DispatcherServlet',
+    '/Language/Java/Spring/HttpServlet',
+    '/Language/Java/Spring/DataSource',
+    '/Language/Java/Spring/Transaction',
+    '/Language/Java/Spring/JdbcTemplate',
+    '/Language/Java/Spring/Annotation',
+    '/Language/Java/Spring/CommonsMultipartResolver'
+]
+
+const Java_Log = [
+    '/Language/Java/Log/log4j'
+]
+
+const Java_Tool = [
+    '/Language/Java/Tool/maven',
+    '/Language/Java/Tool/Tomcat',
+    '/Language/Java/Tool/jackson',
+    '/Language/Java/Tool/json-schema'
+]
+
+const Java = [
+  {
+    title: '安装',
+    children: Java_安装
+  },
+  {
+    title: 'JDK',
+    children: Java_JDK
+  },
+  {
+    title: 'JVM',
+    children: Java_JVM
+  },
+  {
+    title: 'Web',
+    children: Java_WEB
+  },
+  {
+    title: 'Spring',
+    children: Java_Spring
+  },
+  {
+    title: 'Log',
+    children: Java_Log
+  },
+  {
+    title: 'Tool',
+    children: Java_Tool
+  }
+]
+
 module.exports = {
     JavaScript,
-    Python
+    Python,
+    Java
 }
