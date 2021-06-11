@@ -28,6 +28,10 @@ const nav = [
         link: '/Software/Jenkins/'
       },
       {
+        text: 'Tomcat',
+        link: '/Software/Tomcat/'
+      },
+      {
         text: 'Push',
         link: '/Software/Push/'
       },

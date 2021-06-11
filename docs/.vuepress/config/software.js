@@ -56,6 +56,10 @@ const Jenkins = [
   '/Software/Jenkins/Coding'
 ]
 
+const Tomcat = [
+  '/Software/Tomcat/Install'
+]
+
 const Push = [
   '/Software/Push/Bark'
 ]
@@ -71,6 +75,7 @@ module.exports = {
     Git,
     Subversion,
     Jenkins,
+    Tomcat,
     Push,
     Files
 }

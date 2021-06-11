@@ -1,8 +1,6 @@
-# Tomcat
+# Install
 
-## Install
-
-### Linux
+## Linux
 
 - 在 bin 路径下创建 setenv.sh
 
@@ -17,8 +15,8 @@ JAVA_OPTS="-server -XX:PermSize=256M -XX:MaxPermSize=1024m -Xms1024M -Xmx2048M -
 - setclasspath.sh
 
 ```bash
-export JAVA_HOME=/usr/local/package/jdk1.8.0_181
-export JRE_HOME=/usr/local/package/jdk1.8.0_181/jre
+$ export JAVA_HOME=/usr/local/package/jdk1.8.0_181
+$ export JRE_HOME=/usr/local/package/jdk1.8.0_181/jre
 ```
 
 - tomcat.service
@@ -49,12 +47,12 @@ PrivateTmp=true
 WantedBy=multi-user.target
 ```
 
-### Windows
+## Windows
 
 ```powershell
-service.bat install tomcat8
-service.bat remove tomcat8
+$ service.bat install tomcat8
+$ service.bat remove tomcat8
 # 设置依赖关系，限制启动顺序
-sc config TomcatService depend= MySQLService
+$ sc config TomcatService depend= MySQLService
 ```
 

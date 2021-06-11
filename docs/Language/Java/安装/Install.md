@@ -1,13 +1,13 @@
 # Install
 
 - [镜像分发](https://www.injdk.cn/)
+- [JDK checksum](https://www.oracle.com/webfolder/s/digest/8u202checksum.html)
 - [Amazon Corretto](https://aws.amazon.com/cn/corretto/)
 - [AdoptOpenJDK](https://adoptopenjdk.net/)
 - [Zulu](https://www.azul.com/downloads/)
 - [RedHat](https://developers.redhat.com/products/openjdk/download)
 - [Microsoft](https://www.microsoft.com/openjdk)
-- [阿里云镜像](https://www.kagura.me/dev/20200424112618.html)
-- [华为云镜像](https://repo.huaweicloud.com/java/jdk/)
+- [华为云镜像](https://mirrors.huaweicloud.com/java/jdk/8u202-b08/)
 
 ## Windows
 

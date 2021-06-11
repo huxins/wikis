@@ -61,6 +61,7 @@ module.exports = {
       '/Software/Git/': software.Git,
       '/Software/Subversion/': software.Subversion,
       '/Software/Jenkins/': software.Jenkins,
+      '/Software/Tomcat/': software.Tomcat,
       '/Software/Push/': software.Push,
       '/Software/Files/': software.Files,
       '/Editor/IntelliJ IDEA/': editor.IntelliJ_IDEA,

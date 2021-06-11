@@ -114,7 +114,6 @@ const Java_Log = [
 
 const Java_Tool = [
     '/Language/Java/Tool/maven',
-    '/Language/Java/Tool/Tomcat',
     '/Language/Java/Tool/jackson',
     '/Language/Java/Tool/json-schema'
 ]
