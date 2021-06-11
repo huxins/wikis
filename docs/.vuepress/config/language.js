@@ -88,14 +88,17 @@ const Java_JVM = [
 ]
 
 const Java_WEB = [
-    '/Language/Java/Web/web.xml',
+    '/Language/Java/Web/Load',
+    '/Language/Java/Web/ServletContext',
+    '/Language/Java/Web/Listener',
+    '/Language/Java/Web/Filter',
+    '/Language/Java/Web/Servlet',
     '/Language/Java/Web/Jetty',
     '/Language/Java/Web/WebService'
 ]
 
 const Java_Spring = [
     '/Language/Java/Spring/Bean',
-    '/Language/Java/Spring/ContextLoader',
     '/Language/Java/Spring/DispatcherServlet',
     '/Language/Java/Spring/HttpServlet',
     '/Language/Java/Spring/DataSource',

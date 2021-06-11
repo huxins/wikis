@@ -38,8 +38,8 @@
   使用 7-Zip 提取 EXE
   
   ```powershell
-  cd .rsrc\1033\JAVA_CAB10
-  extrac32 111
+  $ cd .rsrc\1033\JAVA_CAB10
+  $ extrac32 111
   ```
   
   该目录中将显示一个名为 *tools.zip* 的文件，使用 7-Zip 提取其内容
@@ -47,7 +47,7 @@
   运行以下命令以将 .pack 转换为 .jar 文件
   
   ```powershell
-  for /r %x in (*.pack) do .\bin\unpack200 -r "%x" "%~dx%~px%~nx.jar"
+  $ for /r %x in (*.pack) do .\bin\unpack200 -r "%x" "%~dx%~px%~nx.jar"
   ```
   
   这些文件包含以下资源
