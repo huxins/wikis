@@ -10,3 +10,5 @@ JVM是 Java Virtual Machine（Java虚拟机）的缩写，JVM是一种用于计�
 
 
 
+JAVA_OPTS="-server -XX:PermSize=256M -XX:MaxPermSize=1024m -Xms1024M -Xmx2048M -XX:MaxNewSize=512m"
+
