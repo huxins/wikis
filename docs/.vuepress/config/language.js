@@ -96,7 +96,6 @@ const Java_Servlet = [
 
 const Java_WEB = [
     '/Language/Java/Web/Load',
-    '/Language/Java/Web/ServletContext',
     '/Language/Java/Web/Listener',
     '/Language/Java/Web/Filter',
     '/Language/Java/Web/Servlet',
