@@ -167,6 +167,7 @@ module.exports = {
       '/Framework/Bootstrap/': framework.Bootstrap,
       '/Framework/jQuery/': framework.jQuery,
       '/Framework/Select2/': framework.Select2,
+      '/Framework/Spring/': framework.Spring,
       '/Life/': [
         '怎样成为更好的人'
       ]

@@ -9,8 +9,12 @@ ContextLoaderListener 中创建 ApplicationContext 主要用于整个 Web 应用
 
 ```xml
 <servlet>
-    <servlet-name>spring-mvc</servlet-name>
+    <servlet-name>spring-mvc-control</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <init-param>
+        <param-name>publishContext</param-name>
+        <param-value>false</param-value>
+    </init-param>
     <init-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>classpath:spring/spring-mvc.xml</param-value>

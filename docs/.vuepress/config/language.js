@@ -87,6 +87,13 @@ const Java_JVM = [
     '/Language/Java/JVM/Java内存区域与内存溢出'
 ]
 
+const Java_Servlet = [
+    '/Language/Java/Servlet/Servlet程序',
+    '/Language/Java/Servlet/Servlet配置',
+    '/Language/Java/Servlet/ServletConfig',
+    '/Language/Java/Servlet/ServletContext'
+]
+
 const Java_WEB = [
     '/Language/Java/Web/Load',
     '/Language/Java/Web/ServletContext',
@@ -99,7 +106,6 @@ const Java_WEB = [
 
 const Java_Spring = [
     '/Language/Java/Spring/Bean',
-    '/Language/Java/Spring/DispatcherServlet',
     '/Language/Java/Spring/HttpServlet',
     '/Language/Java/Spring/DataSource',
     '/Language/Java/Spring/Transaction',
@@ -130,6 +136,10 @@ const Java = [
   {
     title: 'JVM',
     children: Java_JVM
+  },
+  {
+    title: 'Servlet',
+    children: Java_Servlet
   },
   {
     title: 'Web',
