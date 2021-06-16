@@ -7,7 +7,7 @@
 
 - tomcat.service
 
-```bash
+```ini
 [Unit]
 Description=Tomcat
 After=syslog.target network.target remote-fs.target nss-lookup.target

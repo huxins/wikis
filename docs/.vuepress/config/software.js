@@ -57,7 +57,8 @@ const Jenkins = [
 ]
 
 const Tomcat = [
-  '/Software/Tomcat/Install'
+  '/Software/Tomcat/Install',
+  '/Software/Tomcat/访问路径'
 ]
 
 const Push = [
