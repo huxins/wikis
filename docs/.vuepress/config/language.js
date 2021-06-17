@@ -91,7 +91,8 @@ const Java_Servlet = [
     '/Language/Java/Servlet/Servlet程序',
     '/Language/Java/Servlet/Servlet配置',
     '/Language/Java/Servlet/ServletConfig',
-    '/Language/Java/Servlet/ServletContext'
+    '/Language/Java/Servlet/ServletContext',
+    '/Language/Java/Servlet/HttpServletResponse'
 ]
 
 const Java_WEB = [

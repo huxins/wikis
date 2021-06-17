@@ -18,7 +18,10 @@ this.getServletContext().getInitParameter("name");
 ## 资源文件
 
 ```java
+// 文件流
 InputStream resourceAsStream = 
     this.getServletContext().getResourceAsStream("/WEB-INF/classes/jdbc.properties");
+// 文件路径
+String path = this.getServletContext().getRealPath("/WEB-INF/classes/jdbc.properties");
 ```
 
