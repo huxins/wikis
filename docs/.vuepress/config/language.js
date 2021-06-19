@@ -91,6 +91,7 @@ const Java_Servlet = [
     '/Language/Java/Servlet/Servlet',
     '/Language/Java/Servlet/ServletConfig',
     '/Language/Java/Servlet/ServletContext',
+    '/Language/Java/Servlet/HttpServletRequest',
     '/Language/Java/Servlet/HttpServletResponse',
     '/Language/Java/Servlet/会话技术'
 ]
