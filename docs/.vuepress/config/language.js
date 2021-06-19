@@ -88,11 +88,11 @@ const Java_JVM = [
 ]
 
 const Java_Servlet = [
-    '/Language/Java/Servlet/Servlet程序',
-    '/Language/Java/Servlet/Servlet配置',
+    '/Language/Java/Servlet/Servlet',
     '/Language/Java/Servlet/ServletConfig',
     '/Language/Java/Servlet/ServletContext',
-    '/Language/Java/Servlet/HttpServletResponse'
+    '/Language/Java/Servlet/HttpServletResponse',
+    '/Language/Java/Servlet/会话技术'
 ]
 
 const Java_WEB = [

@@ -1,4 +1,4 @@
-# Servlet 配置
+# Servlet
 
 从 Servlet3.0 开始，配置 Servlet 有两种方式：
 
