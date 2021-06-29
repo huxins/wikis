@@ -96,6 +96,10 @@ const Java_Servlet = [
     '/Language/Java/Servlet/会话技术'
 ]
 
+const Java_JDBC = [
+    '/Language/Java/JDBC/JDBC'
+]
+
 const Java_WEB = [
     '/Language/Java/Web/Load',
     '/Language/Java/Web/Listener',
@@ -141,6 +145,10 @@ const Java = [
   {
     title: 'Servlet',
     children: Java_Servlet
+  },
+  {
+    title: 'JDBC',
+    children: Java_JDBC
   },
   {
     title: 'Web',

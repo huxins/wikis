@@ -15,6 +15,6 @@
 ```java
 RequestDispatcher dispatcher = req.getRequestDispatcher("/servlet");
 dispatcher.include(req, resp);
-dispatcher.forward(req,resp);
+dispatcher.forward(req, resp);
 ```
 
