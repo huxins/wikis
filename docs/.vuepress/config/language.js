@@ -97,7 +97,8 @@ const Java_Servlet = [
 ]
 
 const Java_JDBC = [
-    '/Language/Java/JDBC/JDBC'
+    '/Language/Java/JDBC/JDBC',
+    '/Language/Java/JDBC/Transaction'
 ]
 
 const Java_WEB = [
