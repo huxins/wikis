@@ -125,10 +125,6 @@ const nav = [
       {
         text: 'Select2',
         link: '/Framework/Select2/'
-      },
-      {
-        text: 'Spring',
-        link: '/Framework/Spring/'
       }
     ]
   },

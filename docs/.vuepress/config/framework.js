@@ -32,16 +32,8 @@ const Select2 = [
     '/Framework/Select2/模态框'
 ]
 
-const Spring = [
-    '/Framework/Spring/ContextLoader',
-    '/Framework/Spring/DispatcherServlet'
-]
-
-
-
 module.exports = {
     Bootstrap,
     jQuery,
-    Select2,
-    Spring
+    Select2
 }

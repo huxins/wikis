@@ -111,7 +111,9 @@ const Java_WEB = [
 ]
 
 const Java_Spring = [
-    '/Language/Java/Spring/Bean',
+    '/Language/Java/Spring/ContextLoader',
+    '/Language/Java/Spring/IoC',
+    '/Language/Java/Spring/DispatcherServlet',
     '/Language/Java/Spring/HttpServlet',
     '/Language/Java/Spring/DataSource',
     '/Language/Java/Spring/Transaction',
