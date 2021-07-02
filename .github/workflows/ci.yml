@@ -13,16 +13,17 @@ jobs:
         persist-credentials: false
     - name: Install and Build
       run: |
-        # git
-        git config --global user.name "huxins"
-        git config --global user.email "huxins@163.com"
         # vuepress
         yarn global add vuepress
         # build
         npm install
         npm run docs:build
+        # git
+        git config --global user.name "huxins"
+        git config --global user.email "huxins@163.com"
         # git push
         cd docs/.vuepress/dist
+        echo "wiki.inxiny.cn" > CNAME
         git init
         git add -A
         git commit -m "first commit"
