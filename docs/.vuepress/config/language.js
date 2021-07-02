@@ -113,13 +113,17 @@ const Java_WEB = [
 const Java_Spring = [
     '/Language/Java/Spring/ContextLoader',
     '/Language/Java/Spring/IoC',
-    '/Language/Java/Spring/DispatcherServlet',
     '/Language/Java/Spring/HttpServlet',
     '/Language/Java/Spring/DataSource',
     '/Language/Java/Spring/Transaction',
     '/Language/Java/Spring/JdbcTemplate',
     '/Language/Java/Spring/Annotation',
     '/Language/Java/Spring/CommonsMultipartResolver'
+]
+
+const Java_SpringMVC = [
+    '/Language/Java/SpringMVC/DispatcherServlet',
+    '/Language/Java/SpringMVC/MultiActionController'
 ]
 
 const Java_Log = [
@@ -160,6 +164,10 @@ const Java = [
   {
     title: 'Spring',
     children: Java_Spring
+  },
+  {
+    title: 'SpringMVC',
+    children: Java_SpringMVC
   },
   {
     title: 'Log',
