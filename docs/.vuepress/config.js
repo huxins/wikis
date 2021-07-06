@@ -11,7 +11,7 @@ const node = require('./config/Language/node')
 
 const software = require('./config/software')
 const editor = require('./config/editor')
-const language = require('./config/language')
+const programming = require('./config/programming')
 const framework = require('./config/framework')
 
 module.exports = {
@@ -135,25 +135,11 @@ module.exports = {
       ],
       '/Programming/Android/': [
       ],
-      '/Programming/Java/': language.Java,
-      '/Programming/Go/': [
-        {
-          title: 'Modules',
-          children: go.modules
-        },
-        {
-          title: 'Go',
-          children: go.go
-        }
-      ],
-      '/Programming/Python/': language.Python,
-      '/Programming/Node/': [
-        {
-          title: 'Base',
-          children: node.base
-        }
-      ],
-      '/Programming/JavaScript/': language.JavaScript,
+      '/Programming/Java/': programming.Java,
+      '/Programming/Go/': programming.Go,
+      '/Programming/Python/': programming.Python,
+      '/Programming/Node/': programming.Node,
+      '/Programming/JavaScript/': programming.JavaScript,
       '/Programming/HTML/': [
         '表单',
         '表格',
