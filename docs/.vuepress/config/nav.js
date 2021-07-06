@@ -79,39 +79,39 @@ const nav = [
   { text: 'Database', link: '/Database/' },
   { text: 'DevOps', link: '/DevOps/' },
   {
-    text: 'Language',
+    text: 'Programming',
     items: [
       {
         text: 'Android',
-        link: '/Language/Android/'
+        link: '/Programming/Android/'
       },
       {
         text: 'Java',
-        link: '/Language/Java/'
+        link: '/Programming/Java/'
       },
       {
         text: 'Go',
-        link: '/Language/Go/'
+        link: '/Programming/Go/'
       },
       {
         text: 'Python',
-        link: '/Language/Python/'
+        link: '/Programming/Python/'
       },
       {
         text: 'Node',
-        link: '/Language/Node/'
+        link: '/Programming/Node/'
       },
       {
         text: 'JavaScript',
-        link: '/Language/JavaScript/'
+        link: '/Programming/JavaScript/'
       },
       {
         text: 'CSS',
-        link: '/Language/CSS/'
+        link: '/Programming/CSS/'
       },
       {
         text: 'HTML',
-        link: '/Language/HTML/'
+        link: '/Programming/HTML/'
       }
     ]
   },

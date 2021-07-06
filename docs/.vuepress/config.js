@@ -133,10 +133,10 @@ module.exports = {
           children: devops.tool
         }
       ],
-      '/Language/Android/': [
+      '/Programming/Android/': [
       ],
-      '/Language/Java/': language.Java,
-      '/Language/Go/': [
+      '/Programming/Java/': language.Java,
+      '/Programming/Go/': [
         {
           title: 'Modules',
           children: go.modules
@@ -146,20 +146,20 @@ module.exports = {
           children: go.go
         }
       ],
-      '/Language/Python/': language.Python,
-      '/Language/Node/': [
+      '/Programming/Python/': language.Python,
+      '/Programming/Node/': [
         {
           title: 'Base',
           children: node.base
         }
       ],
-      '/Language/JavaScript/': language.JavaScript,
-      '/Language/HTML/': [
+      '/Programming/JavaScript/': language.JavaScript,
+      '/Programming/HTML/': [
         '表单',
         '表格',
         'Script'
       ],
-      '/Language/CSS/': [
+      '/Programming/CSS/': [
         '盒模型',
         'Float',
         'Fonts',
