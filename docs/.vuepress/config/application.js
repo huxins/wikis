@@ -51,7 +51,6 @@ const dev = [
 
 const editor = [
     '/Application/Editor/lepton',
-    '/Application/Editor/vscode',
     '/Application/Editor/SublimeText'
 ]
 

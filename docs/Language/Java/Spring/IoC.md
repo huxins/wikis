@@ -1,6 +1,7 @@
 # IoC
 
 - [Configuration metadata](https://docs.spring.io/spring-framework/docs/4.3.2.RELEASE/spring-framework-reference/htmlsingle/#beans-factory-metadata)
+- [Spring IoC有什么好处呢](https://www.zhihu.com/question/23277575)
 
 ## Bean
 
@@ -14,15 +15,23 @@
 
 > 容器启动时没有实例化 Bean，只有获取 Bean 时才会被创建，每一次都是新建一个对象。
 
-singleton 引用 prototype 时，每次注入提供一个新的实例，可配置每次调用生成不同的实例
+singleton 引用 prototype 时，每次注入提供一个新的实例，可配置每次调用生成新的实例
+
+```xml
+<bean>
+    <aop:scoped-proxy/>
+</bean>
+```
 
 ```java
-@Service
-@Scope(value = "prototype", proxyMode = ScopedProxyMode.TARGET_CLASS)
+@Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE, proxyMode = ScopedProxyMode.TARGET_CLASS)
 ```
 
 - reqeust
-- session
+
+```java
+@Scope(value = WebApplicationContext.SCOPE_REQUEST, proxyMode = ScopedProxyMode.INTERFACES)
+```
 
 ### 生命周期
 
@@ -76,7 +85,7 @@ singleton 引用 prototype 时，每次注入提供一个新的实例，可配�
 
 #### Collection
 
-##### List
+- List
 
 ```xml
 <bean>
@@ -89,34 +98,34 @@ singleton 引用 prototype 时，每次注入提供一个新的实例，可配�
 </bean>
 ```
 
-##### Map
+- Map
 
 ```xml
 <bean>
     <property name="scores">
         <map>
-            <entry key="语文" value="88" />
-            <entry key="数学" value="87" />
+            <entry key="语文" value="88"/>
+            <entry key="数学" value="87"/>
         </map>
     </property>
 </bean>
 ```
 
-##### Set
+- Set
 
 ```xml
 <bean>
     <property name="axe">
         <set>
             <value>普通字符串</value>
-            <bean class="com.spring.service.impl.SteelAxe"></bean>
+            <bean class="com.spring.service.impl.SteelAxe"/>
             <ref local="stoneAxe"/>
         </set>
     </property>
 </bean>
 ```
 
-##### Properties
+- Properties
 
 ```xml
 <bean>

@@ -65,6 +65,7 @@ module.exports = {
       '/Software/Push/': software.Push,
       '/Software/Files/': software.Files,
       '/Editor/IntelliJ IDEA/': editor.IntelliJ_IDEA,
+      '/Editor/Visual Studio Code/': editor.Visual_Studio_Code,
       '/System/Proxmox VE/': [
         'Install',
         '镜像格式',

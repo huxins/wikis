@@ -3,6 +3,15 @@ const IntelliJ_IDEA = [
   '插件'
 ]
 
+const Visual_Studio_Code = [
+  '快捷键',
+  '设置',
+  '主题',
+  '扩展',
+  'Debug'
+]
+
 module.exports = {
-    IntelliJ_IDEA
+    IntelliJ_IDEA,
+    Visual_Studio_Code
 }

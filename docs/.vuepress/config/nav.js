@@ -47,6 +47,10 @@ const nav = [
       {
         text: 'IntelliJ IDEA',
         link: '/Editor/IntelliJ IDEA/'
+      },
+      {
+        text: 'Visual Studio Code',
+        link: '/Editor/Visual Studio Code/'
       }
     ]
   },
