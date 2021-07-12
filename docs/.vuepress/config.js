@@ -5,10 +5,6 @@ const application = require('./config/application')
 const linux = require('./config/linux')
 const database = require('./config/database')
 const devops = require('./config/devops')
-
-const go = require('./config/Language/go')
-const node = require('./config/Language/node')
-
 const software = require('./config/software')
 const editor = require('./config/editor')
 const programming = require('./config/programming')
@@ -140,6 +136,9 @@ module.exports = {
       '/Programming/Python/': programming.Python,
       '/Programming/Node/': programming.Node,
       '/Programming/JavaScript/': programming.JavaScript,
+      '/Programming/Skill/': [
+        'RoadMap'
+      ],
       '/Programming/HTML/': [
         '表单',
         '表格',

@@ -82,6 +82,10 @@ const nav = [
     text: 'Programming',
     items: [
       {
+        text: 'Skill',
+        link: '/Programming/Skill/'
+      },
+      {
         text: 'Android',
         link: '/Programming/Android/'
       },

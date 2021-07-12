@@ -74,7 +74,6 @@ const Java_安装 = [
 ]
 
 const Java_JDK = [
-    '/Programming/Java/JDK/ClassLoader',
     '/Programming/Java/JDK/IO',
     '/Programming/Java/JDK/Collection',
     '/Programming/Java/JDK/Lambda',
@@ -85,6 +84,10 @@ const Java_JDK = [
 const Java_JVM = [
     '/Programming/Java/JVM/JVM介绍',
     '/Programming/Java/JVM/Java内存区域与内存溢出'
+]
+
+const Java_Core = [
+    '/Programming/Java/Core/ClassLoader'
 ]
 
 const Java_Servlet = [
@@ -148,6 +151,10 @@ const Java = [
   {
     title: 'JVM',
     children: Java_JVM
+  },
+  {
+    title: 'Core',
+    children: Java_Core
   },
   {
     title: 'Servlet',
