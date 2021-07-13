@@ -87,7 +87,8 @@ const Java_JVM = [
 ]
 
 const Java_Core = [
-    '/Programming/Java/Core/ClassLoader'
+    '/Programming/Java/Core/ClassLoader',
+    '/Programming/Java/Core/String'
 ]
 
 const Java_Servlet = [
