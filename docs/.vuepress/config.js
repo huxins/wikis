@@ -155,7 +155,13 @@ module.exports = {
       '/Framework/Select2/': framework.Select2,
       '/Framework/Spring/': framework.Spring,
       '/Life/': [
-        '怎样成为更好的人'
+        '怎样成为更好的人',
+        '医疗'
+      ],
+      '/房产/': [
+        '上海',
+        '苏州',
+        '成都'
       ]
     }
   }

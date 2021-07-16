@@ -137,6 +137,7 @@ const nav = [
     ]
   },
   { text: 'Life', link: '/Life/' },
+  { text: '房产', link: '/房产/' },
   { text: '导航', link: 'https://inxiny.cn/' }
 ]
 
