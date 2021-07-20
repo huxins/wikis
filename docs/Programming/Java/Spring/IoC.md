@@ -138,16 +138,3 @@ singleton 引用 prototype 时，每次注入提供一个新的实例，可配�
 </bean>
 ```
 
-#### 注解
-
-- @Controller
-- @Service
-- @Repository
-- @Component
-
-```xml
-<context:component-scan base-package="cn.inxiny.test" use-default-filters="false">
-    <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
-</context:component-scan>
-```
-

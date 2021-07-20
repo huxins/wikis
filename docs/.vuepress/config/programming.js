@@ -123,6 +123,7 @@ const Java_WEB = [
 const Java_Spring = [
     '/Programming/Java/Spring/ContextLoader',
     '/Programming/Java/Spring/IoC',
+    '/Programming/Java/Spring/ComponentScan',
     '/Programming/Java/Spring/HttpServlet',
     '/Programming/Java/Spring/DataSource',
     '/Programming/Java/Spring/Transaction',
