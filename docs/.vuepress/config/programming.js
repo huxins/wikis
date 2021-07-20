@@ -93,6 +93,10 @@ const Java_Core = [
     '/Programming/Java/Core/SuppressWarnings'
 ]
 
+const Java_Filter = [
+    '/Programming/Java/Filter/CharacterEncodingFilter'
+]
+
 const Java_Servlet = [
     '/Programming/Java/Servlet/Servlet',
     '/Programming/Java/Servlet/ServletConfig',
@@ -158,6 +162,10 @@ const Java = [
   {
     title: 'Core',
     children: Java_Core
+  },
+  {
+    title: 'Filter',
+    children: Java_Filter
   },
   {
     title: 'Servlet',
