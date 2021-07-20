@@ -89,7 +89,8 @@ const Java_JVM = [
 const Java_Core = [
     '/Programming/Java/Core/ClassLoader',
     '/Programming/Java/Core/String',
-    '/Programming/Java/Core/泛型'
+    '/Programming/Java/Core/泛型',
+    '/Programming/Java/Core/SuppressWarnings'
 ]
 
 const Java_Servlet = [
