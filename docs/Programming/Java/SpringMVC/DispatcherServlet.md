@@ -22,12 +22,6 @@
 <mvc:default-servlet-handler/>
 ```
 
-自动注册 `DefaultAnnotationHandlerMapping` 与 `AnnotationMethodHandlerAdapter`
-
-```xml
-<mvc:annotation-driven/>
-```
-
 ## Forward
 
 ```java

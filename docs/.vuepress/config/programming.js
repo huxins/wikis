@@ -134,6 +134,8 @@ const Java_Spring = [
 
 const Java_SpringMVC = [
     '/Programming/Java/SpringMVC/DispatcherServlet',
+    '/Programming/Java/SpringMVC/AnnotationDriven',
+    '/Programming/Java/SpringMVC/RequestMapping',
     '/Programming/Java/SpringMVC/MultiActionController'
 ]
 
