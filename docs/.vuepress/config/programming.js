@@ -136,6 +136,7 @@ const Java_SpringMVC = [
     '/Programming/Java/SpringMVC/DispatcherServlet',
     '/Programming/Java/SpringMVC/AnnotationDriven',
     '/Programming/Java/SpringMVC/RequestMapping',
+    '/Programming/Java/SpringMVC/参数绑定',
     '/Programming/Java/SpringMVC/MultiActionController'
 ]
 

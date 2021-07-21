@@ -1,51 +1,5 @@
 # HttpServlet
 
-## response
-
-@RestController 注解相当于 @Controller + @ResponseBody 合在一起的作用。
-
-1. 如果只是使用 @RestController 注解 Controller 类，则方法无法返回 jsp 页面，配置的视图解析器 InternalResourceViewResolver 不起作用，返回的内容就是 Return 里的内容。
-
-2. 如果需要返回到指定页面，则需要用 @Controller 配合视图解析器 InternalResourceViewResolver 才行。
-
-3. 如果需要返回 JSON，XML 或自定义 mediaType 内容到页面，则需要在对应的方法上加上 @ResponseBody 注解。
-
-## get
-
-```java
-@GetMapping(value = "/hello")
-public Integer say(@RequestParam(value = "id", required = false, defaultValue = "0") Integer id){
-    return id;
-}
-@RequestMapping(value = "/hello/{id}",method = RequestMethod.GET)
-public Integer say(@PathVariable("id") Integer id){
-	return id;
-}
-```
-
-HttpServletRequest
-
-```java
-@GetMapping("/get")
-public User getUserById(HttpServletRequest request) {
-    Integer id = Integer.parseInt(request.getParameter("id"));
-    if (id.intValue() == 0) {
-        return null;
-    }
-    return list.get(id);
-}
-```
-
-## post
-
-```java
-// content-type:application/json
-@PostMapping("/save")
-public User saveUser(@RequestBody User user) {
-    return user;
-}
-```
-
 HttpServletRequest
 
 ```java
