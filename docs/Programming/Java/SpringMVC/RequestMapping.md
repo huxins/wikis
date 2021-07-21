@@ -1,7 +1,5 @@
 # RequestMapping
 
-@RestController = @Controller + @ResponseBody
-
 ```java
 @RequestMapping(value = "/hello", method = RequestMethod.GET)
 @GetMapping(value = "/hello")
@@ -14,18 +12,6 @@
 
 ```java
 @RequestMapping(value = "/hello", produces = "text/html; charset=utf-8")
-```
-
-全局解决
-
-```xml
-<mvc:annotation-driven>
-    <mvc:message-converters>
-        <bean class="org.springframework.http.converter.StringHttpMessageConverter">
-            <property name="supportedMediaTypes" value="text/html; charset=utf-8"/>
-        </bean>
-    </mvc:message-converters>
-</mvc:annotation-driven>
 ```
 
 ## Request
@@ -82,7 +68,24 @@ public String hello(Date date) {
 }
 ```
 
+### JSON
+
+```java
+@RequestMapping("/hello")
+public Car hello(@RequestBody Car car) {
+    return car;
+}
+```
+
 ## Response
 
-### JSON
+@RestController = @Controller + @ResponseBody
+
+### 日期转字符串
+
+单个 Bean 的某个日期字段显示年月日时分秒，只需要在对应日期的 get 方法上添加。
+
+```java
+@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+```
 
