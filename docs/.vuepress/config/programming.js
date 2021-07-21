@@ -124,12 +124,10 @@ const Java_Spring = [
     '/Programming/Java/Spring/ContextLoader',
     '/Programming/Java/Spring/IoC',
     '/Programming/Java/Spring/ComponentScan',
-    '/Programming/Java/Spring/HttpServlet',
     '/Programming/Java/Spring/DataSource',
     '/Programming/Java/Spring/Transaction',
     '/Programming/Java/Spring/JdbcTemplate',
-    '/Programming/Java/Spring/Annotation',
-    '/Programming/Java/Spring/CommonsMultipartResolver'
+    '/Programming/Java/Spring/Annotation'
 ]
 
 const Java_SpringMVC = [
@@ -137,7 +135,8 @@ const Java_SpringMVC = [
     '/Programming/Java/SpringMVC/AnnotationDriven',
     '/Programming/Java/SpringMVC/RequestMapping',
     '/Programming/Java/SpringMVC/参数绑定',
-    '/Programming/Java/SpringMVC/MultiActionController'
+    '/Programming/Java/SpringMVC/MultiActionController',
+    '/Programming/Java/SpringMVC/CommonsMultipartResolver'
 ]
 
 const Java_Log = [
