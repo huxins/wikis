@@ -2,6 +2,14 @@
 
 > Deprecated as of 4.3, and was removed in 5.x
 
+## Methods
+
+```xml
+<bean id="serlvet" class="cn.inxiny.servlet.SerlvetImpl">
+    <property name="supportedMethods" value="POST"/>
+</bean>
+```
+
 ## SimpleUrlHandlerMapping
 
 ```xml
