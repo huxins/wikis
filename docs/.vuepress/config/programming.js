@@ -94,7 +94,9 @@ const Java_Core = [
 ]
 
 const Java_Filter = [
-    '/Programming/Java/Filter/CharacterEncodingFilter'
+    '/Programming/Java/Filter/Filter',
+    '/Programming/Java/Filter/CharacterEncodingFilter',
+    '/Programming/Java/Filter/HttpServletRequestWrapper'
 ]
 
 const Java_Servlet = [
@@ -114,7 +116,6 @@ const Java_JDBC = [
 const Java_WEB = [
     '/Programming/Java/Web/Load',
     '/Programming/Java/Web/Listener',
-    '/Programming/Java/Web/Filter',
     '/Programming/Java/Web/Servlet',
     '/Programming/Java/Web/Jetty',
     '/Programming/Java/Web/WebService'
