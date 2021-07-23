@@ -5,10 +5,10 @@ public void doFilter(ServletRequest servletRequest, ServletResponse servletRespo
 
     HttpServletRequestWrapper requestWrapper = new HttpServletRequestWrapper((HttpServletRequest)servletRequest) {
         public String getParameter(String name) {
-            String value = this.getRequest().getParameter(name);
             HttpServletRequest request = (HttpServletRequest)this.getRequest();
+            String value = request.getParameter(name);
             if (value == null){
-                return value;
+                return null;
             }
             if (!request.getMethod().equalsIgnoreCase("get")) {
                 return value;
