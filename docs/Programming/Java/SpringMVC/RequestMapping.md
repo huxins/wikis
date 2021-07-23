@@ -79,6 +79,24 @@ public Car hello(@RequestBody Car car) {
 }
 ```
 
+### RequestParam
+
+```java
+@RequestMapping("/hello")
+public String hello(@RequestParam(value = "userId", required = false, defaultValue = "0") int id) {
+    return String.valueOf(id);
+}
+```
+
+### PathVariable
+
+```java
+@RequestMapping("/hello/{userId}")
+public String hello(@PathVariable("userId") int id) {
+    return String.valueOf(id);
+}
+```
+
 ## Response
 
 @RestController = @Controller + @ResponseBody
