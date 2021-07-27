@@ -25,7 +25,14 @@ XML
         <bean class="org.springframework.http.converter.StringHttpMessageConverter">
             <property name="supportedMediaTypes" value="text/html; charset=utf-8"/>
         </bean>
+        <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+            <property name="supportedMediaTypes" value="text/html; charset=utf-8"/>
+        </bean>
     </mvc:message-converters>
 </mvc:annotation-driven>
 ```
+
+## 参考链接
+
+- [理解 Spring HttpMessageConverter](https://fengmengzhao.github.io/2019/01/17/understand-spring-httpmessageconverter.html)
 

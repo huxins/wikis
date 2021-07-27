@@ -52,6 +52,7 @@ public void doFilter(ServletRequest servletRequest, ServletResponse servletRespo
     System.out.println("压缩后：" + gzip.length);
 
     response.setHeader("Content-Encoding", "gzip");
+    response.setContentLength(gzip.length);
     response.getOutputStream().write(gzip);
 }
 ```
