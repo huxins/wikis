@@ -42,6 +42,15 @@ const nav = [
     ]
   },
   {
+    text: 'Hardware',
+    items: [
+      {
+        text: 'PC',
+        link: '/Hardware/PC/'
+      }
+    ]
+  },
+  {
     text: 'Editor',
     items: [
       {

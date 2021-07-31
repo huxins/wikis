@@ -6,6 +6,7 @@ const linux = require('./config/linux')
 const database = require('./config/database')
 const devops = require('./config/devops')
 const software = require('./config/software')
+const hardware = require('./config/hardware')
 const editor = require('./config/editor')
 const programming = require('./config/programming')
 const framework = require('./config/framework')
@@ -60,6 +61,7 @@ module.exports = {
       '/Software/Tomcat/': software.Tomcat,
       '/Software/Push/': software.Push,
       '/Software/Files/': software.Files,
+      '/Hardware/PC/': hardware.PC,
       '/Editor/IntelliJ IDEA/': editor.IntelliJ_IDEA,
       '/Editor/Visual Studio Code/': editor.Visual_Studio_Code,
       '/System/Proxmox VE/': [
