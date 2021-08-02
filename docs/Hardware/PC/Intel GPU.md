@@ -1,6 +1,6 @@
 # Intel GPU
 
-- [Intel GPU](https://bluesky-soft.com/en/dxvac/deviceInfo/decoder/intel.html)
+- [Intel GPU](https://bluesky-soft.com/en/dxvac/deviceInfo/decoder/intel.html)（[页面存档备份](https://web.archive.org/web/20210415022106/https://bluesky-soft.com/en/dxvac/deviceInfo/decoder/intel.html)，存于[互联网档案馆](https://zh.wikipedia.org/wiki/互联网档案馆)）
 
 | GPU                                    | MPEG2        | H.264        | HEVC | HEVC 10bit | VP9 Profile0 | VP9 10bit Profile2 | AV1 Profile0 |
 | -------------------------------------- | ------------ | ------------ | ---- | ---------- | ------------ | ------------------ | ------------ |
@@ -13,16 +13,6 @@
 | HD Graphics 5500                       | FHD          | 4K           | 4K   | 4K         | *4K*         | -                  | -            |
 | HD Graphics 5600                       | FHD          | 4K           | 4K   | 4K         | *4K*         | -                  | -            |
 | HD Graphics 6000                       | FHD          | 4K           | 4K   | 4K         | *4K*         | -                  | -            |
-| HD Graphics Family (Sandy Bridge)      | FHD          | FHD          | -    | -          | -            | -                  | -            |
-| HD Graphics Family (Haswell)           | FHD          | 4K           | 4K   | -          | -            | -                  | -            |
-| HD Graphics (Arrandale)                | FHD          | *FHD*        | -    | -          | -            | -                  | -            |
-| HD Graphics (Sandy Bridge)             | FHD          | FHD          | -    | -          | -            | -                  | -            |
-| HD Graphics (Ivy Bridge)               | FHD          | 4K           | -    | -          | -            | -                  | -            |
-| HD Graphics (Haswell)                  | FHD          | 4K           | -    | -          | -            | -                  | -            |
-| HD Graphics (Bay Trail)                | FHD          | 4K           | -    | -          | -            | -                  | -            |
-| HD Graphics (Cherry Trail)             | FHD          | 4K           | 8K   | -          | *4K*         | -                  | -            |
-| HD Graphics (Braswell)                 | FHD          | 4K           | 8K   | -          | -            | -                  | -            |
-| HD Graphics (Apollo Lake)              | FHD          | 4K           | 8K   | 8K         | 4K           | -                  | -            |
 | HD Graphics 500                        | FHD          | 4K           | 8K   | 8K         | 4K           | -                  | -            |
 | HD Graphics 510                        | FHD          | 4K           | 8K   | -          | *4K*         | -                  | -            |
 | HD Graphics 515                        | FHD          | 4K           | 8K   | -          | *4K*         | -                  | -            |
