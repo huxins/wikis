@@ -12,6 +12,10 @@
   
 - [JESD219](https://www.jedec.org/standards-documents/docs/jesd219a)：JEDEC 耐久性工作负载。
 
+- OP：Over-provisioning，预留空间。
+
+  预留空间百分比 = （实际容量 - 用户容量）÷ 用户容量
+
 美光是<span style="color:red">闪存原厂</span>之一，同时也是<span style="color:red">内存原厂</span>三巨头之一。
 
 读取仰仗<span style="color:red">主控</span>，写入更依赖<span style="color:red">闪存</span>。

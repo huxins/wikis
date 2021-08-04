@@ -47,6 +47,10 @@ const nav = [
       {
         text: 'PC',
         link: '/Hardware/PC/'
+      },
+      {
+        text: 'Disk',
+        link: '/Hardware/Disk/'
       }
     ]
   },

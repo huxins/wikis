@@ -11,5 +11,6 @@ const Disk = [
 ]
 
 module.exports = {
-    PC
+    PC,
+    Disk
 }

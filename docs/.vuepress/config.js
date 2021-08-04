@@ -62,6 +62,7 @@ module.exports = {
       '/Software/Push/': software.Push,
       '/Software/Files/': software.Files,
       '/Hardware/PC/': hardware.PC,
+      '/Hardware/Disk/': hardware.Disk,
       '/Editor/IntelliJ IDEA/': editor.IntelliJ_IDEA,
       '/Editor/Visual Studio Code/': editor.Visual_Studio_Code,
       '/System/Proxmox VE/': [
