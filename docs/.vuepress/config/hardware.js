@@ -3,6 +3,13 @@ const PC = [
   '/Hardware/PC/Intel GPU'
 ]
 
+const Disk = [
+  '/Hardware/Disk/HDD',
+  '/Hardware/Disk/SSD',
+  '/Hardware/Disk/AS SSD Benchmark',
+  '/Hardware/Disk/CrystalDisk'
+]
+
 module.exports = {
     PC
 }
