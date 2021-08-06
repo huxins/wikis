@@ -1,6 +1,7 @@
 # fio
 
-[使用 fio 测试磁盘 I/O 性能](https://wsgzao.github.io/post/fio/)
+- [使用 fio 测试磁盘 I/O 性能](https://wsgzao.github.io/post/fio/)
+- [SSD测试第一神器——FIO](http://www.ssdfans.com/?p=6087)
 
 安装
 

@@ -6,8 +6,10 @@ const PC = [
 const Disk = [
   '/Hardware/Disk/HDD',
   '/Hardware/Disk/SSD',
+  '/Hardware/Disk/Micron',
   '/Hardware/Disk/AS SSD Benchmark',
-  '/Hardware/Disk/CrystalDisk'
+  '/Hardware/Disk/CrystalDisk',
+  '/Hardware/Disk/散热'
 ]
 
 module.exports = {
