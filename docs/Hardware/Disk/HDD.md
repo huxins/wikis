@@ -12,3 +12,5 @@ SMR：Shingled magnetic recording，叠瓦磁记录
 
 2.5 英寸消费级 CMR 的尽头是 <span style="color:red">1T 32M 7200RPM</span> 或 <span style="color:red">1.5T 32M 5400RPM</span>。
 
+- [机械硬盘选购建言](https://www.chiphell.com/thread-2293145-1-1.html)
+

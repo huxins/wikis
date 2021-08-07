@@ -7,6 +7,8 @@ const Disk = [
   '/Hardware/Disk/HDD',
   '/Hardware/Disk/SSD',
   '/Hardware/Disk/Micron',
+  '/Hardware/Disk/Samsung',
+  '/Hardware/Disk/Western Digital',
   '/Hardware/Disk/AS SSD Benchmark',
   '/Hardware/Disk/CrystalDisk',
   '/Hardware/Disk/散热'
