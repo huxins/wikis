@@ -14,7 +14,12 @@ const Disk = [
   '/Hardware/Disk/散热'
 ]
 
+const Display_device = [
+  '/Hardware/Display device/显示器支架'
+]
+
 module.exports = {
     PC,
-    Disk
+    Disk,
+    Display_device
 }
