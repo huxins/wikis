@@ -10,11 +10,11 @@
 
   预留空间百分比 = （实际容量 - 用户容量）÷ 用户容量
 
-  坏块处理。
+  坏块处理；
 
-  存储 FTL 表。
+  存储 FTL 表；
 
-  给 GC 和 Wear Levelling 留下腾挪空间。
+  给 GC 和 Wear Levelling 留下腾挪空间；
 
   减少写入放大（Write Amplification）。
 
@@ -60,5 +60,10 @@
 
 - [DWPD, TBW, PBW, GB/day Calculator](https://wintelguy.com/dwpd-tbw-gbday-calc.pl)
 - [Samsung’s V-NAND: Hitting the Reset Button on NAND Scaling](https://www.anandtech.com/show/7237/samsungs-vnand-hitting-the-reset-button-on-nand-scaling)
+- [SSD Over-Provisioning And Its Benefits](https://www.seagate.com/tw/zh/tech-insights/ssd-over-provisioning-benefits-master-ti/)
 - [StorageReview](https://www.storagereview.com/)
+- [十四款120/128GB SSD横向评测](https://www.expreview.com/19604-all.html)
+- [利用HDAT2的HPA功能划分出SSD的第3层OP](http://bbs.pceva.com.cn/thread-125114-1-1.html)
+- [用HDAT2给SSD做SE](http://bbs.pceva.com.cn/thread-96030-1-1.html)
+- [用parted magic做安全擦除](http://bbs.pceva.com.cn/thread-88688-1-1.html)
 

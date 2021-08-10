@@ -61,11 +61,13 @@ module.exports = {
       '/Software/Tomcat/': software.Tomcat,
       '/Software/Push/': software.Push,
       '/Software/Files/': software.Files,
+      '/Software/Archive file/': software.Archive_file,
       '/Hardware/PC/': hardware.PC,
       '/Hardware/Disk/': hardware.Disk,
       '/Hardware/Display device/': hardware.Display_device,
       '/Editor/IntelliJ IDEA/': editor.IntelliJ_IDEA,
       '/Editor/Visual Studio Code/': editor.Visual_Studio_Code,
+      '/Editor/Note/': editor.Note,
       '/System/Proxmox VE/': [
         'Install',
         '镜像格式',

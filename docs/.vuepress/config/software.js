@@ -69,6 +69,11 @@ const Files = [
   '/Software/Files/SSHFS'
 ]
 
+const Archive_file = [
+  '/Software/Archive file/WinRAR',
+  '/Software/Archive file/Parchive'
+]
+
 module.exports = {
     Chrome,
     Nginx,
@@ -78,5 +83,6 @@ module.exports = {
     Jenkins,
     Tomcat,
     Push,
-    Files
+    Files,
+    Archive_file
 }

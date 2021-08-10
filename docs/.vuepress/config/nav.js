@@ -38,6 +38,10 @@ const nav = [
       {
         text: 'Files',
         link: '/Software/Files/'
+      },
+      {
+        text: 'Archive file',
+        link: '/Software/Archive file/'
       }
     ]
   },
@@ -68,6 +72,10 @@ const nav = [
       {
         text: 'Visual Studio Code',
         link: '/Editor/Visual Studio Code/'
+      }
+      {
+        text: 'Note',
+        link: '/Editor/Note/'
       }
     ]
   },

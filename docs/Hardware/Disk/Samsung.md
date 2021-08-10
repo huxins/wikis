@@ -16,4 +16,5 @@
 | 14Q3 | 850 PRO     | SM871       | 32-layer MLC                       |
 | 14Q4 | 850 EVO     | PM871/CM871 | 32/48(4T)-layer TLC<br>CM871无独缓 |
 
+- [产品保修期限](https://support-cn.samsung.com/product_validation/productverification/ssd_memory.html)
 

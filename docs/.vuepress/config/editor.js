@@ -11,7 +11,12 @@ const Visual_Studio_Code = [
   'Debug'
 ]
 
+const Note = [
+  'Evernote'
+]
+
 module.exports = {
     IntelliJ_IDEA,
-    Visual_Studio_Code
+    Visual_Studio_Code,
+    Note
 }
