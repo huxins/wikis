@@ -72,7 +72,7 @@ const nav = [
       {
         text: 'Visual Studio Code',
         link: '/Editor/Visual Studio Code/'
-      }
+      },
       {
         text: 'Note',
         link: '/Editor/Note/'
