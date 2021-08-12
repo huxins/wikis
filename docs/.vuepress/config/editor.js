@@ -1,6 +1,7 @@
 const IntelliJ_IDEA = [
   'Debug',
-  '插件'
+  '插件',
+  'Version'
 ]
 
 const Visual_Studio_Code = [
@@ -11,6 +12,10 @@ const Visual_Studio_Code = [
   'Debug'
 ]
 
+const Sublime_Text_3 = [
+  '右键菜单'
+]
+
 const Note = [
   'Evernote'
 ]
@@ -18,5 +23,6 @@ const Note = [
 module.exports = {
     IntelliJ_IDEA,
     Visual_Studio_Code,
+    Sublime_Text_3,
     Note
 }

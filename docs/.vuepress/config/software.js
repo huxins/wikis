@@ -74,6 +74,10 @@ const Archive_file = [
   '/Software/Archive file/Parchive'
 ]
 
+const Util = [
+  '/Software/Util/GIF'
+]
+
 module.exports = {
     Chrome,
     Nginx,
@@ -84,5 +88,6 @@ module.exports = {
     Tomcat,
     Push,
     Files,
-    Archive_file
+    Archive_file,
+    Util
 }
