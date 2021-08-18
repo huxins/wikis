@@ -13,11 +13,17 @@ const Visual_Studio_Code = [
 ]
 
 const Sublime_Text_3 = [
-  '右键菜单'
+  '右键菜单',
+  'License',
+  '快捷键',
+  'Configuration',
+  'Package Control',
+  'Build'
 ]
 
 const Note = [
-  'Evernote'
+  'Evernote',
+  'Lepton'
 ]
 
 module.exports = {

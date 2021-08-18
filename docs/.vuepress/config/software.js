@@ -75,7 +75,8 @@ const Archive_file = [
 ]
 
 const Util = [
-  '/Software/Util/GIF'
+  '/Software/Util/GIF',
+  '/Software/Util/DiskSpace'
 ]
 
 module.exports = {

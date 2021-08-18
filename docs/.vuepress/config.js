@@ -44,10 +44,6 @@ module.exports = {
           children: application.dev
         },
         {
-          title: 'Editor',
-          children: application.editor
-        },
-        {
           title: 'Download',
           children: application.download
         }

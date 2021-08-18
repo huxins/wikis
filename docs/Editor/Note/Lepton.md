@@ -1,6 +1,6 @@
-# lepton
+# Lepton
 
-- [lepton](https://github.com/hackjutsu/Lepton)
+- [Lepton](https://github.com/hackjutsu/Lepton)
 
 在 `%HOMEPATH%` 新建 `.leptonrc`
 

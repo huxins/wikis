@@ -49,11 +49,6 @@ const dev = [
     '/Application/Device/lm-sensors'
 ]
 
-const editor = [
-    '/Application/Editor/lepton',
-    '/Application/Editor/SublimeText'
-]
-
 const download = [
     '/Application/Download/app',
     '/Application/Download/aria2',
@@ -66,6 +61,5 @@ module.exports = {
     system,
     network,
     dev,
-    editor,
     download
 }
