@@ -8,6 +8,10 @@ const nav = [
         link: '/Software/Chrome/'
       },
       {
+        text: 'SSH',
+        link: '/Software/SSH/'
+      },
+      {
         text: 'Nginx',
         link: '/Software/Nginx/'
       },

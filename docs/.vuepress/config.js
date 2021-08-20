@@ -49,6 +49,7 @@ module.exports = {
         }
       ],
       '/Software/Chrome/': software.Chrome,
+      '/Software/SSH/': software.SSH,
       '/Software/Nginx/': software.Nginx,
       '/Software/Traffic Server/': software.Traffic_Server,
       '/Software/Git/': software.Git,

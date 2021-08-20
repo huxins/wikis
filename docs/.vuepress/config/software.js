@@ -2,6 +2,12 @@ const Chrome = [
   '/Software/Chrome/Port'
 ]
 
+const SSH = [
+  '/Software/SSH/Login',
+  '/Software/SSH/ssh_config',
+  '/Software/SSH/ssh-keygen'
+]
+
 const Nginx = [
   '/Software/Nginx/Install',
   '/Software/Nginx/Modules',
@@ -81,6 +87,7 @@ const Util = [
 
 module.exports = {
     Chrome,
+    SSH,
     Nginx,
     Traffic_Server,
     Git,
