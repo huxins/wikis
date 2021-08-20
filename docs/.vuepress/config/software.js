@@ -11,6 +11,10 @@ const SSH = [
   '/Software/SSH/ssh-keygen'
 ]
 
+const Network = [
+  '/Software/Network/frp'
+]
+
 const Nginx = [
   '/Software/Nginx/Install',
   '/Software/Nginx/Modules',
@@ -91,6 +95,7 @@ const Util = [
 module.exports = {
     Chrome,
     SSH,
+    Network,
     Nginx,
     Traffic_Server,
     Git,

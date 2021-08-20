@@ -24,7 +24,6 @@ const system = [
 ]
 
 const network = [
-    '/Application/Network/frp',
     '/Application/Network/DNS',
     '/Application/Network/SNI',
     '/Application/Network/SSR',

@@ -12,6 +12,10 @@ const nav = [
         link: '/Software/SSH/'
       },
       {
+        text: 'Network',
+        link: '/Software/Network/'
+      },
+      {
         text: 'Nginx',
         link: '/Software/Nginx/'
       },
