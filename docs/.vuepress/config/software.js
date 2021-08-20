@@ -3,8 +3,11 @@ const Chrome = [
 ]
 
 const SSH = [
+  '/Software/SSH/Install',
   '/Software/SSH/Login',
+  '/Software/SSH/Agent',
   '/Software/SSH/ssh_config',
+  '/Software/SSH/sshd_config',
   '/Software/SSH/ssh-keygen'
 ]
 
