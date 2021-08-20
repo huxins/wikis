@@ -1,7 +1,6 @@
 # frp
 
 - [frp](https://github.com/fatedier/frp)
-- [开机启动和后台运行](https://github.com/fatedier/frp/issues/176)
 
 ## frps
 
