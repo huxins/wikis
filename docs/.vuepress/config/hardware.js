@@ -1,6 +1,7 @@
 const PC = [
   '/Hardware/PC/梅捷 H410',
-  '/Hardware/PC/Intel GPU'
+  '/Hardware/PC/Intel GPU',
+  '/Hardware/PC/HP OMEN 15-ax219TX'
 ]
 
 const Disk = [
