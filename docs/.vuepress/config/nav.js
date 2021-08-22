@@ -4,8 +4,8 @@ const nav = [
     text: 'Software',
     items: [
       {
-        text: 'Chrome',
-        link: '/Software/Chrome/'
+        text: 'Chromium',
+        link: '/Software/Chromium/'
       },
       {
         text: 'SSH',

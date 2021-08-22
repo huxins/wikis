@@ -1,5 +1,6 @@
-const Chrome = [
-  '/Software/Chrome/Port'
+const Chromium = [
+  '/Software/Chromium/Command Line Switches',
+  '/Software/Chromium/SwitchyOmega'
 ]
 
 const SSH = [
@@ -93,7 +94,7 @@ const Util = [
 ]
 
 module.exports = {
-    Chrome,
+    Chromium,
     SSH,
     Network,
     Nginx,
