@@ -1,5 +1,6 @@
 # Samsung
 
+- [860 EVO DataSheet](https://www.samsung.com/semiconductor/global.semi.static/Samsung_SSD_860_EVO_Data_Sheet_Rev1.pdf)
 - 命名规则：PM981 SM841
 
   P：TLC，S：MLC

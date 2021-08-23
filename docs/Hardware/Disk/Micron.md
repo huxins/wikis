@@ -1,6 +1,7 @@
 # Micron
 
 - [Crucial Storage Executive](https://www.crucial.com/support/storage-executive)
+- [MX500 DataSheet](https://www.crucial.cn/content/dam/crucial/ssd-products/mx500/flyer/crucial-mx500-ssd-productflyer-zh.pdf)
 
 美光是<span style="color:red">闪存原厂</span>之一，同时也是<span style="color:red">内存原厂</span>三巨头之一。
 
