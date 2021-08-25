@@ -1,8 +1,6 @@
 # SSD
 
-- 闪存原厂：三星、铠侠、西数、美光、Intel、SK Hynix。
-
-- DRAM：主要用来存储 FTL 表，小文件临时存放缓存，可以减少持续写入，增加产品使用寿命。
+- DRAM：存储 FTL 表，小文件中转站。
 
 - SLC Cache：主控会将一部分单元“降级”为 SLC，每个单元仅存储 1bit 的单元，这种分配技术，就叫 SLC 缓存。
 
@@ -62,6 +60,7 @@
 - [Samsung’s V-NAND: Hitting the Reset Button on NAND Scaling](https://www.anandtech.com/show/7237/samsungs-vnand-hitting-the-reset-button-on-nand-scaling)
 - [SSD Over-Provisioning And Its Benefits](https://www.seagate.com/tw/zh/tech-insights/ssd-over-provisioning-benefits-master-ti/)
 - [StorageReview](https://www.storagereview.com/)
+- [TechPowerUp](https://www.techpowerup.com/review/?category=SSD)
 - [十四款120/128GB SSD横向评测](https://www.expreview.com/19604-all.html)
 - [利用HDAT2的HPA功能划分出SSD的第3层OP](http://bbs.pceva.com.cn/thread-125114-1-1.html)
 - [用HDAT2给SSD做SE](http://bbs.pceva.com.cn/thread-96030-1-1.html)
