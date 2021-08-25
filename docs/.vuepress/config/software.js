@@ -1,6 +1,7 @@
 const Chromium = [
   '/Software/Chromium/Command Line Switches',
-  '/Software/Chromium/SwitchyOmega'
+  '/Software/Chromium/Extensions',
+  '/Software/Chromium/AutoProxy'
 ]
 
 const SSH = [
