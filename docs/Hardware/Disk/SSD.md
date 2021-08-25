@@ -58,9 +58,12 @@
 
 - [DWPD, TBW, PBW, GB/day Calculator](https://wintelguy.com/dwpd-tbw-gbday-calc.pl)
 - [Samsung’s V-NAND: Hitting the Reset Button on NAND Scaling](https://www.anandtech.com/show/7237/samsungs-vnand-hitting-the-reset-button-on-nand-scaling)
+- [128 层 3D 堆叠闪存大比拼](http://bbs.pceva.com.cn/thread-145007-1-1.html)
 - [SSD Over-Provisioning And Its Benefits](https://www.seagate.com/tw/zh/tech-insights/ssd-over-provisioning-benefits-master-ti/)
 - [StorageReview](https://www.storagereview.com/)
 - [TechPowerUp](https://www.techpowerup.com/review/?category=SSD)
+- [Tom's Hardware](https://www.tomshardware.com/)
+- [TechInsights](https://www.techinsights.com/)
 - [十四款120/128GB SSD横向评测](https://www.expreview.com/19604-all.html)
 - [利用HDAT2的HPA功能划分出SSD的第3层OP](http://bbs.pceva.com.cn/thread-125114-1-1.html)
 - [用HDAT2给SSD做SE](http://bbs.pceva.com.cn/thread-96030-1-1.html)
