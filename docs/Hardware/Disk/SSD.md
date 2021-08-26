@@ -2,19 +2,19 @@
 
 - DRAM：存储 FTL 表，小文件中转站。
 
-- SLC Cache：主控会将一部分单元“降级”为 SLC，每个单元仅存储 1bit 的单元，这种分配技术，就叫 SLC 缓存。
+- SLC Cache：主控会将一部分单元 “降级” 为 SLC，每个单元仅存储 1bit 的单元，这种分配技术，就叫 SLC 缓存。
 
 - OP：Over-provisioning，预留空间。
 
-  预留空间百分比 = （实际容量 - 用户容量）÷ 用户容量
+  - 预留空间百分比 = （实际容量 - 用户容量）÷ 用户容量
 
-  坏块处理；
+  - 坏块处理
 
-  存储 FTL 表；
+  - 存储 FTL 表
 
-  给 GC 和 Wear Levelling 留下腾挪空间；
+  - 给 GC 和 Wear Levelling 留下腾挪空间
 
-  减少写入放大（Write Amplification）。
+  - 减少写入放大（Write Amplification）
 
 - Wear Levelling：寿命均衡，由 FTL 保证，不会被逻辑块的区隔所影响。
 
@@ -22,17 +22,15 @@
 
 - DWPD：硬盘每天写入。
 
-  DWPD 中的耐用性 = PBW ÷ 额定驱动器密度 ÷ 5（保修期内年份）÷ 365（每年天）
-  
-- [JESD219](https://www.jedec.org/standards-documents/docs/jesd219a)：JEDEC 耐久性工作负载。
+  - DWPD 中的耐用性 = PBW ÷ 额定驱动器密度 ÷ 5（保修期内年份）÷ 365（每年天）
   
 - Package：Chip，即 Flash 芯片。
 
 - Die：一个 NAND 颗粒由一颗或多颗 Die 封装而成，这种封装可是平排的，也可以是层叠的。
 
-  Die 内部可以通过 3D 堆叠技术扩展容量，譬如三星的 V-NAND。
+  - Die 内部可以通过 3D 堆叠技术扩展容量。
   
-  Die 也是可以单独执行命令和返回状态的最小单位。
+  - Die 是可以单独执行命令和返回状态的最小单位。
   
 - Plane：一个 Die 可以包含几个 Plane。
 
@@ -50,7 +48,9 @@
 
 - FTL：逻辑 Block 地址（LBA，logical block addresses）和物理 Block 地址（PBA，physical block addresses）的对应关系。
 
-  page-level mapping，block-level mapping，log-block mapping
+  - page-level mapping
+  - block-level mapping
+  - log-block mapping
 
 - 读取仰仗<span style="color:red">主控</span>，写入更依赖<span style="color:red">闪存</span>。
 
