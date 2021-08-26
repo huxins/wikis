@@ -29,7 +29,11 @@ M：非零售盘
 - [860 EVO 1TB 拆解图](https://tieba.baidu.com/p/6402884949) [镜像](https://tieba.baidu.com/p/7382196117)
 - [探究 860 EVO / 970 EVO 不为人知的秘密问题](https://web.archive.org/web/20190901061530/tieba.baidu.com/p/5725633629) [镜像](https://tieba.baidu.com/p/5946827759)
 
-| 产品    | 型号  | 主控 | 闪存                                  | SLC Cache | DRAM         |
-| ------- | ----- | ---- | ------------------------------------- | --------- | ------------ |
-| 860 EVO | 250GB | MJX  | 64-layer TLC<br>2 128GB<br>256Gib/Die | 12GB      | 512MB LPDDR4 |
+| 产品    | 型号  | 主控 | 闪存                                   | SLC Cache | DRAM         |
+| ------- | ----- | ---- | -------------------------------------- | --------- | ------------ |
+| 860 EVO | 250GB | MJX  | 64-layer TLC<br>2 128GiB<br>256Gib/Die | 12GB      | 512MB LPDDR4 |
+
+- 970 Evo Plus 固件号开头
+  - 2B 国产 横包 PHOENIX 42G SLC
+  - 3B 韩产 竖包 ELPIS 118G SLC
 

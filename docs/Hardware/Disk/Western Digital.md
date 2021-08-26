@@ -7,7 +7,11 @@
 | SA530 | 1TB  | 88SS1074 | 16nm 96-layer 3D TLC 闪迪<br>2 256GB | 6GB<br>积极回收 | 512M<br>DDR3-1600<br>南亚 |
 
 - [SanDisk 售后维修记录](https://www.chiphell.com/thread-2226017-1-1.html)
-- 冷数据固件版本
+- Ultra 3D
 
-  异常：40，正常：41，X
+  - 异常 40
+  - 正常 41 X
+- SN550
+  - 23 缓外减半
+  - 21 缓外 800
 
