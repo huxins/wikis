@@ -12,7 +12,7 @@ const Disk = [
   '/Hardware/Disk/Samsung',
   '/Hardware/Disk/Western Digital',
   '/Hardware/Disk/AS SSD Benchmark',
-  '/Hardware/Disk/CrystalDisk',
+  '/Hardware/Disk/CrystalDiskMark',
   '/Hardware/Disk/散热'
 ]
 

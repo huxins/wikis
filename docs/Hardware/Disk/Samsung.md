@@ -37,3 +37,7 @@ M：非零售盘
   - 2B 国产 横包 PHOENIX 42G SLC
   - 3B 韩产 竖包 ELPIS 118G SLC
 
+- PM9A1
+  - DELL 1.8A 3.0 RW3500
+  - 2.9A 4.0
+

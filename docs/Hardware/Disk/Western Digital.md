@@ -2,9 +2,9 @@
 
 - [SanDisk Ultra 3D DataSheet](https://documents.westerndigital.com/content/dam/doc-library/en_us/assets/public/sandisk/product/internal-drives/ultra-3d-sata-iii-ssd/datasheet-ultra-3d-sata-iii-ssd.pdf)
 
-| 产品  | 型号 | 主控     | 闪存                                 | SLC Cache       | 缓存                      |
-| ----- | ---- | -------- | ------------------------------------ | --------------- | ------------------------- |
-| SA530 | 1TB  | 88SS1074 | 16nm 96-layer 3D TLC 闪迪<br>2 256GB | 6GB<br>积极回收 | 512M<br>DDR3-1600<br>南亚 |
+| 产品  | 型号  | 主控     | 闪存                    | SLC Cache | 缓存                |
+| ----- | ----- | -------- | ----------------------- | --------- | ------------------- |
+| SA530 | 512GB | 88SS1074 | 96-layer TLC<br>2 256GB | 6GB       | 512M DDR3-1600 南亚 |
 
 - [SanDisk 售后维修记录](https://www.chiphell.com/thread-2226017-1-1.html)
 - Ultra 3D
@@ -14,4 +14,8 @@
 - SN550
   - 23 缓外减半
   - 21 缓外 800
+
+| 产品  | 型号  | 缓外 | 主控     | 闪存                     | SLC Cache | 缓存                |
+| ----- | ----- | ---- | -------- | ------------------------ | --------- | ------------------- |
+| SN730 | 512GB | 1GB  | 88SS1100 | 96-layer TLC<br/>2 256GB | 6GB       | 512M DDR3-1866 三星 |
 
