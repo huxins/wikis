@@ -4,6 +4,7 @@
 - [SamsungSSD 有限保修](https://www.samsung.com/semiconductor/global.semi.static/SAMSUNG_SSD_Limited_Warranty_Chinese_simplifed.pdf)
 - [Samsung Magician Software](https://www.samsung.com/semiconductor/minisite/ssd/download/tools/#ge_semi_anchor_stand1)
 - [860 EVO DataSheet](https://www.samsung.com/semiconductor/global.semi.static/Samsung_SSD_860_EVO_Data_Sheet_Rev1.pdf)
+- [NVMe Solid State Drive Firmware Update Utility](https://support.lenovo.com/us/en/downloads/ds119265)
 
 命名规则：PM981 SM841
 

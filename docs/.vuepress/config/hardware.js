@@ -13,7 +13,8 @@ const Disk = [
   '/Hardware/Disk/Western Digital',
   '/Hardware/Disk/AS SSD Benchmark',
   '/Hardware/Disk/CrystalDiskMark',
-  '/Hardware/Disk/散热'
+  '/Hardware/Disk/散热',
+  '/Hardware/Disk/NVMe RAID Controller'
 ]
 
 const Display_device = [
