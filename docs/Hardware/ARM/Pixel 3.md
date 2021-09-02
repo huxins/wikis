@@ -45,11 +45,10 @@ $ adb pull /sdcard/Download/Magisk-xxx.img
 $ fastboot boot Magisk-xxx.img
 ```
 
-##  A/B 更新
+##  A/B System Updates
 
 ```sh
 $ fastboot --set-active=a
 $ fastboot flash boot boot.img
 ```
-
 
