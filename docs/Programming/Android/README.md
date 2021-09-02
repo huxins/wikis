@@ -1,5 +1,7 @@
 # Android
 
+- [SDK Platform Tools](https://developer.android.com/studio/releases/platform-tools)
+
 ## Notes
 
 - [LearningNotes](https://github.com/francistao/LearningNotes)

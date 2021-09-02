@@ -21,8 +21,13 @@ const Display_device = [
   '/Hardware/Display device/显示器支架'
 ]
 
+const ARM = [
+  '/Hardware/ARM/Pixel 3'
+]
+
 module.exports = {
     PC,
     Disk,
-    Display_device
+    Display_device,
+    ARM
 }
