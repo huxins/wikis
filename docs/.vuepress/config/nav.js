@@ -69,8 +69,8 @@ const nav = [
         link: '/Hardware/Disk/'
       },
       {
-        text: 'Display device',
-        link: '/Hardware/Display device/'
+        text: 'Display',
+        link: '/Hardware/Display/'
       },
       {
         text: 'ARM',

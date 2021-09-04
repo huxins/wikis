@@ -63,7 +63,7 @@ module.exports = {
       '/Software/Util/': software.Util,
       '/Hardware/PC/': hardware.PC,
       '/Hardware/Disk/': hardware.Disk,
-      '/Hardware/Display device/': hardware.Display_device,
+      '/Hardware/Display/': hardware.Display,
       '/Hardware/ARM/': hardware.ARM,
       '/Editor/IntelliJ IDEA/': editor.IntelliJ_IDEA,
       '/Editor/Visual Studio Code/': editor.Visual_Studio_Code,
