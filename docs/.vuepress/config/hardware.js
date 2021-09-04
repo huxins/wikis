@@ -18,7 +18,8 @@ const Disk = [
 ]
 
 const Display = [
-  '/Hardware/Display device/显示器支架'
+  '/Hardware/Display/显示器支架',
+  '/Hardware/Display/Dell'
 ]
 
 const ARM = [
