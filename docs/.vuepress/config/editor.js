@@ -23,6 +23,7 @@ const Sublime_Text_3 = [
 
 const Note = [
   'Evernote',
+  'WPS Office',
   'Lepton'
 ]
 
