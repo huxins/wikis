@@ -118,7 +118,18 @@ const nav = [
   },
   { text: 'Linux', link: '/Linux/' },
   { text: 'Database', link: '/Database/' },
-  { text: 'DevOps', link: '/DevOps/' },
+  { text: 'DevOps',
+    items: [
+      {
+        text: 'Docker',
+        link: '/DevOps/Docker/'
+      },
+      {
+        text: 'Tool',
+        link: '/DevOps/Tool/'
+      }
+    ]
+  },
   {
     text: 'Programming',
     items: [

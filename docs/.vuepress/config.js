@@ -130,12 +130,8 @@ module.exports = {
           children: database.redis
         }
       ],
-      '/DevOps/': [
-        {
-          title: 'Tool',
-          children: devops.tool
-        }
-      ],
+      '/DevOps/Docker/': devops.Docker,
+      '/DevOps/Tool/': devops.Tool,
       '/Programming/Android/': [
       ],
       '/Programming/Java/': programming.Java,
