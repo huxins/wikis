@@ -2,7 +2,8 @@ const PC = [
   '/Hardware/PC/梅捷 H410',
   '/Hardware/PC/Intel GPU',
   '/Hardware/PC/HP OMEN 15-ax219TX',
-  '/Hardware/PC/Dell'
+  '/Hardware/PC/Dell',
+  '/Hardware/PC/显示器'
 ]
 
 const Disk = [
@@ -17,11 +18,6 @@ const Disk = [
   '/Hardware/Disk/NVMe RAID Controller'
 ]
 
-const Display = [
-  '/Hardware/Display/显示器支架',
-  '/Hardware/Display/Dell'
-]
-
 const ARM = [
   '/Hardware/ARM/Pixel 3'
 ]
@@ -29,6 +25,5 @@ const ARM = [
 module.exports = {
     PC,
     Disk,
-    Display,
     ARM
 }

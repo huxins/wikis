@@ -1,4 +1,0 @@
-# Dell
-
-- [戴尔显示器类型](https://www.dell.com/support/kbdoc/en-us/000131468/identifying-dell-monitor-types-by-their-model-number)
-
