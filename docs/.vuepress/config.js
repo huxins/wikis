@@ -78,6 +78,7 @@ module.exports = {
         'eSir'
       ],
       '/System/Debian/': [
+        '软件包管理'
       ],
       '/System/Windows/': [
         '启动方式',

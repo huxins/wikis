@@ -1,7 +1,7 @@
 const nav = [
-  { text: 'Application', link: '/Application/' },
+  { text: '应用', link: '/Application/' },
   {
-    text: 'Software',
+    text: '软件',
     items: [
       {
         text: 'Chromium',
@@ -58,7 +58,7 @@ const nav = [
     ]
   },
   {
-    text: 'Hardware',
+    text: '硬件',
     items: [
       {
         text: 'PC',
@@ -75,7 +75,7 @@ const nav = [
     ]
   },
   {
-    text: 'Editor',
+    text: '编辑器',
     items: [
       {
         text: 'IntelliJ IDEA',
@@ -96,7 +96,7 @@ const nav = [
     ]
   },
   {
-    text: 'System',
+    text: '操作系统',
     items: [
       {
         text: 'Proxmox VE',
@@ -117,7 +117,7 @@ const nav = [
     ]
   },
   { text: 'Linux', link: '/Linux/' },
-  { text: 'Database', link: '/Database/' },
+  { text: '数据库', link: '/Database/' },
   { text: 'DevOps',
     items: [
       {
@@ -131,7 +131,7 @@ const nav = [
     ]
   },
   {
-    text: 'Programming',
+    text: '程序',
     items: [
       {
         text: 'Skill',
