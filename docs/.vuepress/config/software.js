@@ -14,7 +14,8 @@ const SSH = [
 ]
 
 const Network = [
-  '/Software/Network/frp'
+  '/Software/Network/frp',
+  '/Software/Network/Srelay'
 ]
 
 const Nginx = [
