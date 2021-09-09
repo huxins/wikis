@@ -155,6 +155,7 @@ module.exports = {
         'Fonts',
         'Text'
       ],
+      '/Programming/Regular expression/': programming.Regular_expression,
       '/Framework/Bootstrap/': framework.Bootstrap,
       '/Framework/jQuery/': framework.jQuery,
       '/Framework/Select2/': framework.Select2,

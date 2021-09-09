@@ -168,6 +168,10 @@ const nav = [
       {
         text: 'HTML',
         link: '/Programming/HTML/'
+      },
+      {
+        text: '正则表达式',
+        link: '/Programming/Regular expression/'
       }
     ]
   },
