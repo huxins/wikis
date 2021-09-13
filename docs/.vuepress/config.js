@@ -50,7 +50,6 @@ module.exports = {
       ],
       '/Software/Chromium/': software.Chromium,
       '/Software/SSH/': software.SSH,
-      '/Software/Network/': software.Network,
       '/Software/Nginx/': software.Nginx,
       '/Software/Traffic Server/': software.Traffic_Server,
       '/Software/Git/': software.Git,
@@ -132,6 +131,7 @@ module.exports = {
         }
       ],
       '/DevOps/Docker/': devops.Docker,
+      '/DevOps/网络代理/': devops.网络代理,
       '/DevOps/Tool/': devops.Tool,
       '/Programming/Android/': [
       ],

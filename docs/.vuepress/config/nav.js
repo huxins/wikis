@@ -12,10 +12,6 @@ const nav = [
         link: '/Software/SSH/'
       },
       {
-        text: 'Network',
-        link: '/Software/Network/'
-      },
-      {
         text: 'Nginx',
         link: '/Software/Nginx/'
       },
@@ -61,7 +57,7 @@ const nav = [
     text: '硬件',
     items: [
       {
-        text: 'PC',
+        text: '电脑',
         link: '/Hardware/PC/'
       },
       {
@@ -123,6 +119,10 @@ const nav = [
       {
         text: 'Docker',
         link: '/DevOps/Docker/'
+      },
+      {
+        text: '网络代理',
+        link: '/DevOps/网络代理/'
       },
       {
         text: 'Tool',

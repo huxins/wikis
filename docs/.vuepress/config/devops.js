@@ -9,6 +9,11 @@ const Docker = [
     '/DevOps/Docker/issues'
 ]
 
+const 网络代理 = [
+  '/DevOps/网络代理/frp',
+  '/DevOps/网络代理/Srelay'
+]
+
 const Tool = [
     '/DevOps/Tool/prometheus',
     '/DevOps/Tool/netdata'
@@ -16,5 +21,6 @@ const Tool = [
 
 module.exports = {
     Docker,
+    网络代理,
     Tool
 }
