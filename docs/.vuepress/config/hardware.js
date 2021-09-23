@@ -22,8 +22,15 @@ const ARM = [
   '/Hardware/ARM/Pixel 3'
 ]
 
+const 配件 = [
+  '/Hardware/配件/适配器',
+  '/Hardware/配件/数据线',
+  '/Hardware/配件/快充协议'
+]
+
 module.exports = {
     PC,
     Disk,
-    ARM
+    ARM,
+    配件
 }

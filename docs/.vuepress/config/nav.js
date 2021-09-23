@@ -67,6 +67,10 @@ const nav = [
       {
         text: 'ARM',
         link: '/Hardware/ARM/'
+      },
+      {
+        text: '配件',
+        link: '/Hardware/配件/'
       }
     ]
   },

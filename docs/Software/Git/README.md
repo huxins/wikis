@@ -31,3 +31,4 @@ test: 增加或修改测试用例
 chore: 其他修改，改变构建流程、或者增加依赖库、工具等
 ```
 
+sub-branches rebase on master, master merges sub-branches.

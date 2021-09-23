@@ -63,6 +63,7 @@ module.exports = {
       '/Hardware/PC/': hardware.PC,
       '/Hardware/Disk/': hardware.Disk,
       '/Hardware/ARM/': hardware.ARM,
+      '/Hardware/配件/': hardware.配件,
       '/Editor/IntelliJ IDEA/': editor.IntelliJ_IDEA,
       '/Editor/Visual Studio Code/': editor.Visual_Studio_Code,
       '/Editor/Sublime Text 3/': editor.Sublime_Text_3,
