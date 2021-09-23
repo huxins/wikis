@@ -60,7 +60,7 @@ module.exports = {
       '/Software/Files/': software.Files,
       '/Software/Archive file/': software.Archive_file,
       '/Software/Util/': software.Util,
-      '/Hardware/PC/': hardware.PC,
+      '/Hardware/电脑/': hardware.电脑,
       '/Hardware/Disk/': hardware.Disk,
       '/Hardware/ARM/': hardware.ARM,
       '/Hardware/配件/': hardware.配件,

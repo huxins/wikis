@@ -1,9 +1,9 @@
-const PC = [
-  '/Hardware/PC/梅捷 H410',
-  '/Hardware/PC/Intel GPU',
-  '/Hardware/PC/HP OMEN 15-ax219TX',
-  '/Hardware/PC/Dell',
-  '/Hardware/PC/显示器'
+const 电脑 = [
+  '/Hardware/电脑/梅捷 H410',
+  '/Hardware/电脑/Intel GPU',
+  '/Hardware/电脑/惠普',
+  '/Hardware/电脑/戴尔',
+  '/Hardware/电脑/显示器'
 ]
 
 const Disk = [
@@ -29,7 +29,7 @@ const 配件 = [
 ]
 
 module.exports = {
-    PC,
+    电脑,
     Disk,
     ARM,
     配件

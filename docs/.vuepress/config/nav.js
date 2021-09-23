@@ -58,7 +58,7 @@ const nav = [
     items: [
       {
         text: '电脑',
-        link: '/Hardware/PC/'
+        link: '/Hardware/电脑/'
       },
       {
         text: 'Disk',
