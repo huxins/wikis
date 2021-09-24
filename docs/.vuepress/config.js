@@ -62,7 +62,7 @@ module.exports = {
       '/Software/Util/': software.Util,
       '/Hardware/电脑/': hardware.电脑,
       '/Hardware/Disk/': hardware.Disk,
-      '/Hardware/ARM/': hardware.ARM,
+      '/Hardware/手机/': hardware.手机,
       '/Hardware/配件/': hardware.配件,
       '/Editor/IntelliJ IDEA/': editor.IntelliJ_IDEA,
       '/Editor/Visual Studio Code/': editor.Visual_Studio_Code,

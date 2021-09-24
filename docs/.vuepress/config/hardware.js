@@ -18,8 +18,10 @@ const Disk = [
   '/Hardware/Disk/NVMe RAID Controller'
 ]
 
-const ARM = [
-  '/Hardware/ARM/Pixel 3'
+const 手机 = [
+  '/Hardware/手机/Pixel 3',
+  '/Hardware/手机/iPhone X',
+  '/Hardware/手机/Mate 30'
 ]
 
 const 配件 = [
@@ -31,6 +33,6 @@ const 配件 = [
 module.exports = {
     电脑,
     Disk,
-    ARM,
+    手机,
     配件
 }
