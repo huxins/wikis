@@ -48,8 +48,8 @@ const nav = [
         link: '/Software/Archive file/'
       },
       {
-        text: 'Util',
-        link: '/Software/Util/'
+        text: '工具',
+        link: '/Software/工具/'
       }
     ]
   },

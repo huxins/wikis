@@ -59,7 +59,7 @@ module.exports = {
       '/Software/Push/': software.Push,
       '/Software/Files/': software.Files,
       '/Software/Archive file/': software.Archive_file,
-      '/Software/Util/': software.Util,
+      '/Software/工具/': software.工具,
       '/Hardware/电脑/': hardware.电脑,
       '/Hardware/Disk/': hardware.Disk,
       '/Hardware/手机/': hardware.手机,

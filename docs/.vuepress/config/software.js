@@ -85,9 +85,10 @@ const Archive_file = [
   '/Software/Archive file/Parchive'
 ]
 
-const Util = [
-  '/Software/Util/GIF',
-  '/Software/Util/DiskSpace'
+const 工具 = [
+  '/Software/工具/GIF',
+  '/Software/工具/DiskSpace',
+  '/Software/工具/系统增强'
 ]
 
 module.exports = {
@@ -102,5 +103,5 @@ module.exports = {
     Push,
     Files,
     Archive_file,
-    Util
+    工具
 }
