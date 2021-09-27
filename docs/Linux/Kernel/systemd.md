@@ -11,5 +11,10 @@ DefaultLimitNPROC=65535
 LimitCORE=infinity
 LimitNOFILE=65535
 LimitNPROC=65535
+
+# 该服务仅可以使用哪些capabilities
+CapabilityBoundingSet=CAP_NET_BIND_SERVICE CAP_NET_RAW
+# 该服务添加哪些capabilities
+# AmbientCapabilities=CAP_NET_BIND_SERVICE
 ```
 

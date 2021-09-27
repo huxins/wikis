@@ -2,7 +2,7 @@
 
 - [Srelay](https://socks-relay.sourceforge.io/)
 
-## Make
+## 编译
 
 ```sh
 $ wget https://downloads.sourceforge.net/project/socks-relay/socks-relay/srelay-0.4.8/srelay-0.4.8p3.tar.gz
@@ -12,9 +12,9 @@ $ ./configure
 $ make
 ```
 
-## Documents
+## 配置
 
-- SOCKS server
+- socks5 server
 
 ```sh
 $ cat << EOF > /etc/srelay.conf

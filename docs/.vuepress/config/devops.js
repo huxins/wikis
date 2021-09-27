@@ -11,7 +11,8 @@ const Docker = [
 
 const 网络代理 = [
   '/DevOps/网络代理/frp',
-  '/DevOps/网络代理/Srelay'
+  '/DevOps/网络代理/Srelay',
+  '/DevOps/网络代理/V2Ray'
 ]
 
 const Tool = [

@@ -28,7 +28,6 @@ const network = [
     '/Application/Network/SNI',
     '/Application/Network/SSR',
     '/Application/Network/Trojan',
-    '/Application/Network/V2Ray',
     '/Application/Network/Clash',
     '/Application/Network/VPN',
     '/Application/Network/ocserv',
