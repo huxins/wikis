@@ -86,8 +86,8 @@ const Archive_file = [
 ]
 
 const 系统工具 = [
-  '/Software/系统工具/GIF',
   '/Software/系统工具/Media Preview',
+  '/Software/系统工具/Icaros',
   '/Software/系统工具/DisplayFusion'
 ]
 
