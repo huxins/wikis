@@ -54,6 +54,10 @@ const nav = [
       {
         text: '磁盘工具',
         link: '/Software/磁盘工具/'
+      },
+      {
+        text: '图像工具',
+        link: '/Software/图像工具/'
       }
     ]
   },

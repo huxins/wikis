@@ -98,6 +98,10 @@ const 磁盘工具 = [
   '/Software/磁盘工具/SpaceSniffer'
 ]
 
+const 图像工具 = [
+  '/Software/图像工具/GifCam'
+]
+
 module.exports = {
     Chromium,
     SSH,
@@ -111,5 +115,6 @@ module.exports = {
     Files,
     Archive_file,
     系统工具,
-    磁盘工具
+    磁盘工具,
+    图像工具
 }
