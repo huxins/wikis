@@ -62,6 +62,7 @@ module.exports = {
       '/Software/系统工具/': software.系统工具,
       '/Software/磁盘工具/': software.磁盘工具,
       '/Software/图像工具/': software.图像工具,
+      '/Software/视频工具/': software.视频工具,
       '/Hardware/电脑/': hardware.电脑,
       '/Hardware/Disk/': hardware.Disk,
       '/Hardware/手机/': hardware.手机,

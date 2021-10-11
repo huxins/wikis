@@ -102,6 +102,10 @@ const 图像工具 = [
   '/Software/图像工具/GifCam'
 ]
 
+const 视频工具 = [
+  '/Software/视频工具/MKVToolNix'
+]
+
 module.exports = {
     Chromium,
     SSH,
@@ -116,5 +120,6 @@ module.exports = {
     Archive_file,
     系统工具,
     磁盘工具,
-    图像工具
+    图像工具,
+    视频工具
 }

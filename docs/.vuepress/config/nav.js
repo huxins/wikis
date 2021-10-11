@@ -58,6 +58,10 @@ const nav = [
       {
         text: '图像工具',
         link: '/Software/图像工具/'
+      },
+      {
+        text: '视频工具',
+        link: '/Software/视频工具/'
       }
     ]
   },
