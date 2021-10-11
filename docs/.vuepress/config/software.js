@@ -91,6 +91,10 @@ const 工具 = [
   '/Software/工具/系统增强'
 ]
 
+const 磁盘工具 = [
+  '/Software/磁盘工具/TrimCheck'
+]
+
 module.exports = {
     Chromium,
     SSH,
@@ -103,5 +107,6 @@ module.exports = {
     Push,
     Files,
     Archive_file,
-    工具
+    工具,
+    磁盘工具
 }

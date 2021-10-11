@@ -50,6 +50,10 @@ const nav = [
       {
         text: '工具',
         link: '/Software/工具/'
+      },
+      {
+        text: '磁盘工具',
+        link: '/Software/磁盘工具/'
       }
     ]
   },
