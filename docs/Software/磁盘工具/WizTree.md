@@ -1,0 +1,13 @@
+# WizTree
+
+- [WizTree](https://www.diskanalyzer.com/)
+
+```
+文件: wiztree_4_01_portable.zip
+大小: 6414009
+MD5: 26BDD5051C3E291F0C016C984F5DA0E9
+SHA1: 5959A09EB6E992008934133B19E65B34A3AAF5D9
+CRC32: C664621C
+ed2k://|file|wiztree_4_01_portable.zip|6414009|35782E7B05B7075595B2BAA3DA32567B|/
+```
+

@@ -87,13 +87,15 @@ const Archive_file = [
 
 const 系统工具 = [
   '/Software/系统工具/GIF',
-  '/Software/系统工具/DiskSpace',
   '/Software/系统工具/Media Preview',
   '/Software/系统工具/DisplayFusion'
 ]
 
 const 磁盘工具 = [
-  '/Software/磁盘工具/TrimCheck'
+  '/Software/磁盘工具/TrimCheck',
+  '/Software/磁盘工具/WizTree',
+  '/Software/磁盘工具/TreeSize Free',
+  '/Software/磁盘工具/SpaceSniffer'
 ]
 
 module.exports = {
