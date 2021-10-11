@@ -1,6 +1,4 @@
-# 系统增强
-
-## Media Preview
+# Media Preview
 
 - [Media Preview](http://www.babelsoft.net/products/mediapreview.htm)
 
@@ -11,17 +9,6 @@
 MD5: 7DAE2FC67AB438267F62518E4F41AB0B
 SHA1: B110086B9746940CEFB442AAA5986D9157D5BF7D
 CRC32: DFE18A09
-```
-
-## DisplayFusion
-
-- [DisplayFusion](https://www.displayfusion.com/)
-
-```
-文件: DisplayFusion-9.8.zip
-大小: 135939491
-MD5: 2925D2FA8BA1D2A215B8E7B7FDB2E775
-SHA1: 5F4B8D51FDA90D85A47A7825214489AED7E25CCF
-CRC32: A278E562
+ed2k://|file|MediaPreviewSetup-1.4.3.429.sfx.exe|15438021|7B65400544973B3C97BDCD90E7715BDD|/
 ```
 

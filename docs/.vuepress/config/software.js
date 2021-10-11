@@ -85,10 +85,11 @@ const Archive_file = [
   '/Software/Archive file/Parchive'
 ]
 
-const 工具 = [
-  '/Software/工具/GIF',
-  '/Software/工具/DiskSpace',
-  '/Software/工具/系统增强'
+const 系统工具 = [
+  '/Software/系统工具/GIF',
+  '/Software/系统工具/DiskSpace',
+  '/Software/系统工具/Media Preview',
+  '/Software/系统工具/DisplayFusion'
 ]
 
 const 磁盘工具 = [
@@ -107,6 +108,6 @@ module.exports = {
     Push,
     Files,
     Archive_file,
-    工具,
+    系统工具,
     磁盘工具
 }
