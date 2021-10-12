@@ -73,8 +73,8 @@ const nav = [
         link: '/Hardware/电脑/'
       },
       {
-        text: 'Disk',
-        link: '/Hardware/Disk/'
+        text: '磁盘',
+        link: '/Hardware/磁盘/'
       },
       {
         text: '手机',

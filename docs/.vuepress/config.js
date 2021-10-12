@@ -64,7 +64,7 @@ module.exports = {
       '/Software/图像工具/': software.图像工具,
       '/Software/视频工具/': software.视频工具,
       '/Hardware/电脑/': hardware.电脑,
-      '/Hardware/Disk/': hardware.Disk,
+      '/Hardware/磁盘/': hardware.磁盘,
       '/Hardware/手机/': hardware.手机,
       '/Hardware/配件/': hardware.配件,
       '/Editor/IntelliJ IDEA/': editor.IntelliJ_IDEA,
