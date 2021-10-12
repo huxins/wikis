@@ -27,6 +27,7 @@ const 手机 = [
 const 配件 = [
   '/Hardware/配件/适配器',
   '/Hardware/配件/快充协议',
+  '/Hardware/配件/电流表',
   '/Hardware/配件/数据线',
   '/Hardware/配件/USB',
   '/Hardware/配件/DisplayPort'
