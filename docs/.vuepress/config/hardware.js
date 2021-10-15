@@ -20,7 +20,7 @@ const 磁盘 = [
 
 const 手机 = [
   '/Hardware/手机/Pixel 3',
-  '/Hardware/手机/iPhone X',
+  '/Hardware/手机/iPhone',
   '/Hardware/手机/Mate 30'
 ]
 
