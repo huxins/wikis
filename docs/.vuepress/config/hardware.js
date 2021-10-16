@@ -34,9 +34,14 @@ const 配件 = [
   '/Hardware/配件/电子秤'
 ]
 
+const 插排 = [
+  '/Hardware/插排/DC1'
+]
+
 module.exports = {
     电脑,
-    磁盘,
     手机,
-    配件
+    磁盘,
+    配件,
+    插排
 }

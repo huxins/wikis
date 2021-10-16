@@ -83,6 +83,10 @@ const nav = [
       {
         text: '配件',
         link: '/Hardware/配件/'
+      },
+      {
+        text: '插排',
+        link: '/Hardware/插排/'
       }
     ]
   },

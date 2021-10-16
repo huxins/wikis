@@ -67,6 +67,7 @@ module.exports = {
       '/Hardware/磁盘/': hardware.磁盘,
       '/Hardware/手机/': hardware.手机,
       '/Hardware/配件/': hardware.配件,
+      '/Hardware/插排/': hardware.插排,
       '/Editor/IntelliJ IDEA/': editor.IntelliJ_IDEA,
       '/Editor/Visual Studio Code/': editor.Visual_Studio_Code,
       '/Editor/Sublime Text 3/': editor.Sublime_Text_3,
