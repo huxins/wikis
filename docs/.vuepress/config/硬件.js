@@ -1,9 +1,18 @@
 const 电脑 = [
   '/硬件/电脑/梅捷 H410',
-  '/硬件/电脑/Intel GPU',
   '/硬件/电脑/惠普',
   '/硬件/电脑/戴尔',
   '/硬件/电脑/显示器'
+]
+
+const 手机 = [
+  '/硬件/手机/Pixel 3',
+  '/硬件/手机/iPhone',
+  '/硬件/手机/Mate 30'
+]
+
+const 显卡 = [
+  '/硬件/显卡/DXVA'
 ]
 
 const 磁盘 = [
@@ -16,12 +25,6 @@ const 磁盘 = [
   '/硬件/磁盘/CrystalDiskMark',
   '/硬件/磁盘/散热',
   '/硬件/磁盘/NVMe RAID Controller'
-]
-
-const 手机 = [
-  '/硬件/手机/Pixel 3',
-  '/硬件/手机/iPhone',
-  '/硬件/手机/Mate 30'
 ]
 
 const 配件 = [
@@ -41,6 +44,7 @@ const 插排 = [
 module.exports = {
     电脑,
     手机,
+    显卡,
     磁盘,
     配件,
     插排
