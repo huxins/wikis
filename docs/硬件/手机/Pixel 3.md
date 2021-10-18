@@ -2,11 +2,10 @@
 
 - [Factory Images](https://developers.google.com/android/images#blueline)
 - [Android 12 Factory Images](https://developer.android.com/about/versions/12/download#factory-images)
-- [Google USB](https://developer.android.com/studio/run/win-usb)
+- [Google USB 驱动程序](https://developer.android.com/studio/run/win-usb)
 - [Android update Support](https://support.google.com/pixelphone/answer/4457705)
-- [TWRP for Google Pixel 3](https://twrp.me/google/googlepixel3.html)
 
-## Relock Bootloader
+## Bootloader 解锁
 
 ```sh
 $ adb devices
@@ -15,15 +14,6 @@ $ fastboot devices
 $ fastboot flashing unlock
 $ fastboot flashing lock
 $ fastboot reboot
-```
-
-## Recovery mode
-
-```sh
-$ adb reboot bootloader
-$ fastboot boot twrp.img
-$ adb shell mkdir /sdcard/tmp/
-$ adb push twrp.zip /sdcard/tmp/
 ```
 
 ## Magisk
@@ -45,7 +35,7 @@ $ adb pull /sdcard/Download/Magisk-xxx.img
 $ fastboot boot Magisk-xxx.img
 ```
 
-##  A/B System Updates
+##  A/B 系统更新
 
 ```sh
 $ fastboot --set-active=a
