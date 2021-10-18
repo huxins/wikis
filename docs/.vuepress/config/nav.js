@@ -70,23 +70,23 @@ const nav = [
     items: [
       {
         text: '电脑',
-        link: '/Hardware/电脑/'
+        link: '/硬件/电脑/'
       },
       {
         text: '手机',
-        link: '/Hardware/手机/'
+        link: '/硬件/手机/'
       },
       {
         text: '磁盘',
-        link: '/Hardware/磁盘/'
+        link: '/硬件/磁盘/'
       },
       {
         text: '配件',
-        link: '/Hardware/配件/'
+        link: '/硬件/配件/'
       },
       {
         text: '插排',
-        link: '/Hardware/插排/'
+        link: '/硬件/插排/'
       }
     ]
   },

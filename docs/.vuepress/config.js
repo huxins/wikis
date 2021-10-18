@@ -6,7 +6,7 @@ const linux = require('./config/linux')
 const database = require('./config/database')
 const devops = require('./config/devops')
 const software = require('./config/software')
-const hardware = require('./config/hardware')
+const 硬件 = require('./config/硬件')
 const editor = require('./config/editor')
 const programming = require('./config/programming')
 const framework = require('./config/framework')
@@ -63,11 +63,11 @@ module.exports = {
       '/Software/磁盘工具/': software.磁盘工具,
       '/Software/图像工具/': software.图像工具,
       '/Software/视频工具/': software.视频工具,
-      '/Hardware/电脑/': hardware.电脑,
-      '/Hardware/磁盘/': hardware.磁盘,
-      '/Hardware/手机/': hardware.手机,
-      '/Hardware/配件/': hardware.配件,
-      '/Hardware/插排/': hardware.插排,
+      '/硬件/电脑/': 硬件.电脑,
+      '/硬件/手机/': 硬件.手机,
+      '/硬件/磁盘/': 硬件.磁盘,
+      '/硬件/配件/': 硬件.配件,
+      '/硬件/插排/': 硬件.插排,
       '/Editor/IntelliJ IDEA/': editor.IntelliJ_IDEA,
       '/Editor/Visual Studio Code/': editor.Visual_Studio_Code,
       '/Editor/Sublime Text 3/': editor.Sublime_Text_3,
