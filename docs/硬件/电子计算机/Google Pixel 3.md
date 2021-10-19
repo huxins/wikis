@@ -1,4 +1,4 @@
-# Pixel 3
+# Google Pixel 3
 
 - [Factory Images](https://developers.google.com/android/images#blueline)
 - [Android 12 Factory Images](https://developer.android.com/about/versions/12/download#factory-images)
