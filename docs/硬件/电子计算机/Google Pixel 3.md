@@ -1,9 +1,9 @@
 # Google Pixel 3
 
-- [Factory Images](https://developers.google.com/android/images#blueline)
-- [Android 12 Factory Images](https://developer.android.com/about/versions/12/download#factory-images)
+- [系统映像](https://developers.google.com/android/images#blueline)
+- [Android 12 系统映像](https://developer.android.com/about/versions/12/download#factory-images)
 - [Google USB 驱动程序](https://developer.android.com/studio/run/win-usb)
-- [Android update Support](https://support.google.com/pixelphone/answer/4457705)
+- [Android 更新](https://support.google.com/pixelphone/answer/4457705)
 
 ## Bootloader 解锁
 
