@@ -65,7 +65,6 @@ module.exports = {
       '/Software/视频工具/': software.视频工具,
       '/硬件/电子计算机/': 硬件.电子计算机,
       '/硬件/智能设备/': 硬件.智能设备,
-      '/硬件/磁盘/': 硬件.磁盘,
       '/硬件/配件/': 硬件.配件,
       '/Editor/IntelliJ IDEA/': editor.IntelliJ_IDEA,
       '/Editor/Visual Studio Code/': editor.Visual_Studio_Code,
