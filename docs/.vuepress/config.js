@@ -7,6 +7,7 @@ const database = require('./config/database')
 const devops = require('./config/devops')
 const software = require('./config/software')
 const 硬件 = require('./config/硬件')
+const 操作系统 = require('./config/操作系统')
 const editor = require('./config/editor')
 const programming = require('./config/programming')
 const framework = require('./config/framework')
@@ -70,26 +71,10 @@ module.exports = {
       '/Editor/Visual Studio Code/': editor.Visual_Studio_Code,
       '/Editor/Sublime Text 3/': editor.Sublime_Text_3,
       '/Editor/Note/': editor.Note,
-      '/System/Proxmox VE/': [
-        'Install',
-        '镜像格式',
-        '磁盘',
-        'QEMU Guest Agent'
-      ],
-      '/System/OpenWrt/': [
-        'eSir'
-      ],
-      '/System/Debian/': [
-        '软件包管理'
-      ],
-      '/System/Windows/': [
-        '启动方式',
-        '进程',
-        '网络',
-        'KMS',
-        '分析工具',
-        '磁盘工具'
-      ],
+      '/操作系统/Windows/': 操作系统.Windows,
+      '/操作系统/Debian/': 操作系统.Debian,
+      '/操作系统/OpenWrt/': 操作系统.OpenWrt,
+      '/操作系统/Proxmox VE/': 操作系统.Proxmox_VE,
       '/Linux/': [
         {
           title: 'Shell',

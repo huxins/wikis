@@ -107,20 +107,20 @@ const nav = [
     text: '操作系统',
     items: [
       {
-        text: 'Proxmox VE',
-        link: '/System/Proxmox VE/'
-      },
-      {
-        text: 'OpenWrt',
-        link: '/System/OpenWrt/'
+        text: 'Windows',
+        link: '/操作系统/Windows/'
       },
       {
         text: 'Debian',
-        link: '/System/Debian/'
+        link: '/操作系统/Debian/'
       },
       {
-        text: 'Windows',
-        link: '/System/Windows/'
+        text: 'OpenWrt',
+        link: '/操作系统/OpenWrt/'
+      },
+      {
+        text: 'Proxmox VE',
+        link: '/操作系统/Proxmox VE/'
       }
     ]
   },
