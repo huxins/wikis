@@ -92,8 +92,7 @@ module.exports = {
       '/DevOps/Docker/': devops.Docker,
       '/DevOps/网络代理/': devops.网络代理,
       '/DevOps/Tool/': devops.Tool,
-      '/编程/Android/': [
-      ],
+      '/编程/Android/': 编程.Android,
       '/编程/Java/': 编程.Java,
       '/编程/Go/': 编程.Go,
       '/编程/Python/': 编程.Python,
