@@ -146,47 +146,47 @@ const nav = [
     ]
   },
   {
-    text: '程序',
+    text: '编程',
     items: [
       {
         text: 'Skill',
-        link: '/Programming/Skill/'
+        link: '/编程/Skill/'
       },
       {
         text: 'Android',
-        link: '/Programming/Android/'
+        link: '/编程/Android/'
       },
       {
         text: 'Java',
-        link: '/Programming/Java/'
+        link: '/编程/Java/'
       },
       {
         text: 'Go',
-        link: '/Programming/Go/'
+        link: '/编程/Go/'
       },
       {
         text: 'Python',
-        link: '/Programming/Python/'
+        link: '/编程/Python/'
       },
       {
         text: 'Node',
-        link: '/Programming/Node/'
+        link: '/编程/Node/'
       },
       {
         text: 'JavaScript',
-        link: '/Programming/JavaScript/'
+        link: '/编程/JavaScript/'
       },
       {
         text: 'CSS',
-        link: '/Programming/CSS/'
+        link: '/编程/CSS/'
       },
       {
         text: 'HTML',
-        link: '/Programming/HTML/'
+        link: '/编程/HTML/'
       },
       {
         text: '正则表达式',
-        link: '/Programming/Regular expression/'
+        link: '/编程/Regular expression/'
       }
     ]
   },

@@ -8,7 +8,7 @@ const software = require('./config/software')
 const 硬件 = require('./config/硬件')
 const 操作系统 = require('./config/操作系统')
 const editor = require('./config/editor')
-const programming = require('./config/programming')
+const 编程 = require('./config/编程')
 const framework = require('./config/framework')
 
 module.exports = {
@@ -92,29 +92,29 @@ module.exports = {
       '/DevOps/Docker/': devops.Docker,
       '/DevOps/网络代理/': devops.网络代理,
       '/DevOps/Tool/': devops.Tool,
-      '/Programming/Android/': [
+      '/编程/Android/': [
       ],
-      '/Programming/Java/': programming.Java,
-      '/Programming/Go/': programming.Go,
-      '/Programming/Python/': programming.Python,
-      '/Programming/Node/': programming.Node,
-      '/Programming/JavaScript/': programming.JavaScript,
-      '/Programming/Skill/': [
+      '/编程/Java/': 编程.Java,
+      '/编程/Go/': 编程.Go,
+      '/编程/Python/': 编程.Python,
+      '/编程/Node/': 编程.Node,
+      '/编程/JavaScript/': 编程.JavaScript,
+      '/编程/Skill/': [
         'RoadMap',
         'Backend'
       ],
-      '/Programming/HTML/': [
+      '/编程/HTML/': [
         '表单',
         '表格',
         'Script'
       ],
-      '/Programming/CSS/': [
+      '/编程/CSS/': [
         '盒模型',
         'Float',
         'Fonts',
         'Text'
       ],
-      '/Programming/Regular expression/': programming.Regular_expression,
+      '/编程/Regular expression/': 编程.Regular_expression,
       '/Framework/Bootstrap/': framework.Bootstrap,
       '/Framework/jQuery/': framework.jQuery,
       '/Framework/Select2/': framework.Select2,
