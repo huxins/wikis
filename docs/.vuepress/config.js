@@ -2,7 +2,6 @@
 const nav = require('./config/nav')
 
 const application = require('./config/application')
-const linux = require('./config/linux')
 const database = require('./config/database')
 const devops = require('./config/devops')
 const software = require('./config/software')
@@ -72,39 +71,10 @@ module.exports = {
       '/Editor/Sublime Text 3/': editor.Sublime_Text_3,
       '/Editor/Note/': editor.Note,
       '/操作系统/Windows/': 操作系统.Windows,
+      '/操作系统/Linux/': 操作系统.Linux,
       '/操作系统/Debian/': 操作系统.Debian,
       '/操作系统/OpenWrt/': 操作系统.OpenWrt,
       '/操作系统/Proxmox VE/': 操作系统.Proxmox_VE,
-      '/Linux/': [
-        {
-          title: 'Shell',
-          children: linux.shell
-        },
-        {
-          title: 'Kernel',
-          children: linux.kernel
-        },
-        {
-          title: 'Debian',
-          children: linux.debian
-        },
-        {
-          title: 'CentOS',
-          children: linux.centos
-        },
-        {
-          title: 'Network',
-          children: linux.network
-        },
-        {
-          title: 'Disk',
-          children: linux.disk
-        },
-        {
-          title: 'Tool',
-          children: linux.tool
-        }
-      ],
       '/Database/': [
         {
           title: 'SQL',

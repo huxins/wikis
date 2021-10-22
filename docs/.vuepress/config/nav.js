@@ -111,6 +111,10 @@ const nav = [
         link: '/操作系统/Windows/'
       },
       {
+        text: 'Linux',
+        link: '/操作系统/Linux/'
+      },
+      {
         text: 'Debian',
         link: '/操作系统/Debian/'
       },
@@ -124,7 +128,6 @@ const nav = [
       }
     ]
   },
-  { text: 'Linux', link: '/Linux/' },
   { text: '数据库', link: '/Database/' },
   { text: 'DevOps',
     items: [
