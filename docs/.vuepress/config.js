@@ -118,8 +118,10 @@ module.exports = {
       '/Framework/jQuery/': framework.jQuery,
       '/Framework/Select2/': framework.Select2,
       '/Framework/Spring/': framework.Spring,
-      '/Life/': [
+      '/生活/': [
         '怎样成为更好的人',
+        '粮油',
+        '日化',
         '医疗'
       ],
       '/房产/': [
