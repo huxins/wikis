@@ -44,10 +44,6 @@ const nav = [
         link: '/软件/Files/'
       },
       {
-        text: 'Archive file',
-        link: '/软件/Archive file/'
-      },
-      {
         text: '工具',
         link: '/软件/工具/'
       }

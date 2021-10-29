@@ -80,13 +80,9 @@ const Files = [
   '/软件/Files/SSHFS'
 ]
 
-const Archive_file = [
-  '/软件/Archive file/WinRAR',
-  '/软件/Archive file/Parchive'
-]
-
 const 工具 = [
   '/软件/工具/文件传输',
+  '/软件/工具/档案压缩',
   '/软件/工具/图像',
   '/软件/工具/视频',
   '/软件/工具/磁盘',
@@ -104,6 +100,5 @@ module.exports = {
     Tomcat,
     Push,
     Files,
-    Archive_file,
     工具
 }
