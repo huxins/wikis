@@ -85,29 +85,12 @@ const Archive_file = [
   '/软件/Archive file/Parchive'
 ]
 
-const 系统工具 = [
-  '/软件/系统工具/Media Preview',
-  '/软件/系统工具/Icaros',
-  '/软件/系统工具/DisplayFusion'
-]
-
-const 磁盘工具 = [
-  '/软件/磁盘工具/TrimCheck',
-  '/软件/磁盘工具/WizTree',
-  '/软件/磁盘工具/TreeSize Free',
-  '/软件/磁盘工具/SpaceSniffer'
-]
-
-const 图像工具 = [
-  '/软件/图像工具/GifCam'
-]
-
-const 视频工具 = [
-  '/软件/视频工具/MKVToolNix'
-]
-
 const 工具 = [
-  '/软件/工具/文件传输'
+  '/软件/工具/文件传输',
+  '/软件/工具/图像',
+  '/软件/工具/视频',
+  '/软件/工具/磁盘',
+  '/软件/工具/效率'
 ]
 
 module.exports = {
@@ -122,9 +105,5 @@ module.exports = {
     Push,
     Files,
     Archive_file,
-    系统工具,
-    磁盘工具,
-    图像工具,
-    视频工具,
     工具
 }
