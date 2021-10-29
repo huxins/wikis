@@ -72,10 +72,6 @@ const Tomcat = [
   '/软件/Tomcat/访问路径'
 ]
 
-const Push = [
-  '/软件/Push/Bark'
-]
-
 const 工具 = [
   '/软件/工具/文件传输',
   '/软件/工具/档案压缩',
@@ -84,6 +80,12 @@ const 工具 = [
   '/软件/工具/视频',
   '/软件/工具/磁盘',
   '/软件/工具/效率'
+]
+
+const 服务 = [
+  '/软件/服务/Apple ID',
+  '/软件/服务/iCloud',
+  '/软件/服务/Google Voice'
 ]
 
 module.exports = {
@@ -95,6 +97,6 @@ module.exports = {
     Subversion,
     Jenkins,
     Tomcat,
-    Push,
-    工具
+    工具,
+    服务
 }
