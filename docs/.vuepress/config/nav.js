@@ -5,63 +5,67 @@ const nav = [
     items: [
       {
         text: 'Chromium',
-        link: '/Software/Chromium/'
+        link: '/软件/Chromium/'
       },
       {
         text: 'SSH',
-        link: '/Software/SSH/'
+        link: '/软件/SSH/'
       },
       {
         text: 'Nginx',
-        link: '/Software/Nginx/'
+        link: '/软件/Nginx/'
       },
       {
         text: 'Traffic Server',
-        link: '/Software/Traffic Server/'
+        link: '/软件/Traffic Server/'
       },
       {
         text: 'Git',
-        link: '/Software/Git/'
+        link: '/软件/Git/'
       },
       {
         text: 'Subversion',
-        link: '/Software/Subversion/'
+        link: '/软件/Subversion/'
       },
       {
         text: 'Jenkins',
-        link: '/Software/Jenkins/'
+        link: '/软件/Jenkins/'
       },
       {
         text: 'Tomcat',
-        link: '/Software/Tomcat/'
+        link: '/软件/Tomcat/'
       },
       {
         text: 'Push',
-        link: '/Software/Push/'
+        link: '/软件/Push/'
       },
       {
         text: 'Files',
-        link: '/Software/Files/'
+        link: '/软件/Files/'
       },
       {
         text: 'Archive file',
-        link: '/Software/Archive file/'
+        link: '/软件/Archive file/'
       },
       {
         text: '系统工具',
-        link: '/Software/系统工具/'
+        link: '/软件/系统工具/'
       },
       {
         text: '磁盘工具',
-        link: '/Software/磁盘工具/'
+        link: '/软件/磁盘工具/'
       },
       {
         text: '图像工具',
-        link: '/Software/图像工具/'
+        link: '/软件/图像工具/'
       },
       {
         text: '视频工具',
-        link: '/Software/视频工具/'
+        link: '/软件/视频工具/'
+      },
+      {
+        text: '工具',
+        link: '/软件/工具/'
       }
     ]
   },

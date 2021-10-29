@@ -4,7 +4,7 @@ const nav = require('./config/nav')
 const application = require('./config/application')
 const database = require('./config/database')
 const devops = require('./config/devops')
-const software = require('./config/software')
+const 软件 = require('./config/软件')
 const 硬件 = require('./config/硬件')
 const 操作系统 = require('./config/操作系统')
 const editor = require('./config/editor')
@@ -48,21 +48,22 @@ module.exports = {
           children: application.download
         }
       ],
-      '/Software/Chromium/': software.Chromium,
-      '/Software/SSH/': software.SSH,
-      '/Software/Nginx/': software.Nginx,
-      '/Software/Traffic Server/': software.Traffic_Server,
-      '/Software/Git/': software.Git,
-      '/Software/Subversion/': software.Subversion,
-      '/Software/Jenkins/': software.Jenkins,
-      '/Software/Tomcat/': software.Tomcat,
-      '/Software/Push/': software.Push,
-      '/Software/Files/': software.Files,
-      '/Software/Archive file/': software.Archive_file,
-      '/Software/系统工具/': software.系统工具,
-      '/Software/磁盘工具/': software.磁盘工具,
-      '/Software/图像工具/': software.图像工具,
-      '/Software/视频工具/': software.视频工具,
+      '/软件/Chromium/': 软件.Chromium,
+      '/软件/SSH/': 软件.SSH,
+      '/软件/Nginx/': 软件.Nginx,
+      '/软件/Traffic Server/': 软件.Traffic_Server,
+      '/软件/Git/': 软件.Git,
+      '/软件/Subversion/': 软件.Subversion,
+      '/软件/Jenkins/': 软件.Jenkins,
+      '/软件/Tomcat/': 软件.Tomcat,
+      '/软件/Push/': 软件.Push,
+      '/软件/Files/': 软件.Files,
+      '/软件/Archive file/': 软件.Archive_file,
+      '/软件/系统工具/': 软件.系统工具,
+      '/软件/磁盘工具/': 软件.磁盘工具,
+      '/软件/图像工具/': 软件.图像工具,
+      '/软件/视频工具/': 软件.视频工具,
+      '/软件/工具/': 软件.工具,
       '/硬件/电子计算机/': 硬件.电子计算机,
       '/硬件/智能设备/': 硬件.智能设备,
       '/硬件/配件/': 硬件.配件,
