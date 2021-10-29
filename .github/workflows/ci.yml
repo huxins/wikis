@@ -13,8 +13,6 @@ jobs:
         persist-credentials: false
     - name: Install and Build
       run: |
-        # vuepress
-        yarn global add vuepress
         # build
         npm install
         npm run docs:build
