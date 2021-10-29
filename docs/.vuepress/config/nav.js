@@ -36,14 +36,6 @@ const nav = [
         link: '/软件/Tomcat/'
       },
       {
-        text: 'Push',
-        link: '/软件/Push/'
-      },
-      {
-        text: 'Files',
-        link: '/软件/Files/'
-      },
-      {
         text: '工具',
         link: '/软件/工具/'
       }

@@ -76,13 +76,10 @@ const Push = [
   '/软件/Push/Bark'
 ]
 
-const Files = [
-  '/软件/Files/SSHFS'
-]
-
 const 工具 = [
   '/软件/工具/文件传输',
   '/软件/工具/档案压缩',
+  '/软件/工具/推送服务',
   '/软件/工具/图像',
   '/软件/工具/视频',
   '/软件/工具/磁盘',
@@ -99,6 +96,5 @@ module.exports = {
     Jenkins,
     Tomcat,
     Push,
-    Files,
     工具
 }
