@@ -10,6 +10,7 @@ const 操作系统 = require('./config/操作系统')
 const editor = require('./config/editor')
 const 编程 = require('./config/编程')
 const framework = require('./config/framework')
+const 日常 = require('./config/日常')
 
 module.exports = {
   title: '偷影子的人',
@@ -113,18 +114,9 @@ module.exports = {
       '/Framework/jQuery/': framework.jQuery,
       '/Framework/Select2/': framework.Select2,
       '/Framework/Spring/': framework.Spring,
-      '/生活/': [
-        '怎样成为更好的人',
-        '粮油',
-        '日化',
-        '医疗',
-        '活动'
-      ],
-      '/房产/': [
-        '上海',
-        '苏州',
-        '成都'
-      ]
+      '/日常/生活/': 日常.生活,
+      '/日常/服务/': 日常.服务,
+      '/日常/房产/': 日常.服务
     }
   }
 };

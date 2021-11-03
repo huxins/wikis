@@ -187,8 +187,23 @@ const nav = [
       }
     ]
   },
-  { text: '生活', link: '/生活/' },
-  { text: '房产', link: '/房产/' },
+  {
+    text: '日常',
+    items: [
+      {
+        text: '生活',
+        link: '/日常/生活/'
+      },
+      {
+        text: '房产',
+        link: '/日常/房产/'
+      },
+      {
+        text: '服务',
+        link: '/日常/服务/'
+      }
+    ]
+  },
   { text: '导航', link: 'https://inxiny.cn/' }
 ]
 
