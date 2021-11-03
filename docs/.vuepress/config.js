@@ -115,8 +115,8 @@ module.exports = {
       '/Framework/Select2/': framework.Select2,
       '/Framework/Spring/': framework.Spring,
       '/日常/生活/': 日常.生活,
-      '/日常/服务/': 日常.服务,
-      '/日常/房产/': 日常.服务
+      '/日常/房产/': 日常.房产,
+      '/日常/服务/': 日常.服务
     }
   }
 };
