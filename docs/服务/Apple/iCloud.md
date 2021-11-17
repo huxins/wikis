@@ -1,7 +1,5 @@
 # iCloud
 
-- [简单梳理下 iCloud 同步和备份的区别](https://zhuanlan.zhihu.com/p/179140053)
-
 ## 同步
 
 多个相同 Apple ID 设备之间保持一致，实时更新。
@@ -26,10 +24,7 @@ App 虽然接入了 iCloud，但没有用 iCloud 保存数据。
    - 空间管理页面会展示出文件列表，允许进行细分的删除操作。
    - 可以在文件 App 中的 iCloud 云盘看到 App 的文件夹，允许通过文件 App 来导入导出文件。
 
-
-## 云备份
-
-- [iCloud 备份哪些内容？](https://support.apple.com/zh-cn/HT207428)
+## 备份
 
 iCloud 云备份包括了各个 App 产生的所有数据，不包含 App 本身，App 本身是在恢复备份后重新从 App Store 下载的。
 
@@ -39,4 +34,9 @@ iCloud 云备份包括了各个 App 产生的所有数据，不包含 App 本身
 - 恢复备份时，备份会有最低系统版本的要求（根据上传备份的设备的系统版本）
 - iPhone 和 iPad 也可以互相恢复备份，可能会丢弃一些不兼容数据
 - 桌面布局是 iCloud 云备份中的一个独立项目。即使对某个 App 关闭了 iCloud 云备份，在一台新设备上恢复备份后，该 App 仍然会在桌面本来的位置
+
+## 参考链接
+
+- [iCloud 备份哪些内容？](https://support.apple.com/zh-cn/HT207428)
+- [简单梳理下 iCloud 同步和备份的区别](https://zhuanlan.zhihu.com/p/179140053)
 

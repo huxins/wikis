@@ -19,7 +19,7 @@
 
 街道名可以是 Street/Road/Drive/Lane/Highway，通常缩写为 St/Rd/Dr/Ln/Hwy。
 
-一般独栋别墅不用写房号，如果是公寓或者办公楼，则在街道名称后面加一逗号，写上房号。
+独栋别墅一般不写房号，如果是公寓或者办公楼，则在街道名称后面加一逗号，写上房号。
 
 公寓写 Apt. 208，办公楼写 Suite 308 或缩写为 Ste. 208，也可以简写为 #300。
 
@@ -31,9 +31,10 @@
 
 在未登出 iCloud 时，更换绑定邮箱后，验证的时候按照旧邮箱验证，状态就不对了。
 
-## 参考
+## 参考链接
 
 - [礼品卡购买](https://www.apple.com/shop/gift-cards)
+- [可与 Apple ID 搭配使用的付款方式](https://support.apple.com/zh-cn/HT202631)
 - [美区 Apple ID 注册指北](https://sspai.com/post/53973)
 - [美区 Apple ID ，中国大陆信用卡](https://www.v2ex.com/t/662281)
 
