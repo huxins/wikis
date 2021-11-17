@@ -1,6 +1,15 @@
 const nav = [
   { text: '应用', link: '/Application/' },
   {
+    text: '服务',
+    items: [
+      {
+        text: 'Apple',
+        link: '/服务/Apple/'
+      }
+    ]
+  },
+  {
     text: '软件',
     items: [
       {
@@ -188,19 +197,15 @@ const nav = [
     ]
   },
   {
-    text: '日常',
+    text: '生活',
     items: [
       {
-        text: '生活',
-        link: '/日常/生活/'
+        text: '物资',
+        link: '/生活/物资/'
       },
       {
         text: '房产',
-        link: '/日常/房产/'
-      },
-      {
-        text: '服务',
-        link: '/日常/服务/'
+        link: '/生活/房产/'
       }
     ]
   },

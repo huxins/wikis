@@ -4,6 +4,7 @@ const nav = require('./config/nav')
 const application = require('./config/application')
 const database = require('./config/database')
 const devops = require('./config/devops')
+const 服务 = require('./config/服务')
 const 软件 = require('./config/软件')
 const 硬件 = require('./config/硬件')
 const 操作系统 = require('./config/操作系统')
@@ -49,6 +50,7 @@ module.exports = {
           children: application.download
         }
       ],
+      '/服务/Apple/': 服务.Apple,
       '/软件/Chromium/': 软件.Chromium,
       '/软件/SSH/': 软件.SSH,
       '/软件/Nginx/': 软件.Nginx,
