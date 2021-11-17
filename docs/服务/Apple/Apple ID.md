@@ -23,11 +23,9 @@
 
 公寓写 Apt. 208，办公楼写 Suite 308 或缩写为 Ste. 208，也可以简写为 #300。
 
-### 礼品卡
-
-- [购买地址](https://www.apple.com/shop/gift-cards)
-
 ## 参考
 
+- [礼品卡购买](https://www.apple.com/shop/gift-cards)
+- [美区 Apple ID 注册指北](https://sspai.com/post/53973)
 - [美区 Apple ID ，中国大陆信用卡](https://www.v2ex.com/t/662281)
 

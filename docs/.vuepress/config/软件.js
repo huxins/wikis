@@ -82,12 +82,6 @@ const 工具 = [
   '/软件/工具/效率'
 ]
 
-const 服务 = [
-  '/软件/服务/Apple ID',
-  '/软件/服务/iCloud',
-  '/软件/服务/Google Voice'
-]
-
 module.exports = {
     Chromium,
     SSH,
@@ -97,6 +91,5 @@ module.exports = {
     Subversion,
     Jenkins,
     Tomcat,
-    工具,
-    服务
+    工具
 }
