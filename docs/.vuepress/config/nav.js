@@ -6,6 +6,10 @@ const nav = [
       {
         text: 'Apple',
         link: '/服务/Apple/'
+      },
+      {
+        text: 'Google',
+        link: '/服务/Google/'
       }
     ]
   },

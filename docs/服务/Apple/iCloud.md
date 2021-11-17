@@ -1,10 +1,8 @@
-# iPhone
-
-## iCloud
+# iCloud
 
 - [简单梳理下 iCloud 同步和备份的区别](https://zhuanlan.zhihu.com/p/179140053)
 
-### 同步
+## 同步
 
 多个相同 Apple ID 设备之间保持一致，实时更新。
 
@@ -29,7 +27,7 @@ App 虽然接入了 iCloud，但没有用 iCloud 保存数据。
    - 可以在文件 App 中的 iCloud 云盘看到 App 的文件夹，允许通过文件 App 来导入导出文件。
 
 
-### 云备份
+## 云备份
 
 - [iCloud 备份哪些内容？](https://support.apple.com/zh-cn/HT207428)
 
