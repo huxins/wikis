@@ -52,6 +52,7 @@ module.exports = {
       ],
       '/服务/Apple/': 服务.Apple,
       '/服务/Google/': 服务.Google,
+      '/服务/Android/': 服务.Android,
       '/软件/Chromium/': 软件.Chromium,
       '/软件/SSH/': 软件.SSH,
       '/软件/Nginx/': 软件.Nginx,

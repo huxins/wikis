@@ -7,7 +7,12 @@ const Google = [
   '/服务/Google/Google Voice'
 ]
 
+const Android = [
+  '/服务/Android/MIUI'
+]
+
 module.exports = {
     Apple,
-    Google
+    Google,
+    Android
 }
