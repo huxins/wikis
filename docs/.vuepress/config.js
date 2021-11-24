@@ -21,10 +21,7 @@ module.exports = {
   ],
   base: '/',
   markdown: {
-    lineNumbers: false,
-    toc: {
-        includeLevel:[1, 2, 3, 4]
-    }
+    lineNumbers: false
   },
   theme: 'vdoing',
   themeConfig: {
