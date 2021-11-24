@@ -23,7 +23,7 @@ module.exports = {
   markdown: {
     lineNumbers: false
   },
-  theme: 'vdoing',
+  // theme: 'vdoing',
   themeConfig: {
     category: false,
     tag: false,
