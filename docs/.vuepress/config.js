@@ -28,6 +28,9 @@ module.exports = {
     category: false,
     tag: false,
     archive: false,
+    updateBar: {
+      showToArticle: false
+    },
     nav: nav.nav,
     sidebar:{
       '/Application/': [
