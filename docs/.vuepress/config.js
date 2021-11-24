@@ -25,8 +25,9 @@ module.exports = {
   },
   theme: 'vdoing',
   themeConfig: {
-    sidebarDepth: 2,
-    lastUpdated: 'Last Updated',
+    category: false,
+    tag: false,
+    archive: false,
     nav: nav.nav,
     sidebar:{
       '/Application/': [
