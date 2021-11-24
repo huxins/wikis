@@ -26,6 +26,7 @@ module.exports = {
         includeLevel:[1, 2, 3, 4]
     }
   },
+  theme: 'vdoing',
   themeConfig: {
     sidebarDepth: 2,
     lastUpdated: 'Last Updated',

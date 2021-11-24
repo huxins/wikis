@@ -4,9 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "vuepress": "^1.4.1",
+    "cac": "6.7.9",
     "vue-router": "3.4.5",
-    "cac": "6.7.9"
+    "vuepress": "^1.4.1",
+    "vuepress-theme-vdoing": "^1.8.5"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
