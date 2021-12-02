@@ -139,6 +139,15 @@ const nav = [
     ]
   },
   {
+    text: 'Java',
+    items: [
+      {
+        text: 'Java SE',
+        link: '/Java/Java SE/'
+      }
+    ]
+  },
+  {
     text: '编程',
     items: [
       {

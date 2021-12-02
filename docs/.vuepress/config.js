@@ -1,6 +1,4 @@
-
 const nav = require('./config/nav')
-
 const application = require('./config/application')
 const database = require('./config/database')
 const devops = require('./config/devops')
@@ -9,6 +7,7 @@ const 软件 = require('./config/软件')
 const 硬件 = require('./config/硬件')
 const 操作系统 = require('./config/操作系统')
 const editor = require('./config/editor')
+const java = require('./config/java')
 const 编程 = require('./config/编程')
 const framework = require('./config/framework')
 const 生活 = require('./config/生活')
@@ -23,14 +22,7 @@ module.exports = {
   markdown: {
     lineNumbers: false
   },
-  // theme: 'vdoing',
   themeConfig: {
-    category: false,
-    tag: false,
-    archive: false,
-    updateBar: {
-      showToArticle: false
-    },
     nav: nav.nav,
     sidebar:{
       '/Application/': [
@@ -96,6 +88,7 @@ module.exports = {
       '/DevOps/Docker/': devops.Docker,
       '/DevOps/网络代理/': devops.网络代理,
       '/DevOps/Tool/': devops.Tool,
+      '/Java/Java SE/': java.Java_SE,
       '/编程/Android/': 编程.Android,
       '/编程/Java/': 编程.Java,
       '/编程/Go/': 编程.Go,
