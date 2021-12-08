@@ -3,7 +3,7 @@ const Java_SE_Date = [
 ]
 
 const Java_SE_Thread = [
-    '/Java/Java SE/Thread/DateFormat'
+    '/Java/Java SE/Thread/线程基础'
 ]
 
 const Java_SE = [
