@@ -3,6 +3,7 @@ const Java_SE_Date = [
 ]
 
 const Java_SE_Thread = [
+    '/Java/Java SE/Thread/理论基础',
     '/Java/Java SE/Thread/线程基础'
 ]
 
