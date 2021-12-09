@@ -23,6 +23,7 @@ module.exports = {
     lineNumbers: false
   },
   themeConfig: {
+    sidebarDepth: 2,
     nav: nav.nav,
     sidebar:{
       '/Application/': [
