@@ -1,4 +1,5 @@
 const IntelliJ_IDEA = [
+  '新建项目',
   'Debug',
   '插件',
   'Version'
