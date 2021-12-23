@@ -249,6 +249,17 @@ const Regular_expression = [
     '/编程/Regular expression/分组捕获'
 ]
 
+const 设计模式_行为型 = [
+    '/编程/设计模式/行为型/迭代器模式'
+]
+
+const 设计模式 = [
+  {
+    title: '行为型',
+    children: 设计模式_行为型
+  }
+]
+
 module.exports = {
     Android,
     JavaScript,
@@ -256,5 +267,6 @@ module.exports = {
     Java,
     Go,
     Node,
-    Regular_expression
+    Regular_expression,
+    设计模式
 }

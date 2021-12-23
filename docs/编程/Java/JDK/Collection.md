@@ -23,34 +23,6 @@ Collections.sort(list);
 Collections.binarySearch(list, 16);
 ```
 
-## iterator
-
-为什么继承 Iterable 接口而不继承 Iterator ?
-
-因为 Iterator 接口的核心方法 next() 或者 hasNext() 是依赖于迭代器的当前迭代位置的。 如果 Collection 直接实现 Iterator 接口，势必导致集合对象中包含当前迭代位置的数据 (指针)。当集合在不同方法间被传递时，由于当前迭代位置不可预置，那么 next() 方法的结果会变成不可预知。 除非再为 Iterator 接口添加一个 reset() 方法，用来重置当前迭代位置。但即使这样，Collection 也只能同时存在一个当前迭代位置。而 Iterable 则不然，每次调用都会返回一个从头开始计数的迭代器。多个迭代器是互不干扰的。
-
-```java
-Iterator it = al.iterator();
-while(it.hasNext())
-{
-    it.remove();
-    System.out.println(it.next());
-}
-```
-
-ListIterator 是 Iterator 的子接口，可以逆向遍历
-
-```java
-ListIterator it = c.listIterator();
-while(it.hasNext()){
-    System.out.println(it.next());
-}
-// 你必须在正向遍历之后才能逆向
-while(it.hasPrevious()){
-    System.out.println(it.previous());
-}
-```
-
 ## list
 
 ### arrayList

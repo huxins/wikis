@@ -189,6 +189,10 @@ const nav = [
       {
         text: '正则表达式',
         link: '/编程/Regular expression/'
+      },
+      {
+        text: '设计模式',
+        link: '/编程/设计模式/'
       }
     ]
   },

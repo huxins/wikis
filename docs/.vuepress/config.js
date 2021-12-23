@@ -112,6 +112,7 @@ module.exports = {
         'Text'
       ],
       '/编程/Regular expression/': 编程.Regular_expression,
+      '/编程/设计模式/': 编程.设计模式,
       '/Framework/Bootstrap/': framework.Bootstrap,
       '/Framework/jQuery/': framework.jQuery,
       '/Framework/Select2/': framework.Select2,
