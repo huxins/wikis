@@ -260,6 +260,10 @@ const 设计模式 = [
   }
 ]
 
+const 数据格式 = [
+    '/编程/数据格式/XML'
+]
+
 module.exports = {
     Android,
     JavaScript,
@@ -268,5 +272,6 @@ module.exports = {
     Go,
     Node,
     Regular_expression,
-    设计模式
+    设计模式,
+    数据格式
 }
