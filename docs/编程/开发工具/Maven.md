@@ -1,22 +1,20 @@
 # Maven
 
-- [Maven 命令行选项](https://www.cnblogs.com/zz0412/p/3767146.html)
-
 ## 安装
 
 ```bash
-wget http://mirrors.tuna.tsinghua.edu.cn/apache/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.tar.gz
-export MAVEN_HOME=/usr/local/apache-maven
-export PATH=${PATH}:${MAVEN_HOME}/bin
+$ wget https://dlcdn.apache.org/maven/maven-3/3.8.4/binaries/apache-maven-3.8.4-bin.tar.gz
+$ export MAVEN_HOME=/usr/local/apache-maven
+$ export PATH=${PATH}:${MAVEN_HOME}/bin
 ```
 
 ## 配置
 
 ```xml
-<?xml version="1.0" encoding="utf-8"?>
-<settings
-    xmlns="http://maven.apache.org/SETTINGS/1.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.2.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 https://maven.apache.org/xsd/settings-1.2.0.xsd">
     <localRepository>D:\Maven-Jar</localRepository>
     <pluginGroups/>
     <proxies/>
@@ -24,20 +22,20 @@ export PATH=${PATH}:${MAVEN_HOME}/bin
     <mirrors>
         <mirror>
             <id>huaweicloud</id>
-            <mirrorOf>*</mirrorOf>
-            <name>huawei maven</name>
+            <mirrorOf>central</mirrorOf>
+            <name>huawei maven mirror</name>
             <url>https://mirrors.huaweicloud.com/repository/maven/</url>
         </mirror>
         <mirror>
             <id>aliyun</id>
             <mirrorOf>central</mirrorOf>
-            <name>aliyun maven</name>
+            <name>aliyun maven mirror</name>
             <url>https://maven.aliyun.com/nexus/content/repositories/central/</url>
         </mirror>
         <mirror>
             <id>repo1</id>
             <mirrorOf>central</mirrorOf>
-            <name>Human Readable Name for this Mirror.</name>
+            <name>source address</name>
             <url>https://repo1.maven.org/maven2/</url>
         </mirror>
     </mirrors>
@@ -45,26 +43,28 @@ export PATH=${PATH}:${MAVEN_HOME}/bin
 </settings>
 ```
 
-## 编译
+## 生命周期
+
+- default
+
+  1. validate
+  2. compile
+  3. test
+  4. package
+  5. verify
+  6. install
+  7. deploy
+
+- clean
+- site
 
 ```bash
-mvn clean package -Dmaven.test.skip=true
+$ mvn clean package -Dmaven.test.skip=true
 ```
 
-## Pom
+## POM
 
-### javax.servlet
-
-package **javax.servlet** does not exist
-
-```xml
-<dependency>
-    <groupId>javax.servlet</groupId>
-    <artifactId>javax.servlet-api</artifactId>
-    <version>3.0.1</version>
-    <scope>provided</scope>
-</dependency>
-```
+## Plugins
 
 ### 打包时包含本地 JAR 包
 
@@ -117,8 +117,6 @@ package **javax.servlet** does not exist
 </resources>
 ```
 
-## 插件
-
 ### jetty
 
 ```xml
@@ -134,5 +132,12 @@ package **javax.servlet** does not exist
 </plugin>
 ```
 
+## 参考链接
 
+- [Maven Central Repository Search](https://search.maven.org/)
+- [MvnRepository](https://mvnrepository.com/)
+- [Central Repository](https://repo.maven.apache.org/maven2/)
+- [Maven CLI Options Reference](https://maven.apache.org/ref/3.8.4/maven-embedder/cli.html)
+- [Lifecycles Reference](https://maven.apache.org/ref/3.8.4/maven-core/lifecycles.html) | [描述](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#Lifecycle_Reference)
+- [Maven skip tests](https://stackoverflow.com/questions/24727536/maven-skip-tests)
 

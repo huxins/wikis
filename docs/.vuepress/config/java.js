@@ -26,6 +26,18 @@ const Java_SE = [
     }
 ]
 
+const Java_Web_Servlet = [
+    '/Java/Java Web/Servlet/Servlet'
+]
+
+const Java_Web = [
+    {
+      title: 'Servlet',
+      children: Java_Web_Servlet
+    }
+]
+
 module.exports = {
-    Java_SE
+    Java_SE,
+    Java_Web
 }

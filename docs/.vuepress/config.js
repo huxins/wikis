@@ -85,6 +85,7 @@ module.exports = {
       '/DevOps/网络代理/': devops.网络代理,
       '/DevOps/Tool/': devops.Tool,
       '/Java/Java SE/': java.Java_SE,
+      '/Java/Java Web/': java.Java_Web,
       '/编程/Android/': 编程.Android,
       '/编程/Java/': 编程.Java,
       '/编程/Go/': 编程.Go,

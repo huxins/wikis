@@ -123,6 +123,10 @@ const nav = [
       {
         text: 'Java SE',
         link: '/Java/Java SE/'
+      },
+      {
+        text: 'Java Web',
+        link: '/Java/Java Web/'
       }
     ]
   },
