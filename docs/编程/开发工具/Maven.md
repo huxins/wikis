@@ -1,4 +1,4 @@
-# maven
+# Maven
 
 - [Maven 命令行选项](https://www.cnblogs.com/zz0412/p/3767146.html)
 

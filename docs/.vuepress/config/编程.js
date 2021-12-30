@@ -298,6 +298,10 @@ const 编辑器 = [
   }
 ]
 
+const 开发工具 = [
+    '/编程/开发工具/Maven'
+]
+
 const 设计模式_行为型 = [
     '/编程/设计模式/行为型/迭代器模式'
 ]
@@ -322,6 +326,7 @@ module.exports = {
     Node,
     Regular_expression,
     编辑器,
+    开发工具,
     设计模式,
     数据格式
 }
