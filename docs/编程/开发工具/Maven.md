@@ -64,6 +64,12 @@ $ mvn clean package -Dmaven.test.skip=true
 
 ## POM
 
+- `project` root
+- `modelVersion` - should be set to 4.0.0
+- `groupId` - the id of the project's group.
+- `artifactId` - the id of the artifact (project)
+- `version` - the version of the artifact under the specified group
+
 ## Plugins
 
 ### 打包时包含本地 JAR 包
@@ -138,6 +144,7 @@ $ mvn clean package -Dmaven.test.skip=true
 - [MvnRepository](https://mvnrepository.com/)
 - [Central Repository](https://repo.maven.apache.org/maven2/)
 - [Maven CLI Options Reference](https://maven.apache.org/ref/3.8.4/maven-embedder/cli.html)
-- [Lifecycles Reference](https://maven.apache.org/ref/3.8.4/maven-core/lifecycles.html) | [描述](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#Lifecycle_Reference)
+- [Maven 命令行选项](https://www.cnblogs.com/zz0412/p/command.html)
+- [Lifecycles Reference](https://maven.apache.org/ref/3.8.4/maven-core/lifecycles.html)
 - [Maven skip tests](https://stackoverflow.com/questions/24727536/maven-skip-tests)
 
