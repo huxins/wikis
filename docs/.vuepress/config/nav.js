@@ -76,27 +76,6 @@ const nav = [
     ]
   },
   {
-    text: '编辑器',
-    items: [
-      {
-        text: 'IntelliJ IDEA',
-        link: '/Editor/IntelliJ IDEA/'
-      },
-      {
-        text: 'Visual Studio Code',
-        link: '/Editor/Visual Studio Code/'
-      },
-      {
-        text: 'Sublime Text 3',
-        link: '/Editor/Sublime Text 3/'
-      },
-      {
-        text: 'Note',
-        link: '/Editor/Note/'
-      }
-    ]
-  },
-  {
     text: '操作系统',
     items: [
       {
@@ -189,6 +168,10 @@ const nav = [
       {
         text: '正则表达式',
         link: '/编程/Regular expression/'
+      },
+      {
+        text: '编辑器',
+        link: '/编程/编辑器/'
       },
       {
         text: '设计模式',

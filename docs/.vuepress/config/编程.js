@@ -249,6 +249,55 @@ const Regular_expression = [
     '/编程/Regular expression/分组捕获'
 ]
 
+const 编辑器_IntelliJ_IDEA = [
+  '/编程/编辑器/IntelliJ IDEA/新建项目',
+  '/编程/编辑器/IntelliJ IDEA/Debug',
+  '/编程/编辑器/IntelliJ IDEA/插件',
+  '/编程/编辑器/IntelliJ IDEA/Version'
+]
+
+const 编辑器_Visual_Studio_Code = [
+  '/编程/编辑器/Visual Studio Code/快捷键',
+  '/编程/编辑器/Visual Studio Code/设置',
+  '/编程/编辑器/Visual Studio Code/主题',
+  '/编程/编辑器/Visual Studio Code/扩展',
+  '/编程/编辑器/Visual Studio Code/Debug'
+]
+
+const 编辑器_Sublime_Text_3 = [
+  '/编程/编辑器/Sublime Text 3/右键菜单',
+  '/编程/编辑器/Sublime Text 3/License',
+  '/编程/编辑器/Sublime Text 3/快捷键',
+  '/编程/编辑器/Sublime Text 3/Configuration',
+  '/编程/编辑器/Sublime Text 3/Package Control',
+  '/编程/编辑器/Sublime Text 3/Build'
+]
+
+const 编辑器_Note = [
+  '/编程/编辑器/Note/Evernote',
+  '/编程/编辑器/Note/WPS Office',
+  '/编程/编辑器/Note/Lepton'
+]
+
+const 编辑器 = [
+  {
+    title: 'IntelliJ IDEA',
+    children: 编辑器_IntelliJ_IDEA
+  },
+  {
+    title: 'Visual Studio Code',
+    children: 编辑器_Visual_Studio_Code
+  },
+  {
+    title: 'Sublime Text 3',
+    children: 编辑器_Sublime_Text_3
+  },
+  {
+    title: 'Note',
+    children: 编辑器_Note
+  }
+]
+
 const 设计模式_行为型 = [
     '/编程/设计模式/行为型/迭代器模式'
 ]
@@ -272,6 +321,7 @@ module.exports = {
     Go,
     Node,
     Regular_expression,
+    编辑器,
     设计模式,
     数据格式
 }

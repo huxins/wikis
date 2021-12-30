@@ -6,7 +6,6 @@ const 服务 = require('./config/服务')
 const 软件 = require('./config/软件')
 const 硬件 = require('./config/硬件')
 const 操作系统 = require('./config/操作系统')
-const editor = require('./config/editor')
 const java = require('./config/java')
 const 编程 = require('./config/编程')
 const framework = require('./config/framework')
@@ -63,10 +62,6 @@ module.exports = {
       '/硬件/电子计算机/': 硬件.电子计算机,
       '/硬件/智能设备/': 硬件.智能设备,
       '/硬件/配件/': 硬件.配件,
-      '/Editor/IntelliJ IDEA/': editor.IntelliJ_IDEA,
-      '/Editor/Visual Studio Code/': editor.Visual_Studio_Code,
-      '/Editor/Sublime Text 3/': editor.Sublime_Text_3,
-      '/Editor/Note/': editor.Note,
       '/操作系统/Windows/': 操作系统.Windows,
       '/操作系统/Linux/': 操作系统.Linux,
       '/操作系统/Debian/': 操作系统.Debian,
@@ -112,6 +107,7 @@ module.exports = {
         'Text'
       ],
       '/编程/Regular expression/': 编程.Regular_expression,
+      '/编程/编辑器/': 编程.编辑器,
       '/编程/设计模式/': 编程.设计模式,
       '/编程/数据格式/': 编程.数据格式,
       '/Framework/Bootstrap/': framework.Bootstrap,
