@@ -121,12 +121,8 @@ const nav = [
     text: 'Java',
     items: [
       {
-        text: 'Java SE',
-        link: '/Java/Java SE/'
-      },
-      {
-        text: 'Java Web',
-        link: '/Java/Java Web/'
+        text: 'Java EE',
+        link: '/Java/Java EE/'
       }
     ]
   },

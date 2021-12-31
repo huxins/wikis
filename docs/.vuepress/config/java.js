@@ -1,43 +1,39 @@
-const Java_SE_Date = [
-    '/Java/Java SE/Date/DateFormat'
+const Java_EE_Date = [
+    '/Java/Java EE/Date/DateFormat'
 ]
 
-const Java_SE_Collection = [
-    '/Java/Java SE/Collection/ArrayList'
+const Java_EE_Collection = [
+    '/Java/Java EE/Collection/ArrayList'
 ]
 
-const Java_SE_Thread = [
-    '/Java/Java SE/Thread/理论基础',
-    '/Java/Java SE/Thread/线程基础'
+const Java_EE_Thread = [
+    '/Java/Java EE/Thread/理论基础',
+    '/Java/Java EE/Thread/线程基础'
 ]
 
-const Java_SE = [
+const Java_EE_Servlet = [
+    '/Java/Java EE/Servlet/Servlet'
+]
+
+const Java_EE = [
     {
       title: 'Date',
-      children: Java_SE_Date
+      children: Java_EE_Date
     },
     {
       title: 'Collection',
-      children: Java_SE_Collection
+      children: Java_EE_Collection
     },
     {
       title: 'Thread',
-      children: Java_SE_Thread
-    }
-]
-
-const Java_Web_Servlet = [
-    '/Java/Java Web/Servlet/Servlet'
-]
-
-const Java_Web = [
+      children: Java_EE_Thread
+    },
     {
       title: 'Servlet',
-      children: Java_Web_Servlet
+      children: Java_EE_Servlet
     }
 ]
 
 module.exports = {
-    Java_SE,
-    Java_Web
+    Java_EE
 }
