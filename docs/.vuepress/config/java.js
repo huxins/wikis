@@ -12,6 +12,8 @@ const Java_EE_Thread = [
 ]
 
 const Java_EE_Servlet = [
+    '/Java/Java EE/Servlet/目录结构',
+    '/Java/Java EE/Servlet/web.xml',
     '/Java/Java EE/Servlet/Servlet'
 ]
 
