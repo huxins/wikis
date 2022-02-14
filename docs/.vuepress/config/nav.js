@@ -62,8 +62,8 @@ const nav = [
     text: '硬件',
     items: [
       {
-        text: '电子计算机',
-        link: '/硬件/电子计算机/'
+        text: '电子产品',
+        link: '/硬件/电子产品/'
       },
       {
         text: '智能设备',
