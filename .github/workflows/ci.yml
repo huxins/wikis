@@ -33,7 +33,7 @@ jobs:
         git config --global user.name "huxins"
         git config --global user.email "huxins@163.com"
         cd docs/.vuepress/dist
-        echo "wiki.inxiny.cn" > CNAME
+        echo "wikis.inxiny.cn" > CNAME
         git init
         git add -A
         git commit -m "first commit"
