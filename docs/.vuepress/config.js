@@ -58,7 +58,6 @@ module.exports = {
       '/软件/Subversion/': 软件.Subversion,
       '/软件/Jenkins/': 软件.Jenkins,
       '/软件/Tomcat/': 软件.Tomcat,
-      '/软件/工具/': 软件.工具,
       '/硬件/电子产品/': 硬件.电子产品,
       '/硬件/智能设备/': 硬件.智能设备,
       '/硬件/配件/': 硬件.配件,

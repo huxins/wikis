@@ -51,10 +51,6 @@ const nav = [
       {
         text: 'Tomcat',
         link: '/软件/Tomcat/'
-      },
-      {
-        text: '工具',
-        link: '/软件/工具/'
       }
     ]
   },

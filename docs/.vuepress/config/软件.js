@@ -72,15 +72,6 @@ const Tomcat = [
   '/软件/Tomcat/访问路径'
 ]
 
-const 工具 = [
-  '/软件/工具/文件传输',
-  '/软件/工具/推送服务',
-  '/软件/工具/图像',
-  '/软件/工具/视频',
-  '/软件/工具/磁盘',
-  '/软件/工具/效率'
-]
-
 module.exports = {
     Chromium,
     SSH,
@@ -89,6 +80,5 @@ module.exports = {
     Git,
     Subversion,
     Jenkins,
-    Tomcat,
-    工具
+    Tomcat
 }
