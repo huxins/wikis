@@ -32,7 +32,6 @@ const network = [
     '/Application/Network/VPN',
     '/Application/Network/ocserv',
     '/Application/Network/OpenVPN',
-    '/Application/Network/Charles',
     '/Application/Network/Proxy',
     '/Application/Network/NFS'
 ]

@@ -80,10 +80,6 @@ const Python = [
     }
 ]
 
-const Java_安装 = [
-    '/编程/Java/安装/Install'
-]
-
 const Java_JDK = [
     '/编程/Java/JDK/IO',
     '/编程/Java/JDK/Collection',
@@ -162,10 +158,6 @@ const Java_Tool = [
 ]
 
 const Java = [
-  {
-    title: '安装',
-    children: Java_安装
-  },
   {
     title: 'JDK',
     children: Java_JDK
