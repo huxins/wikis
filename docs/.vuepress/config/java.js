@@ -11,12 +11,6 @@ const Java_EE_Thread = [
     '/Java/Java EE/Thread/线程基础'
 ]
 
-const Java_EE_Servlet = [
-    '/Java/Java EE/Servlet/目录结构',
-    '/Java/Java EE/Servlet/web.xml',
-    '/Java/Java EE/Servlet/Servlet'
-]
-
 const Java_EE = [
     {
       title: 'Date',
@@ -29,10 +23,6 @@ const Java_EE = [
     {
       title: 'Thread',
       children: Java_EE_Thread
-    },
-    {
-      title: 'Servlet',
-      children: Java_EE_Servlet
     }
 ]
 
