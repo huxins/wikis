@@ -100,22 +100,6 @@ const Java_Core = [
     '/编程/Java/Core/SuppressWarnings'
 ]
 
-const Java_Filter = [
-    '/编程/Java/Filter/Filter',
-    '/编程/Java/Filter/CharacterEncodingFilter',
-    '/编程/Java/Filter/HttpServletRequestWrapper',
-    '/编程/Java/Filter/HttpServletResponseWrapper'
-]
-
-const Java_Servlet = [
-    '/编程/Java/Servlet/Servlet',
-    '/编程/Java/Servlet/ServletConfig',
-    '/编程/Java/Servlet/ServletContext',
-    '/编程/Java/Servlet/HttpServletRequest',
-    '/编程/Java/Servlet/HttpServletResponse',
-    '/编程/Java/Servlet/会话技术'
-]
-
 const Java_JDBC = [
     '/编程/Java/JDBC/JDBC',
     '/编程/Java/JDBC/Transaction'
@@ -169,14 +153,6 @@ const Java = [
   {
     title: 'Core',
     children: Java_Core
-  },
-  {
-    title: 'Filter',
-    children: Java_Filter
-  },
-  {
-    title: 'Servlet',
-    children: Java_Servlet
   },
   {
     title: 'JDBC',
