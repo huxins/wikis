@@ -114,8 +114,7 @@ module.exports = {
       '/Framework/Select2/': framework.Select2,
       '/Framework/Spring/': framework.Spring,
       '/生活/物资/': 生活.物资,
-      '/生活/房产/': 生活.房产,
-      '/生活/娱乐/': 生活.娱乐
+      '/生活/房产/': 生活.房产
     }
   }
 };
