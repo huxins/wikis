@@ -37,7 +37,6 @@ const Linux_Debian = [
 const Linux_Centos = [
     '/操作系统/Linux/CentOS/centos7',
     '/操作系统/Linux/CentOS/firewall',
-    '/操作系统/Linux/CentOS/package',
     '/操作系统/Linux/CentOS/kvm'
 ]
 
