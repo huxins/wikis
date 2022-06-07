@@ -51,7 +51,6 @@ const Subversion = [
   '/软件/Subversion/版本库',
   '/软件/Subversion/项目配置',
   '/软件/Subversion/访问权限',
-  '/软件/Subversion/Apache',
   '/软件/Subversion/Hooks',
   '/软件/Subversion/数据备份',
   '/软件/Subversion/Git'
