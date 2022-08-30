@@ -50,7 +50,6 @@ const Linux_Network = [
 
 const Linux_Disk = [
     '/操作系统/Linux/Disk/start',
-    '/操作系统/Linux/Disk/fdisk',
     '/操作系统/Linux/Disk/mount',
     '/操作系统/Linux/Disk/smartmontools',
     '/操作系统/Linux/Disk/fio'
