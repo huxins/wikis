@@ -12,7 +12,6 @@ const redis = [
 ]
 
 const sql = [
-    '/Database/SQL/sql',
     '/Database/SQL/function'
 ]
 
