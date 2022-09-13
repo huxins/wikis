@@ -108,7 +108,6 @@ module.exports = {
       '/编程/Regular expression/': 编程.Regular_expression,
       '/编程/编辑器/': 编程.编辑器,
       '/编程/设计模式/': 编程.设计模式,
-      '/编程/数据格式/': 编程.数据格式,
       '/Framework/Bootstrap/': framework.Bootstrap,
       '/Framework/jQuery/': framework.jQuery,
       '/Framework/Select2/': framework.Select2,

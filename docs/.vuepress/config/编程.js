@@ -276,10 +276,6 @@ const 设计模式 = [
   }
 ]
 
-const 数据格式 = [
-    '/编程/数据格式/XML'
-]
-
 module.exports = {
     Android,
     JavaScript,
@@ -289,6 +285,5 @@ module.exports = {
     Node,
     Regular_expression,
     编辑器,
-    设计模式,
-    数据格式
+    设计模式
 }
