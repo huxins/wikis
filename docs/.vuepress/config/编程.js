@@ -137,7 +137,6 @@ const Java_Log = [
 ]
 
 const Java_Tool = [
-    '/编程/Java/Tool/jackson',
     '/编程/Java/Tool/json-schema'
 ]
 
