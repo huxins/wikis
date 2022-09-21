@@ -127,7 +127,6 @@ const Java_SpringMVC = [
     '/编程/Java/SpringMVC/DispatcherServlet',
     '/编程/Java/SpringMVC/AnnotationDriven',
     '/编程/Java/SpringMVC/HttpMessageConverter',
-    '/编程/Java/SpringMVC/RequestMapping',
     '/编程/Java/SpringMVC/MultiActionController',
     '/编程/Java/SpringMVC/CommonsMultipartResolver'
 ]
