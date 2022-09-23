@@ -114,10 +114,7 @@ const Java_WEB = [
 ]
 
 const Java_Spring = [
-    '/编程/Java/Spring/ContextLoader',
     '/编程/Java/Spring/IoC',
-    '/编程/Java/Spring/ComponentScan',
-    '/编程/Java/Spring/DataSource',
     '/编程/Java/Spring/Transaction',
     '/编程/Java/Spring/JdbcTemplate',
     '/编程/Java/Spring/Annotation'
