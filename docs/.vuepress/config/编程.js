@@ -55,8 +55,7 @@ const JavaScript = [
 ]
 
 const Python_基础知识 = [
-    '/编程/Python/基础知识/Install',
-    '/编程/Python/基础知识/String'
+    '/编程/Python/基础知识/Install'
 ]
 
 const Python_模块 = [
