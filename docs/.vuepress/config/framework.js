@@ -1,7 +1,3 @@
-const bootstrapModal = [
-    '/Framework/Bootstrap/组件/modal'
-]
-
 const bootstrapJavascript = [
     '/Framework/Bootstrap/JavaScript 插件/bootstrap-fileinput',
     '/Framework/Bootstrap/JavaScript 插件/BootstrapValidator',
@@ -9,10 +5,6 @@ const bootstrapJavascript = [
 ]
 
 const Bootstrap = [
-    {
-      title: '组件',
-      children: bootstrapModal
-    },
     {
       title: 'JavaScript 插件',
       children: bootstrapJavascript
