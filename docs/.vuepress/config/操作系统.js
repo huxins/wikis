@@ -16,7 +16,6 @@ const Linux_Shell = [
     '/操作系统/Linux/Shell/ssh',
     '/操作系统/Linux/Shell/wget',
     '/操作系统/Linux/Shell/curl',
-    '/操作系统/Linux/Shell/env',
     '/操作系统/Linux/Shell/if',
     '/操作系统/Linux/Shell/crontab'
 ]
