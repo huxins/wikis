@@ -1,17 +1,22 @@
 name: Wiki Build and Deploy
+
 on:
   push:
     branches:
       - master
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout
       uses: actions/checkout@v2
       with:
         persist-credentials: false
+
+    - uses: actions/setup-node@v4
+      with:
+        node-version: 18
 
     - name: Cache Node Dependencies
       id: cache
