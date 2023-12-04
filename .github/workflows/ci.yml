@@ -14,10 +14,6 @@ jobs:
       with:
         persist-credentials: false
 
-    - uses: actions/setup-node@v4
-      with:
-        node-version: 18
-
     - name: Cache Node Dependencies
       id: cache
       uses: actions/cache@v1
@@ -25,9 +21,11 @@ jobs:
         path: node_modules
         key: ${{ runner.os }}-npm-caches-${{ hashFiles('package.json') }}
 
+    - uses: actions/setup-node@v4
+      with:
+        node-version: 16
+        
     - name: Install Dependencies
-      env:
-        NODE_OPTIONS: --openssl-legacy-provider
       if: steps.cache.outputs.cache-hit != 'true'
       run: npm install
 
