@@ -21,23 +21,35 @@ jobs:
         node-version: 16
 
     - name: Cache Node Dependencies
-      id: cache
-      uses: actions/cache@v1
+      id: node-modules-cache
+      uses: actions/cache@v3
       with:
         path: node_modules
-        key: ${{ runner.os }}-npm-caches-${{ hashFiles('package.json') }}
+        key: ${{ runner.os }}-node-modules-cache-${{ hashFiles('package.json') }}
 
     - name: Install Dependencies
-      if: steps.cache.outputs.cache-hit != 'true'
+      if: steps.node-modules-cache.outputs.cache-hit != 'true'
       run: npm install
 
     - name: Build wiki
       run: npm run docs:build
 
+    - name: Cache build
+      uses: actions/cache@v3
+      with:
+        path: docs/.vuepress/dist
+        key: ${{ runner.os }}-build-cache-${{ github.sha }}
+
   Deploy:
     runs-on: ubuntu-latest
     needs: build
     steps:
+    - name: Restore build cached
+      uses: actions/cache/restore@v3
+      with:
+        path: docs/.vuepress/dist
+        key: ${{ runner.os }}-build-cache-${{ github.sha }}
+
     - name: Deploy wiki
       run: |
         git config --global user.name "huxins"
