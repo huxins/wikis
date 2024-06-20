@@ -4,14 +4,6 @@
 
 ## CentOS 7
 
-### YUM
-
-```bash
-$ rpm -ivh http://nginx.org/packages/centos/7/noarch/RPMS/nginx-release-centos-7-0.el7.ngx.noarch.rpm
-$ yum info nginx
-$ yum install nginx
-```
-
 ### Build
 
 #### network

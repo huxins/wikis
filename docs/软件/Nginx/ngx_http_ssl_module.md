@@ -1,28 +1,5 @@
 # ngx_http_ssl_module
 
-- [SSL/TLS协议运行机制的概述](https://www.ruanyifeng.com/blog/2014/02/ssl_tls.html)
-- [Nginx 配置 HTTPS 服务器](https://jelly.jd.com/article/6006b1045b6c6a01506c87b5)
-
-## SSL
-
-```nginx
-http {
-    ssl_session_cache   shared:SSL:10m;
-    ssl_session_timeout 10m;
-    server {
-        listen              443 ssl;
-        server_name         www.example.com;
-        
-        keepalive_timeout   70;
-        ssl_certificate     www.example.com.crt;
-        ssl_certificate_key www.example.com.key;
-        
-        ssl_protocols       TLSv1 TLSv1.1 TLSv1.2;
-        ssl_ciphers         HIGH:!aNULL:!MD5;
-    }
-}
-```
-
 跳转
 
 ```nginx
