@@ -25,7 +25,6 @@ const Nginx = [
   '/软件/Nginx/ngx_http_ssl_module',
   '/软件/Nginx/ngx_http_rewrite_module',
   '/软件/Nginx/ngx_http_referer_module',
-  '/软件/Nginx/ngx_http_proxy_module',
   '/软件/Nginx/headers-more-nginx-module',
   '/软件/Nginx/nginx-dav-ext-module',
   '/软件/Nginx/ngx-fancyindex',
