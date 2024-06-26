@@ -1,6 +1,5 @@
 const postgresql = [
     '/Database/PostgreSQL/install',
-    '/Database/PostgreSQL/cli',
     '/Database/PostgreSQL/function',
     '/Database/PostgreSQL/config',
     '/Database/PostgreSQL/json'
