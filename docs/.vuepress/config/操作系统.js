@@ -14,8 +14,7 @@ const Linux_Shell = [
     '/操作系统/Linux/Shell/du',
     '/操作系统/Linux/Shell/scp',
     '/操作系统/Linux/Shell/ssh',
-    '/操作系统/Linux/Shell/if',
-    '/操作系统/Linux/Shell/crontab'
+    '/操作系统/Linux/Shell/if'
 ]
 
 const Linux_Kernel = [
