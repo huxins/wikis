@@ -54,8 +54,7 @@ const Linux_Disk = [
 const Linux_Tool = [
     '/操作系统/Linux/Tool/rsync',
     '/操作系统/Linux/Tool/network',
-    '/操作系统/Linux/Tool/screen',
-    '/操作系统/Linux/Tool/解压缩'
+    '/操作系统/Linux/Tool/screen'
 ]
 
 const Linux = [
