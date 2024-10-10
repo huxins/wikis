@@ -12,7 +12,6 @@ const Bootstrap = [
 ]
 
 const jQuery = [
-    '/Framework/jQuery/AJAX',
     '/Framework/jQuery/事件',
     '/Framework/jQuery/属性'
 ]
