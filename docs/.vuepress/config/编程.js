@@ -59,7 +59,6 @@ const Python_基础知识 = [
 ]
 
 const Python_模块 = [
-    '/编程/Python/模块/BeautifulSoup',
     '/编程/Python/模块/Excel',
     '/编程/Python/模块/xlwt-xlrd',
     '/编程/Python/模块/xlutils',
