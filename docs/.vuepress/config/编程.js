@@ -62,7 +62,6 @@ const Python_模块 = [
     '/编程/Python/模块/Excel',
     '/编程/Python/模块/xlwt-xlrd',
     '/编程/Python/模块/xlutils',
-    '/编程/Python/模块/xlsxwriter',
     '/编程/Python/模块/pip'
 ]
 
