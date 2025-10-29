@@ -98,7 +98,6 @@ const Proxmox_VE = [
   'Install',
   '镜像格式',
   '磁盘',
-  'QEMU Guest Agent'
 ]
 
 module.exports = {
