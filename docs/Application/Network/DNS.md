@@ -90,20 +90,7 @@ dhcp-option=tag:v,3,192.168.9.60
 dhcp-option=tag:v,6,192.168.9.60
 ```
 
-Openwrt
 
-[openwrt DHCP 指定不同的网关](https://my.oschina.net/kblack/blog/3019722)
-
-```
-config host
-        option ip       '192.168.1.3'
-        option mac      '11:22:33:44:55:66'
-        option tag      'need_outernet'
-
-config tag 'need_outernet'
-        list dhcp_option '3, 192.168.1.2'
-        option force '1'
-```
 
 ## Overture
 

@@ -1,39 +1,6 @@
 # centos 7
 
-## 语言
 
-查看系统当前语言包
-
-```bash
-locale
-```
-
-查看系统拥有语言包
-
-```bash
-locale -a
-```
-
-*（zh_CN.UTF-8是简体中文，如果没有zh_CN.UTF-8,就安装语言包，如果存在可以直接设置)*
-
- 安装简体中文语言包
-
-```bash
-yum install kde-l10n-Chinese
-```
-
-设置为中文
-
-```bash
-# 临时修改
-LANG="zh_CN.UTF-8"    #修改为中文
-LANG="en_US.UTF-8"    #修改为英文
-# 永久修改(方法一)
-# vi /etc/locale.conf
-LANG=zh_CN.UTF8
-# 永久修改(方法二)
-localectl set-locale LANG=zh_CN.UTF8
-```
 
 ## 时间
 

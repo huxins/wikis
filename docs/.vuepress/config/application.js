@@ -50,7 +50,6 @@ const download = [
     '/Application/Download/app',
     '/Application/Download/aria2',
     '/Application/Download/transmission',
-    '/Application/Download/迅雷'
 ]
 
 module.exports = {
