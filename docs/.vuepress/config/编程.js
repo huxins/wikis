@@ -232,7 +232,6 @@ const 编辑器_Sublime_Text_3 = [
 
 const 编辑器_Note = [
   '/编程/编辑器/Note/Evernote',
-  '/编程/编辑器/Note/WPS Office',
   '/编程/编辑器/Note/Lepton'
 ]
 
