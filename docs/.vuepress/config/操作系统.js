@@ -18,7 +18,6 @@ const Linux_Shell = [
 
 const Linux_Kernel = [
     '/操作系统/Linux/Kernel/version',
-    '/操作系统/Linux/Kernel/selinux',
     '/操作系统/Linux/Kernel/iptables',
     '/操作系统/Linux/Kernel/sysctl',
     '/操作系统/Linux/Kernel/ulimit',
@@ -31,7 +30,6 @@ const Linux_Debian = [
 
 const Linux_Centos = [
     '/操作系统/Linux/CentOS/centos7',
-    '/操作系统/Linux/CentOS/firewall',
     '/操作系统/Linux/CentOS/kvm'
 ]
 
